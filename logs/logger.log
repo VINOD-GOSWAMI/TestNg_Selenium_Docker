@@ -1,0 +1,69 @@
+2024-10-02 00:04:39 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml"
+2024-10-02 00:04:41 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+2024-10-02 00:04:41 INFO  test.BaseTest:34 - Initializing driver for method: testLoginPageAndLinks
+2024-10-02 00:04:42 INFO  driver_manager.DriverManager:33 - Initializing driver for mode: CHROME, Remote execution: false
+2024-10-02 00:04:42 DEBUG driver_manager.DriverManager:94 - Creating WebDriver instance. Mode: CHROME, Is Remote: false
+2024-10-02 00:04:42 INFO  driver_manager.DriverManager:117 - Creating local WebDriver for mode: CHROME
+2024-10-02 00:04:42 DEBUG driver_manager.DriverManager:120 - Instantiating ChromeDriver.
+2024-10-02 00:04:42 DEBUG driver_manager.DriverManager:135 - Creating default ChromeOptions.
+2024-10-02 00:04:47 DEBUG driver_manager.DriverManager:42 - Configuring driver with timeouts and window settings.
+2024-10-02 00:04:47 DEBUG driver_manager.DriverManager:45 - Driver configuration completed.
+2024-10-02 00:04:47 INFO  driver_manager.DriverManager:37 - CHROME driver instantiated successfully.
+2024-10-02 00:04:51 INFO  test.BaseTest:41 - Navigated to base URL: https://phptravels.com/demo/
+2024-10-02 00:04:52 INFO  listners.TestListener:20 - Starting test testLoginPageAndLinks
+2024-10-02 00:04:52 INFO  test.LoginTest:22 - Home page title: Book Your Free Demo Now - Phptravels
+2024-10-02 00:05:03 INFO  test.LoginTest:33 - Clicked on login: current page title Login
+2024-10-02 00:05:13 INFO  test.LoginTest:38 - Login page title: Login
+2024-10-02 00:05:20 INFO  listners.TestListener:25 - Test testLoginPageAndLinks passed.
+2024-10-02 00:05:20 INFO  driver_manager.DriverManager:51 - Quitting the driver: ChromeDriver: chrome on windows (a0b303b4e71a23bc50006be96a97411f)
+2024-10-02 00:05:20 INFO  driver_manager.DriverManager:54 - Driver closed successfully.
+2024-10-02 00:05:43 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\testNg.xml"
+2024-10-02 00:05:44 INFO  internal.Utils:112 - [XmlSuite] [WARN] 'parallel' value 'true' is no longer valid, defaulting to 'methods'.
+2024-10-02 00:05:45 INFO  test.BaseTest:34 - Initializing driver for method: verifyingLinksOnHomePage
+2024-10-02 00:05:45 INFO  test.BaseTest:34 - Initializing driver for method: testLoginPageAndLinks
+2024-10-02 00:05:45 INFO  driver_manager.DriverManager:33 - Initializing driver for mode: CHROME, Remote execution: false
+2024-10-02 00:05:45 INFO  driver_manager.DriverManager:33 - Initializing driver for mode: CHROME, Remote execution: false
+2024-10-02 00:05:45 DEBUG driver_manager.DriverManager:94 - Creating WebDriver instance. Mode: CHROME, Is Remote: false
+2024-10-02 00:05:45 DEBUG driver_manager.DriverManager:94 - Creating WebDriver instance. Mode: CHROME, Is Remote: false
+2024-10-02 00:05:45 INFO  driver_manager.DriverManager:117 - Creating local WebDriver for mode: CHROME
+2024-10-02 00:05:45 INFO  driver_manager.DriverManager:117 - Creating local WebDriver for mode: CHROME
+2024-10-02 00:05:45 DEBUG driver_manager.DriverManager:120 - Instantiating ChromeDriver.
+2024-10-02 00:05:45 DEBUG driver_manager.DriverManager:120 - Instantiating ChromeDriver.
+2024-10-02 00:05:45 DEBUG driver_manager.DriverManager:135 - Creating default ChromeOptions.
+2024-10-02 00:05:45 DEBUG driver_manager.DriverManager:135 - Creating default ChromeOptions.
+2024-10-02 00:05:49 DEBUG driver_manager.DriverManager:42 - Configuring driver with timeouts and window settings.
+2024-10-02 00:05:49 DEBUG driver_manager.DriverManager:42 - Configuring driver with timeouts and window settings.
+2024-10-02 00:05:49 DEBUG driver_manager.DriverManager:45 - Driver configuration completed.
+2024-10-02 00:05:49 INFO  driver_manager.DriverManager:37 - CHROME driver instantiated successfully.
+2024-10-02 00:05:49 DEBUG driver_manager.DriverManager:45 - Driver configuration completed.
+2024-10-02 00:05:49 INFO  driver_manager.DriverManager:37 - CHROME driver instantiated successfully.
+2024-10-02 00:05:56 INFO  test.BaseTest:41 - Navigated to base URL: https://phptravels.com/demo/
+2024-10-02 00:05:58 INFO  listners.TestListener:20 - Starting test verifyingLinksOnHomePage
+2024-10-02 00:06:08 INFO  test.BaseTest:41 - Navigated to base URL: https://phptravels.com/demo/
+2024-10-02 00:06:08 INFO  listners.TestListener:20 - Starting test testLoginPageAndLinks
+2024-10-02 00:06:09 INFO  test.LoginTest:22 - Home page title: Book Your Free Demo Now - Phptravels
+2024-10-02 00:06:21 INFO  listners.TestListener:25 - Test verifyingLinksOnHomePage passed.
+2024-10-02 00:06:21 INFO  driver_manager.DriverManager:51 - Quitting the driver: ChromeDriver: chrome on windows (48f2180762a01fd82ee7dce65c7b0f24)
+2024-10-02 00:24:59 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml"
+2024-10-02 00:25:00 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+2024-10-02 00:25:00 INFO  test.BaseTest:34 - Initializing driver for method: testLoginPageAndLinks
+2024-10-02 00:25:00 INFO  driver_manager.DriverManager:33 - Initializing driver for mode: CHROME, Remote execution: false
+2024-10-02 00:25:00 DEBUG driver_manager.DriverManager:94 - Creating WebDriver instance. Mode: CHROME, Is Remote: false
+2024-10-02 00:25:00 INFO  driver_manager.DriverManager:117 - Creating local WebDriver for mode: CHROME
+2024-10-02 00:25:00 DEBUG driver_manager.DriverManager:120 - Instantiating ChromeDriver.
+2024-10-02 00:25:00 DEBUG driver_manager.DriverManager:135 - Creating default ChromeOptions.
+2024-10-02 00:25:02 DEBUG driver_manager.DriverManager:42 - Configuring driver with timeouts and window settings.
+2024-10-02 00:25:02 DEBUG driver_manager.DriverManager:45 - Driver configuration completed.
+2024-10-02 00:25:02 INFO  driver_manager.DriverManager:37 - CHROME driver instantiated successfully.
+2024-10-02 00:25:04 INFO  test.BaseTest:41 - Navigated to base URL: https://phptravels.com/demo/
+2024-10-02 00:25:04 INFO  listners.TestListener:20 - Starting test testLoginPageAndLinks
+2024-10-02 00:25:04 INFO  test.LoginTest:22 - Home page title: Book Your Free Demo Now - Phptravels
+2024-10-02 00:25:15 INFO  test.LoginTest:33 - Clicked on login: current page title Login
+2024-10-02 00:25:25 INFO  test.LoginTest:38 - Login page title: Login
+2024-10-02 00:25:30 INFO  listners.TestListener:25 - Test testLoginPageAndLinks passed.
+2024-10-02 00:25:30 INFO  driver_manager.DriverManager:51 - Quitting the driver: ChromeDriver: chrome on windows (ed394702e0f11c6795777f6695b15341)
+2024-10-02 00:25:30 INFO  driver_manager.DriverManager:54 - Driver closed successfully.

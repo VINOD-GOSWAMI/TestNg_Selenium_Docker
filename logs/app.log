@@ -1,0 +1,234 @@
+2024-10-02 01:08:32 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml"
+2024-10-02 01:08:32 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+2024-10-02 01:08:32 [main] INFO  com.vinod.test.BaseTest - Initializing driver for method: testLoginPageAndLinks
+2024-10-02 01:08:32 [main] INFO  c.vinod.driver_manager.DriverManager - Initializing driver for mode: CHROME, Remote execution: false
+2024-10-02 01:08:32 [main] DEBUG c.vinod.driver_manager.DriverManager - Creating WebDriver instance. Mode: CHROME, Is Remote: false
+2024-10-02 01:08:32 [main] INFO  c.vinod.driver_manager.DriverManager - Creating local WebDriver for mode: CHROME
+2024-10-02 01:08:32 [main] DEBUG c.vinod.driver_manager.DriverManager - Instantiating ChromeDriver.
+2024-10-02 01:08:32 [main] DEBUG c.vinod.driver_manager.DriverManager - Creating default ChromeOptions.
+2024-10-02 01:08:34 [main] DEBUG c.vinod.driver_manager.DriverManager - Configuring driver with timeouts and window settings.
+2024-10-02 01:08:34 [main] DEBUG c.vinod.driver_manager.DriverManager - Driver configuration completed.
+2024-10-02 01:08:34 [main] INFO  c.vinod.driver_manager.DriverManager - CHROME driver instantiated successfully.
+2024-10-02 01:08:36 [main] INFO  com.vinod.test.BaseTest - Navigated to base URL: https://phptravels.com/demo/
+2024-10-02 01:08:36 [main] INFO  com.vinod.listners.TestListener - Starting test testLoginPageAndLinks
+2024-10-02 01:08:36 [main] INFO  com.vinod.test.LoginTest - Home page title: Book Your Free Demo Now - Phptravels
+2024-10-02 01:08:47 [main] INFO  com.vinod.test.LoginTest - Clicked on login: current page title Login
+2024-10-02 01:08:57 [main] INFO  com.vinod.test.LoginTest - Login page title: Login
+2024-10-02 01:09:01 [main] INFO  com.vinod.listners.TestListener - Test testLoginPageAndLinks passed.
+2024-10-02 01:09:01 [main] INFO  c.vinod.driver_manager.DriverManager - Quitting the driver: ChromeDriver: chrome on windows (0167672cc48715835380c9c86e441289)
+2024-10-02 01:09:01 [main] INFO  c.vinod.driver_manager.DriverManager - Driver closed successfully.
+2024-10-02 01:11:47 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml"
+2024-10-02 01:11:47 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+2024-10-02 01:11:47 [main] INFO  com.vinod.test.BaseTest - Initializing driver for method: testLoginPageAndLinks
+2024-10-02 01:11:47 [main] INFO  com.vinod.driver_manager.DriverManager - Initializing driver for mode: CHROME, Remote execution: false
+2024-10-02 01:11:47 [main] DEBUG com.vinod.driver_manager.DriverManager - Creating WebDriver instance. Mode: CHROME, Is Remote: false
+2024-10-02 01:11:47 [main] INFO  com.vinod.driver_manager.DriverManager - Creating local WebDriver for mode: CHROME
+2024-10-02 01:11:47 [main] DEBUG com.vinod.driver_manager.DriverManager - Instantiating ChromeDriver.
+2024-10-02 01:11:47 [main] DEBUG com.vinod.driver_manager.DriverManager - Creating default ChromeOptions.
+2024-10-02 01:11:49 [main] DEBUG com.vinod.driver_manager.DriverManager - Configuring driver with timeouts and window settings.
+2024-10-02 01:11:49 [main] DEBUG com.vinod.driver_manager.DriverManager - Driver configuration completed.
+2024-10-02 01:11:49 [main] INFO  com.vinod.driver_manager.DriverManager - CHROME driver instantiated successfully.
+2024-10-02 01:11:50 [main] INFO  com.vinod.test.BaseTest - Navigated to base URL: https://phptravels.com/demo/
+2024-10-02 01:11:51 [main] INFO  com.vinod.listners.TestListener - Starting test testLoginPageAndLinks
+2024-10-02 01:11:51 [main] INFO  com.vinod.test.LoginTest - Home page title: Book Your Free Demo Now - Phptravels
+2024-10-02 01:12:03 [main] INFO  com.vinod.test.LoginTest - Clicked on login: current page title Login
+2024-10-02 01:12:13 [main] INFO  com.vinod.test.LoginTest - Login page title: Login
+2024-10-02 01:12:18 [main] INFO  com.vinod.listners.TestListener - Test testLoginPageAndLinks passed.
+2024-10-02 01:12:18 [main] INFO  com.vinod.driver_manager.DriverManager - Quitting the driver: ChromeDriver: chrome on windows (00fbb81675fc2dba5b3cc6befb704c53)
+2024-10-02 01:12:18 [main] INFO  com.vinod.driver_manager.DriverManager - Driver closed successfully.
+2024-10-02 01:12:23 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\testNg.xml"
+2024-10-02 01:12:24 [main] INFO  org.testng.internal.Utils - [XmlSuite] [WARN] 'parallel' value 'true' is no longer valid, defaulting to 'methods'.
+2024-10-02 01:12:24 [TestNG-test-Parallel Tests-2] INFO  com.vinod.test.BaseTest - Initializing driver for method: verifyingLinksOnHomePage
+2024-10-02 01:12:24 [TestNG-test-Parallel Tests-1] INFO  com.vinod.test.BaseTest - Initializing driver for method: testLoginPageAndLinks
+2024-10-02 01:12:24 [TestNG-test-Parallel Tests-1] INFO  com.vinod.driver_manager.DriverManager - Initializing driver for mode: CHROME, Remote execution: false
+2024-10-02 01:12:24 [TestNG-test-Parallel Tests-2] INFO  com.vinod.driver_manager.DriverManager - Initializing driver for mode: CHROME, Remote execution: false
+2024-10-02 01:12:24 [TestNG-test-Parallel Tests-1] DEBUG com.vinod.driver_manager.DriverManager - Creating WebDriver instance. Mode: CHROME, Is Remote: false
+2024-10-02 01:12:24 [TestNG-test-Parallel Tests-2] DEBUG com.vinod.driver_manager.DriverManager - Creating WebDriver instance. Mode: CHROME, Is Remote: false
+2024-10-02 01:12:24 [TestNG-test-Parallel Tests-1] INFO  com.vinod.driver_manager.DriverManager - Creating local WebDriver for mode: CHROME
+2024-10-02 01:12:24 [TestNG-test-Parallel Tests-2] INFO  com.vinod.driver_manager.DriverManager - Creating local WebDriver for mode: CHROME
+2024-10-02 01:12:24 [TestNG-test-Parallel Tests-1] DEBUG com.vinod.driver_manager.DriverManager - Instantiating ChromeDriver.
+2024-10-02 01:12:24 [TestNG-test-Parallel Tests-2] DEBUG com.vinod.driver_manager.DriverManager - Instantiating ChromeDriver.
+2024-10-02 01:12:24 [TestNG-test-Parallel Tests-2] DEBUG com.vinod.driver_manager.DriverManager - Creating default ChromeOptions.
+2024-10-02 01:12:24 [TestNG-test-Parallel Tests-1] DEBUG com.vinod.driver_manager.DriverManager - Creating default ChromeOptions.
+2024-10-02 01:12:27 [TestNG-test-Parallel Tests-1] DEBUG com.vinod.driver_manager.DriverManager - Configuring driver with timeouts and window settings.
+2024-10-02 01:12:27 [TestNG-test-Parallel Tests-2] DEBUG com.vinod.driver_manager.DriverManager - Configuring driver with timeouts and window settings.
+2024-10-02 01:12:27 [TestNG-test-Parallel Tests-1] DEBUG com.vinod.driver_manager.DriverManager - Driver configuration completed.
+2024-10-02 01:12:27 [TestNG-test-Parallel Tests-2] DEBUG com.vinod.driver_manager.DriverManager - Driver configuration completed.
+2024-10-02 01:12:27 [TestNG-test-Parallel Tests-2] INFO  com.vinod.driver_manager.DriverManager - CHROME driver instantiated successfully.
+2024-10-02 01:12:27 [TestNG-test-Parallel Tests-1] INFO  com.vinod.driver_manager.DriverManager - CHROME driver instantiated successfully.
+2024-10-02 01:12:27 [TestNG-test-Parallel Tests-2] INFO  com.vinod.test.BaseTest - Navigated to base URL: https://phptravels.com/demo/
+2024-10-02 01:12:28 [TestNG-test-Parallel Tests-2] INFO  com.vinod.listners.TestListener - Starting test verifyingLinksOnHomePage
+2024-10-02 01:12:30 [TestNG-test-Parallel Tests-1] INFO  com.vinod.test.BaseTest - Navigated to base URL: https://phptravels.com/demo/
+2024-10-02 01:12:30 [TestNG-test-Parallel Tests-1] INFO  com.vinod.listners.TestListener - Starting test testLoginPageAndLinks
+2024-10-02 01:12:30 [TestNG-test-Parallel Tests-1] INFO  com.vinod.test.LoginTest - Home page title: Book Your Free Demo Now - Phptravels
+2024-10-02 01:12:35 [TestNG-test-Parallel Tests-2] INFO  com.vinod.listners.TestListener - Test verifyingLinksOnHomePage passed.
+2024-10-02 01:12:35 [TestNG-test-Parallel Tests-2] INFO  com.vinod.driver_manager.DriverManager - Quitting the driver: ChromeDriver: chrome on windows (25dc98d4cc6ef7b8f04b22ff7b8e40ea)
+2024-10-02 01:12:35 [TestNG-test-Parallel Tests-2] INFO  com.vinod.driver_manager.DriverManager - Driver closed successfully.
+2024-10-02 01:12:41 [TestNG-test-Parallel Tests-1] INFO  com.vinod.test.LoginTest - Clicked on login: current page title Login
+2024-10-02 01:12:51 [TestNG-test-Parallel Tests-1] INFO  com.vinod.test.LoginTest - Login page title: Login
+2024-10-02 01:12:53 [TestNG-test-Parallel Tests-1] INFO  com.vinod.listners.TestListener - Test testLoginPageAndLinks passed.
+2024-10-02 01:12:53 [TestNG-test-Parallel Tests-1] INFO  com.vinod.driver_manager.DriverManager - Quitting the driver: ChromeDriver: chrome on windows (bab3464e6b139880251377cbbe41b0ed)
+2024-10-02 01:12:54 [TestNG-test-Parallel Tests-1] INFO  com.vinod.driver_manager.DriverManager - Driver closed successfully.
+2024-10-02 11:39:48 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml"
+2024-10-02 11:39:49 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+2024-10-02 11:39:50 [main] INFO  com.vinod.test.BaseTest - Initializing driver for method: verifyingOnHomePage
+2024-10-02 11:39:50 [main] INFO  com.vinod.driver_manager.DriverManager - Initializing driver for mode: CHROME, Remote execution: false
+2024-10-02 11:39:50 [main] DEBUG com.vinod.driver_manager.DriverManager - Creating WebDriver instance. Mode: CHROME, Is Remote: false
+2024-10-02 11:39:50 [main] INFO  com.vinod.driver_manager.DriverManager - Creating local WebDriver for mode: CHROME
+2024-10-02 11:39:50 [main] DEBUG com.vinod.driver_manager.DriverManager - Instantiating ChromeDriver.
+2024-10-02 11:39:50 [main] DEBUG com.vinod.driver_manager.DriverManager - Creating default ChromeOptions.
+2024-10-02 11:39:58 [main] DEBUG com.vinod.driver_manager.DriverManager - Configuring driver with timeouts and window settings.
+2024-10-02 11:39:58 [main] DEBUG com.vinod.driver_manager.DriverManager - Driver configuration completed.
+2024-10-02 11:39:58 [main] INFO  com.vinod.driver_manager.DriverManager - CHROME driver instantiated successfully.
+2024-10-02 11:40:00 [main] INFO  com.vinod.test.BaseTest - Navigated to base URL: https://phptravels.com/demo/
+2024-10-02 11:40:01 [main] INFO  com.vinod.listners.TestListener - Starting test verifyingOnHomePage
+2024-10-02 11:40:01 [main] ERROR com.vinod.listners.TestListener - Test verifyingOnHomePage failed. Error: java.lang.AssertionError: expected [false] but found [true]
+2024-10-02 11:40:01 [main] INFO  com.vinod.driver_manager.DriverManager - Quitting the driver: ChromeDriver: chrome on windows (986679e7ea350fded478fe20de659e8f)
+2024-10-02 11:40:03 [main] INFO  com.vinod.driver_manager.DriverManager - Driver closed successfully.
+2024-10-02 11:49:49 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\testNg.xml"
+2024-10-02 11:49:50 [main] INFO  org.testng.internal.Utils - [XmlSuite] [WARN] 'parallel' value 'true' is no longer valid, defaulting to 'methods'.
+2024-10-02 11:49:50 [TestNG-test-Parallel Tests-2] INFO  com.vinod.test.BaseTest - Initializing driver for method: verifyingLinksOnHomePage
+2024-10-02 11:49:50 [TestNG-test-Parallel Tests-1] INFO  com.vinod.test.BaseTest - Initializing driver for method: testLoginPageAndLinks
+2024-10-02 11:49:50 [TestNG-test-Parallel Tests-1] INFO  com.vinod.driver_manager.DriverManager - Initializing driver for mode: CHROME, Remote execution: false
+2024-10-02 11:49:50 [TestNG-test-Parallel Tests-2] INFO  com.vinod.driver_manager.DriverManager - Initializing driver for mode: CHROME, Remote execution: false
+2024-10-02 11:49:50 [TestNG-test-Parallel Tests-1] DEBUG com.vinod.driver_manager.DriverManager - Creating WebDriver instance. Mode: CHROME, Is Remote: false
+2024-10-02 11:49:50 [TestNG-test-Parallel Tests-2] DEBUG com.vinod.driver_manager.DriverManager - Creating WebDriver instance. Mode: CHROME, Is Remote: false
+2024-10-02 11:49:50 [TestNG-test-Parallel Tests-2] INFO  com.vinod.driver_manager.DriverManager - Creating local WebDriver for mode: CHROME
+2024-10-02 11:49:50 [TestNG-test-Parallel Tests-1] INFO  com.vinod.driver_manager.DriverManager - Creating local WebDriver for mode: CHROME
+2024-10-02 11:49:50 [TestNG-test-Parallel Tests-2] DEBUG com.vinod.driver_manager.DriverManager - Instantiating ChromeDriver.
+2024-10-02 11:49:50 [TestNG-test-Parallel Tests-1] DEBUG com.vinod.driver_manager.DriverManager - Instantiating ChromeDriver.
+2024-10-02 11:49:50 [TestNG-test-Parallel Tests-2] DEBUG com.vinod.driver_manager.DriverManager - Creating default ChromeOptions.
+2024-10-02 11:49:50 [TestNG-test-Parallel Tests-1] DEBUG com.vinod.driver_manager.DriverManager - Creating default ChromeOptions.
+2024-10-02 11:49:55 [TestNG-test-Parallel Tests-2] DEBUG com.vinod.driver_manager.DriverManager - Configuring driver with timeouts and window settings.
+2024-10-02 11:49:55 [TestNG-test-Parallel Tests-2] DEBUG com.vinod.driver_manager.DriverManager - Driver configuration completed.
+2024-10-02 11:49:55 [TestNG-test-Parallel Tests-2] INFO  com.vinod.driver_manager.DriverManager - CHROME driver instantiated successfully.
+2024-10-02 11:49:55 [TestNG-test-Parallel Tests-1] DEBUG com.vinod.driver_manager.DriverManager - Configuring driver with timeouts and window settings.
+2024-10-02 11:49:55 [TestNG-test-Parallel Tests-1] DEBUG com.vinod.driver_manager.DriverManager - Driver configuration completed.
+2024-10-02 11:49:55 [TestNG-test-Parallel Tests-1] INFO  com.vinod.driver_manager.DriverManager - CHROME driver instantiated successfully.
+2024-10-02 11:49:55 [TestNG-test-Parallel Tests-2] INFO  com.vinod.test.BaseTest - Navigated to base URL: https://phptravels.com/demo/
+2024-10-02 11:49:55 [TestNG-test-Parallel Tests-1] INFO  com.vinod.test.BaseTest - Navigated to base URL: https://phptravels.com/demo/
+2024-10-02 11:49:57 [TestNG-test-Parallel Tests-2] INFO  com.vinod.listners.TestListener - Starting test verifyingLinksOnHomePage
+2024-10-02 11:49:57 [TestNG-test-Parallel Tests-1] INFO  com.vinod.listners.TestListener - Starting test testLoginPageAndLinks
+2024-10-02 11:49:59 [TestNG-test-Parallel Tests-1] INFO  com.vinod.test.LoginTest - Home page title: Book Your Free Demo Now - Phptravels
+2024-10-02 11:50:01 [TestNG-test-Parallel Tests-1] INFO  com.vinod.test.LoginTest - Clicked on login: current page title Login
+2024-10-02 11:50:01 [TestNG-test-Parallel Tests-1] INFO  com.vinod.test.LoginTest - Login page title: Login
+2024-10-02 11:50:09 [TestNG-test-Parallel Tests-1] INFO  com.vinod.listners.TestListener - Test testLoginPageAndLinks passed.
+2024-10-02 11:50:09 [TestNG-test-Parallel Tests-1] INFO  com.vinod.driver_manager.DriverManager - Quitting the driver: ChromeDriver: chrome on windows (a9a7c7fea6c7487cba167e8f02881fb3)
+2024-10-02 11:50:09 [TestNG-test-Parallel Tests-2] INFO  com.vinod.listners.TestListener - Test verifyingLinksOnHomePage passed.
+2024-10-02 11:50:09 [TestNG-test-Parallel Tests-2] INFO  com.vinod.driver_manager.DriverManager - Quitting the driver: ChromeDriver: chrome on windows (458fbde535995c0093fc02ed8640df78)
+2024-10-02 11:50:10 [TestNG-test-Parallel Tests-1] INFO  com.vinod.driver_manager.DriverManager - Driver closed successfully.
+2024-10-02 11:50:10 [TestNG-test-Parallel Tests-1] INFO  com.vinod.test.BaseTest - Initializing driver for method: verifyingOnHomePage
+2024-10-02 11:50:10 [TestNG-test-Parallel Tests-1] INFO  com.vinod.driver_manager.DriverManager - Initializing driver for mode: CHROME, Remote execution: false
+2024-10-02 11:50:10 [TestNG-test-Parallel Tests-1] DEBUG com.vinod.driver_manager.DriverManager - Creating WebDriver instance. Mode: CHROME, Is Remote: false
+2024-10-02 11:50:10 [TestNG-test-Parallel Tests-1] INFO  com.vinod.driver_manager.DriverManager - Creating local WebDriver for mode: CHROME
+2024-10-02 11:50:10 [TestNG-test-Parallel Tests-1] DEBUG com.vinod.driver_manager.DriverManager - Instantiating ChromeDriver.
+2024-10-02 11:50:10 [TestNG-test-Parallel Tests-1] DEBUG com.vinod.driver_manager.DriverManager - Creating default ChromeOptions.
+2024-10-02 11:50:12 [TestNG-test-Parallel Tests-1] DEBUG com.vinod.driver_manager.DriverManager - Configuring driver with timeouts and window settings.
+2024-10-02 11:50:12 [TestNG-test-Parallel Tests-1] DEBUG com.vinod.driver_manager.DriverManager - Driver configuration completed.
+2024-10-02 11:50:12 [TestNG-test-Parallel Tests-1] INFO  com.vinod.driver_manager.DriverManager - CHROME driver instantiated successfully.
+2024-10-02 11:50:12 [TestNG-test-Parallel Tests-2] INFO  com.vinod.driver_manager.DriverManager - Driver closed successfully.
+2024-10-02 11:50:15 [TestNG-test-Parallel Tests-1] INFO  com.vinod.test.BaseTest - Navigated to base URL: https://phptravels.com/demo/
+2024-10-02 11:50:15 [TestNG-test-Parallel Tests-1] INFO  com.vinod.listners.TestListener - Starting test verifyingOnHomePage
+2024-10-02 11:50:16 [TestNG-test-Parallel Tests-1] ERROR com.vinod.listners.TestListener - Test verifyingOnHomePage failed. Error: java.lang.AssertionError: expected [false] but found [true]
+2024-10-02 11:50:16 [TestNG-test-Parallel Tests-1] INFO  com.vinod.driver_manager.DriverManager - Quitting the driver: ChromeDriver: chrome on windows (acc5978c92c4e9c3c14ed8c62c30c553)
+2024-10-02 11:50:17 [TestNG-test-Parallel Tests-1] INFO  com.vinod.driver_manager.DriverManager - Driver closed successfully.
+2024-10-02 11:51:29 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\testNg.xml"
+2024-10-02 11:51:29 [main] INFO  org.testng.internal.Utils - [XmlSuite] [WARN] 'parallel' value 'true' is no longer valid, defaulting to 'methods'.
+2024-10-02 11:51:30 [TestNG-test-Parallel Tests-1] INFO  com.vinod.test.BaseTest - Initializing driver for method: testLoginPageAndLinks
+2024-10-02 11:51:30 [TestNG-test-Parallel Tests-2] INFO  com.vinod.test.BaseTest - Initializing driver for method: verifyingLinksOnHomePage
+2024-10-02 11:51:30 [TestNG-test-Parallel Tests-1] INFO  com.vinod.driver_manager.DriverManager - Initializing driver for mode: CHROME, Remote execution: false
+2024-10-02 11:51:30 [TestNG-test-Parallel Tests-2] INFO  com.vinod.driver_manager.DriverManager - Initializing driver for mode: CHROME, Remote execution: false
+2024-10-02 11:51:30 [TestNG-test-Parallel Tests-1] DEBUG com.vinod.driver_manager.DriverManager - Creating WebDriver instance. Mode: CHROME, Is Remote: false
+2024-10-02 11:51:30 [TestNG-test-Parallel Tests-2] DEBUG com.vinod.driver_manager.DriverManager - Creating WebDriver instance. Mode: CHROME, Is Remote: false
+2024-10-02 11:51:30 [TestNG-test-Parallel Tests-2] INFO  com.vinod.driver_manager.DriverManager - Creating local WebDriver for mode: CHROME
+2024-10-02 11:51:30 [TestNG-test-Parallel Tests-1] INFO  com.vinod.driver_manager.DriverManager - Creating local WebDriver for mode: CHROME
+2024-10-02 11:51:30 [TestNG-test-Parallel Tests-1] DEBUG com.vinod.driver_manager.DriverManager - Instantiating ChromeDriver.
+2024-10-02 11:51:30 [TestNG-test-Parallel Tests-2] DEBUG com.vinod.driver_manager.DriverManager - Instantiating ChromeDriver.
+2024-10-02 11:51:30 [TestNG-test-Parallel Tests-1] DEBUG com.vinod.driver_manager.DriverManager - Creating default ChromeOptions.
+2024-10-02 11:51:30 [TestNG-test-Parallel Tests-2] DEBUG com.vinod.driver_manager.DriverManager - Creating default ChromeOptions.
+2024-10-02 11:51:33 [TestNG-test-Parallel Tests-1] DEBUG com.vinod.driver_manager.DriverManager - Configuring driver with timeouts and window settings.
+2024-10-02 11:51:33 [TestNG-test-Parallel Tests-2] DEBUG com.vinod.driver_manager.DriverManager - Configuring driver with timeouts and window settings.
+2024-10-02 11:51:33 [TestNG-test-Parallel Tests-2] DEBUG com.vinod.driver_manager.DriverManager - Driver configuration completed.
+2024-10-02 11:51:33 [TestNG-test-Parallel Tests-2] INFO  com.vinod.driver_manager.DriverManager - CHROME driver instantiated successfully.
+2024-10-02 11:51:33 [TestNG-test-Parallel Tests-1] DEBUG com.vinod.driver_manager.DriverManager - Driver configuration completed.
+2024-10-02 11:51:33 [TestNG-test-Parallel Tests-1] INFO  com.vinod.driver_manager.DriverManager - CHROME driver instantiated successfully.
+2024-10-02 11:51:34 [TestNG-test-Parallel Tests-1] INFO  com.vinod.test.BaseTest - Navigated to base URL: https://phptravels.com/demo/
+2024-10-02 11:51:35 [TestNG-test-Parallel Tests-1] INFO  com.vinod.listners.TestListener - Starting test testLoginPageAndLinks
+2024-10-02 11:51:36 [TestNG-test-Parallel Tests-1] INFO  com.vinod.test.LoginTest - Home page title: Book Your Free Demo Now - Phptravels
+2024-10-02 11:51:37 [TestNG-test-Parallel Tests-2] INFO  com.vinod.test.BaseTest - Navigated to base URL: https://phptravels.com/demo/
+2024-10-02 11:51:37 [TestNG-test-Parallel Tests-2] INFO  com.vinod.listners.TestListener - Starting test verifyingLinksOnHomePage
+2024-10-02 11:51:37 [TestNG-test-Parallel Tests-1] INFO  com.vinod.test.LoginTest - Clicked on login: current page title Login
+2024-10-02 11:51:37 [TestNG-test-Parallel Tests-1] INFO  com.vinod.test.LoginTest - Login page title: Login
+2024-10-02 11:51:46 [TestNG-test-Parallel Tests-2] INFO  com.vinod.listners.TestListener - Test verifyingLinksOnHomePage passed.
+2024-10-02 11:51:46 [TestNG-test-Parallel Tests-2] INFO  com.vinod.driver_manager.DriverManager - Quitting the driver: ChromeDriver: chrome on windows (34731e7389f9cc28c60535862f7a45c8)
+2024-10-02 11:51:46 [TestNG-test-Parallel Tests-1] INFO  com.vinod.listners.TestListener - Test testLoginPageAndLinks passed.
+2024-10-02 11:51:46 [TestNG-test-Parallel Tests-1] INFO  com.vinod.driver_manager.DriverManager - Quitting the driver: ChromeDriver: chrome on windows (5dfc2cb6499f6a4a3ac74b12acab3ff0)
+2024-10-02 11:51:47 [TestNG-test-Parallel Tests-2] INFO  com.vinod.driver_manager.DriverManager - Driver closed successfully.
+2024-10-02 11:51:47 [TestNG-test-Parallel Tests-2] INFO  com.vinod.test.BaseTest - Initializing driver for method: verifyingOnHomePage
+2024-10-02 11:51:47 [TestNG-test-Parallel Tests-2] INFO  com.vinod.driver_manager.DriverManager - Initializing driver for mode: CHROME, Remote execution: false
+2024-10-02 11:51:47 [TestNG-test-Parallel Tests-2] DEBUG com.vinod.driver_manager.DriverManager - Creating WebDriver instance. Mode: CHROME, Is Remote: false
+2024-10-02 11:51:47 [TestNG-test-Parallel Tests-2] INFO  com.vinod.driver_manager.DriverManager - Creating local WebDriver for mode: CHROME
+2024-10-02 11:51:47 [TestNG-test-Parallel Tests-2] DEBUG com.vinod.driver_manager.DriverManager - Instantiating ChromeDriver.
+2024-10-02 11:51:47 [TestNG-test-Parallel Tests-2] DEBUG com.vinod.driver_manager.DriverManager - Creating default ChromeOptions.
+2024-10-02 11:51:48 [TestNG-test-Parallel Tests-2] DEBUG com.vinod.driver_manager.DriverManager - Configuring driver with timeouts and window settings.
+2024-10-02 11:51:48 [TestNG-test-Parallel Tests-2] DEBUG com.vinod.driver_manager.DriverManager - Driver configuration completed.
+2024-10-02 11:51:48 [TestNG-test-Parallel Tests-2] INFO  com.vinod.driver_manager.DriverManager - CHROME driver instantiated successfully.
+2024-10-02 11:51:48 [TestNG-test-Parallel Tests-1] INFO  com.vinod.driver_manager.DriverManager - Driver closed successfully.
+2024-10-02 11:51:50 [TestNG-test-Parallel Tests-2] INFO  com.vinod.test.BaseTest - Navigated to base URL: https://phptravels.com/demo/
+2024-10-02 11:51:50 [TestNG-test-Parallel Tests-2] INFO  com.vinod.listners.TestListener - Starting test verifyingOnHomePage
+2024-10-02 11:51:50 [TestNG-test-Parallel Tests-2] ERROR com.vinod.listners.TestListener - Test verifyingOnHomePage failed. Error: java.lang.AssertionError: expected [false] but found [true]
+2024-10-02 11:51:50 [TestNG-test-Parallel Tests-2] INFO  com.vinod.driver_manager.DriverManager - Quitting the driver: ChromeDriver: chrome on windows (df0f1ada6727bcfddd9787d27a73c8f8)
+2024-10-02 11:51:51 [TestNG-test-Parallel Tests-2] INFO  com.vinod.driver_manager.DriverManager - Driver closed successfully.
+2024-10-02 11:53:28 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\testNg.xml"
+2024-10-02 11:53:29 [main] INFO  org.testng.internal.Utils - [XmlSuite] [WARN] 'parallel' value 'true' is no longer valid, defaulting to 'methods'.
+2024-10-02 11:53:29 [TestNG-test-Parallel Tests-1] INFO  com.vinod.test.BaseTest - Initializing driver for method: testLoginPageAndLinks
+2024-10-02 11:53:29 [TestNG-test-Parallel Tests-2] INFO  com.vinod.test.BaseTest - Initializing driver for method: verifyingLinksOnHomePage
+2024-10-02 11:53:29 [TestNG-test-Parallel Tests-1] INFO  com.vinod.driver_manager.DriverManager - Initializing driver for mode: CHROME, Remote execution: false
+2024-10-02 11:53:29 [TestNG-test-Parallel Tests-2] INFO  com.vinod.driver_manager.DriverManager - Initializing driver for mode: CHROME, Remote execution: false
+2024-10-02 11:53:29 [TestNG-test-Parallel Tests-1] DEBUG com.vinod.driver_manager.DriverManager - Creating WebDriver instance. Mode: CHROME, Is Remote: false
+2024-10-02 11:53:29 [TestNG-test-Parallel Tests-2] DEBUG com.vinod.driver_manager.DriverManager - Creating WebDriver instance. Mode: CHROME, Is Remote: false
+2024-10-02 11:53:29 [TestNG-test-Parallel Tests-2] INFO  com.vinod.driver_manager.DriverManager - Creating local WebDriver for mode: CHROME
+2024-10-02 11:53:29 [TestNG-test-Parallel Tests-1] INFO  com.vinod.driver_manager.DriverManager - Creating local WebDriver for mode: CHROME
+2024-10-02 11:53:29 [TestNG-test-Parallel Tests-2] DEBUG com.vinod.driver_manager.DriverManager - Instantiating ChromeDriver.
+2024-10-02 11:53:29 [TestNG-test-Parallel Tests-1] DEBUG com.vinod.driver_manager.DriverManager - Instantiating ChromeDriver.
+2024-10-02 11:53:29 [TestNG-test-Parallel Tests-2] DEBUG com.vinod.driver_manager.DriverManager - Creating default ChromeOptions.
+2024-10-02 11:53:29 [TestNG-test-Parallel Tests-1] DEBUG com.vinod.driver_manager.DriverManager - Creating default ChromeOptions.
+2024-10-02 11:53:32 [TestNG-test-Parallel Tests-2] DEBUG com.vinod.driver_manager.DriverManager - Configuring driver with timeouts and window settings.
+2024-10-02 11:53:32 [TestNG-test-Parallel Tests-1] DEBUG com.vinod.driver_manager.DriverManager - Configuring driver with timeouts and window settings.
+2024-10-02 11:53:32 [TestNG-test-Parallel Tests-1] DEBUG com.vinod.driver_manager.DriverManager - Driver configuration completed.
+2024-10-02 11:53:32 [TestNG-test-Parallel Tests-1] INFO  com.vinod.driver_manager.DriverManager - CHROME driver instantiated successfully.
+2024-10-02 11:53:32 [TestNG-test-Parallel Tests-2] DEBUG com.vinod.driver_manager.DriverManager - Driver configuration completed.
+2024-10-02 11:53:32 [TestNG-test-Parallel Tests-2] INFO  com.vinod.driver_manager.DriverManager - CHROME driver instantiated successfully.
+2024-10-02 11:53:37 [TestNG-test-Parallel Tests-2] INFO  com.vinod.test.BaseTest - Navigated to base URL: https://phptravels.com/demo/
+2024-10-02 11:53:38 [TestNG-test-Parallel Tests-2] INFO  com.vinod.listners.TestListener - Starting test verifyingLinksOnHomePage
+2024-10-02 11:53:39 [TestNG-test-Parallel Tests-1] INFO  com.vinod.test.BaseTest - Navigated to base URL: https://phptravels.com/demo/
+2024-10-02 11:53:39 [TestNG-test-Parallel Tests-1] INFO  com.vinod.listners.TestListener - Starting test testLoginPageAndLinks
+2024-10-02 11:53:39 [TestNG-test-Parallel Tests-1] INFO  com.vinod.test.LoginTest - Home page title: Book Your Free Demo Now - Phptravels
+2024-10-02 11:53:40 [TestNG-test-Parallel Tests-1] INFO  com.vinod.test.LoginTest - Clicked on login: current page title Login
+2024-10-02 11:53:40 [TestNG-test-Parallel Tests-1] INFO  com.vinod.test.LoginTest - Login page title: Login
+2024-10-02 11:53:45 [TestNG-test-Parallel Tests-2] INFO  com.vinod.listners.TestListener - Test verifyingLinksOnHomePage passed.
+2024-10-02 11:53:45 [TestNG-test-Parallel Tests-2] INFO  com.vinod.driver_manager.DriverManager - Quitting the driver: ChromeDriver: chrome on windows (bf30c3efa590ecd36e8d257f759c7183)
+2024-10-02 11:53:46 [TestNG-test-Parallel Tests-1] INFO  com.vinod.listners.TestListener - Test testLoginPageAndLinks passed.
+2024-10-02 11:53:46 [TestNG-test-Parallel Tests-1] INFO  com.vinod.driver_manager.DriverManager - Quitting the driver: ChromeDriver: chrome on windows (f85b02342335a9fa3f5a1fa07edf7da9)
+2024-10-02 11:53:46 [TestNG-test-Parallel Tests-2] INFO  com.vinod.driver_manager.DriverManager - Driver closed successfully.
+2024-10-02 11:53:46 [TestNG-test-Parallel Tests-2] INFO  com.vinod.test.BaseTest - Initializing driver for method: verifyingOnHomePage
+2024-10-02 11:53:46 [TestNG-test-Parallel Tests-2] INFO  com.vinod.driver_manager.DriverManager - Initializing driver for mode: CHROME, Remote execution: false
+2024-10-02 11:53:46 [TestNG-test-Parallel Tests-2] DEBUG com.vinod.driver_manager.DriverManager - Creating WebDriver instance. Mode: CHROME, Is Remote: false
+2024-10-02 11:53:46 [TestNG-test-Parallel Tests-2] INFO  com.vinod.driver_manager.DriverManager - Creating local WebDriver for mode: CHROME
+2024-10-02 11:53:46 [TestNG-test-Parallel Tests-2] DEBUG com.vinod.driver_manager.DriverManager - Instantiating ChromeDriver.
+2024-10-02 11:53:46 [TestNG-test-Parallel Tests-2] DEBUG com.vinod.driver_manager.DriverManager - Creating default ChromeOptions.
+2024-10-02 11:53:48 [TestNG-test-Parallel Tests-1] INFO  com.vinod.driver_manager.DriverManager - Driver closed successfully.
+2024-10-02 11:53:48 [TestNG-test-Parallel Tests-2] DEBUG com.vinod.driver_manager.DriverManager - Configuring driver with timeouts and window settings.
+2024-10-02 11:53:48 [TestNG-test-Parallel Tests-2] DEBUG com.vinod.driver_manager.DriverManager - Driver configuration completed.
+2024-10-02 11:53:48 [TestNG-test-Parallel Tests-2] INFO  com.vinod.driver_manager.DriverManager - CHROME driver instantiated successfully.
+2024-10-02 11:53:48 [TestNG-test-Parallel Tests-2] INFO  com.vinod.test.BaseTest - Navigated to base URL: https://phptravels.com/demo/
+2024-10-02 11:53:48 [TestNG-test-Parallel Tests-2] INFO  com.vinod.listners.TestListener - Starting test verifyingOnHomePage
+2024-10-02 11:53:52 [TestNG-test-Parallel Tests-2] ERROR com.vinod.listners.TestListener - Test verifyingOnHomePage failed. Error: java.lang.AssertionError: expected [false] but found [true]
+2024-10-02 11:53:52 [TestNG-test-Parallel Tests-2] INFO  com.vinod.driver_manager.DriverManager - Quitting the driver: ChromeDriver: chrome on windows (1b5302c1464787a8fa318548ba823656)
+2024-10-02 11:53:52 [TestNG-test-Parallel Tests-2] INFO  com.vinod.driver_manager.DriverManager - Driver closed successfully.

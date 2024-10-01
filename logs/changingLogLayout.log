@@ -1,0 +1,1672 @@
+2024-09-28 15:41:17 INFO  driverManager.DriverManager:39 - chrome driver  instantiated...
+2024-09-28 16:10:32 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml"
+2024-09-28 16:10:33 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+2024-09-28 16:10:33 INFO  test.BaseTest:19 - driver manager instantiated  ...
+2024-09-28 16:10:35 INFO  driverManager.DriverManager:39 - CHROME  instantiated...
+2024-09-28 16:10:36 INFO  test.BaseTest:22 - user navigated to baseUrl...
+2024-09-28 16:10:36 INFO  listners.TestListener:18 - Starting test verifyingLinksOnHomePage
+2024-09-28 16:10:40 INFO  listners.TestListener:23 - Test verifyingLinksOnHomePage passed.
+2024-09-28 16:13:07 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\src\test\testNg.xml"
+2024-09-28 16:13:07 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\src\test\testNg.xml
+
+2024-09-28 16:13:07 INFO  test.BaseTest:20 - Initializing driver...
+2024-09-28 16:13:07 INFO  test.BaseTest:20 - Initializing driver...
+2024-09-28 16:13:09 INFO  driverManager.DriverManager:39 - CHROME  instantiated...
+2024-09-28 16:13:09 INFO  driverManager.DriverManager:39 - CHROME  instantiated...
+2024-09-28 16:13:09 INFO  test.BaseTest:28 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-28 16:13:10 INFO  listners.TestListener:18 - Starting test verifyingLinksOnHomePage
+2024-09-28 16:13:11 INFO  test.BaseTest:28 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-28 16:13:11 INFO  listners.TestListener:18 - Starting test testLoginPageAndLinks
+2024-09-28 16:13:11 INFO  test.LoginTest:39 - Home page title: Book Your Free Demo Now - Phptravels
+2024-09-28 16:13:12 INFO  test.LoginTest:51 - Clicked on login: current page title Login
+2024-09-28 16:13:12 INFO  test.LoginTest:24 - Login page title: Login
+2024-09-28 16:13:13 ERROR listners.TestListener:33 - Test verifyingLinksOnHomePage failed. Error: org.openqa.selenium.NoSuchElementException: no such element: element not found
+  (Session info: chrome=129.0.6668.70)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [47a0eb751bf44d28f8db0e1aa54ef35a, getElementAttribute {name=href, id=f.3785A0CCE47DF467917CBF9193D1FFD5.d.C38093F2C107507BBE5DB323B4F7D528.e.77}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\VINODP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64785}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64785/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (47a0eb751bf44d28f8db0e1aa54ef35a)] -> tag name: a]
+Session ID: 47a0eb751bf44d28f8db0e1aa54ef35a
+2024-09-28 16:13:13 INFO  test.BaseTest:35 - Driver is closed.
+2024-09-28 16:15:14 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\src\test\testNg.xml"
+2024-09-28 16:15:15 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\src\test\testNg.xml
+
+2024-09-28 16:15:15 INFO  test.BaseTest:20 - Initializing driver...
+2024-09-28 16:15:15 INFO  test.BaseTest:20 - Initializing driver...
+2024-09-28 16:15:17 INFO  driverManager.DriverManager:39 - CHROME  instantiated...
+2024-09-28 16:15:17 INFO  driverManager.DriverManager:39 - CHROME  instantiated...
+2024-09-28 16:15:19 INFO  test.BaseTest:28 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-28 16:15:20 INFO  test.BaseTest:28 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-28 16:15:20 INFO  listners.TestListener:18 - Starting test verifyingLinksOnHomePage
+2024-09-28 16:15:20 INFO  listners.TestListener:18 - Starting test testLoginPageAndLinks
+2024-09-28 16:15:20 INFO  test.LoginTest:39 - Home page title: Book Your Free Demo Now - Phptravels
+2024-09-28 16:15:21 INFO  test.LoginTest:51 - Clicked on login: current page title Login
+2024-09-28 16:15:21 INFO  test.LoginTest:24 - Login page title: Login
+2024-09-28 16:15:21 ERROR listners.TestListener:33 - Test verifyingLinksOnHomePage failed. Error: org.openqa.selenium.NoSuchElementException: no such element: element not found
+  (Session info: chrome=129.0.6668.70)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ef2b2c14958aa1fa71f44950fb0425ed, getElementAttribute {name=href, id=f.80A093FFFD94147012D48E4A71204B50.d.8434871C17E796EE2E673BEB120E8059.e.55}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\VINODP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65015}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65015/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (ef2b2c14958aa1fa71f44950fb0425ed)] -> tag name: a]
+Session ID: ef2b2c14958aa1fa71f44950fb0425ed
+2024-09-28 16:15:21 INFO  test.BaseTest:35 - Driver is closed.
+2024-09-28 16:18:04 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\src\test\testNg.xml"
+2024-09-28 16:18:04 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\src\test\testNg.xml
+
+2024-09-28 16:18:04 INFO  test.BaseTest:20 - Initializing driver...
+2024-09-28 16:18:06 INFO  driverManager.DriverManager:39 - CHROME  instantiated...
+2024-09-28 16:18:07 INFO  test.BaseTest:28 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-28 16:18:07 INFO  listners.TestListener:18 - Starting test testLoginPageAndLinks
+2024-09-28 16:18:07 INFO  test.LoginTest:46 - Home page title: Book Your Free Demo Now - Phptravels
+2024-09-28 16:18:10 INFO  test.LoginTest:58 - Clicked on login: current page title Login
+2024-09-28 16:18:10 INFO  test.LoginTest:24 - Login page title: Login
+2024-09-28 16:18:10 ERROR listners.TestListener:33 - Test testLoginPageAndLinks failed. Error: java.lang.AssertionError: Failed to switch back to the home page. expected [Book Your Free Demo Now - Phptravels] but found [Login]
+2024-09-28 16:18:10 INFO  test.BaseTest:35 - Driver is closed.
+2024-09-28 16:32:33 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\src\test\testNg.xml"
+2024-09-28 16:32:33 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\src\test\testNg.xml
+
+2024-09-28 16:32:33 INFO  test.BaseTest:20 - Initializing driver for method: verifyingLinksOnHomePage
+2024-09-28 16:32:33 INFO  test.BaseTest:20 - Initializing driver for method: testLoginPageAndLinks
+2024-09-28 16:32:36 INFO  driverManager.DriverManager:45 - CHROME instantiated...
+2024-09-28 16:32:36 INFO  driverManager.DriverManager:45 - CHROME instantiated...
+2024-09-28 16:32:36 INFO  test.BaseTest:27 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-28 16:32:36 INFO  listners.TestListener:19 - Starting test verifyingLinksOnHomePage
+2024-09-28 16:32:37 INFO  test.BaseTest:27 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-28 16:32:37 INFO  listners.TestListener:19 - Starting test testLoginPageAndLinks
+2024-09-28 16:32:37 INFO  test.LoginTest:46 - Home page title: Book Your Free Demo Now - Phptravels
+2024-09-28 16:32:39 INFO  test.LoginTest:58 - Clicked on login: current page title Login
+2024-09-28 16:32:39 INFO  test.LoginTest:24 - Login page title: Login
+2024-09-28 16:32:39 ERROR listners.TestListener:34 - Test verifyingLinksOnHomePage failed. Error: org.openqa.selenium.NoSuchElementException: no such element: element not found
+  (Session info: chrome=129.0.6668.70)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c8366f9e2b6a268c9e439cad5ec38ee3, getElementAttribute {name=href, id=f.6EFEF754BBED58E5C56BD08F5E996F23.d.F0DEA577ED25998C53D704ABC1D215F7.e.51}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\VINODP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58154}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58154/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c8366f9e2b6a268c9e439cad5ec38ee3)] -> tag name: a]
+Session ID: c8366f9e2b6a268c9e439cad5ec38ee3
+2024-09-28 16:32:39 ERROR listners.TestListener:34 - Test testLoginPageAndLinks failed. Error: java.lang.AssertionError: Failed to switch back to the home page. expected [Book Your Free Demo Now - Phptravels] but found [Login]
+2024-09-28 16:32:39 INFO  driverManager.DriverManager:61 - Driver is closed.
+2024-09-28 16:32:39 INFO  driverManager.DriverManager:61 - Driver is closed.
+2024-09-28 16:56:38 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\src\test\testNg.xml"
+2024-09-28 16:56:48 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml"
+2024-09-28 16:56:49 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+2024-09-28 16:59:24 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml"
+2024-09-28 16:59:25 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+2024-09-28 17:01:18 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml"
+2024-09-28 17:01:19 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+2024-09-28 17:02:29 INFO  test.BaseTest:28 - Initializing driver for method: testLoginPageAndLinks
+2024-09-28 17:02:33 INFO  driverManager.DriverManager:44 - CHROME instantiated...
+2024-09-28 17:02:35 INFO  test.BaseTest:35 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-28 17:02:36 INFO  listners.TestListener:19 - Starting test testLoginPageAndLinks
+2024-09-28 17:02:36 INFO  test.LoginTest:46 - Home page title: Book Your Free Demo Now - Phptravels
+2024-09-28 17:12:51 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml"
+2024-09-28 17:12:52 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+2024-09-28 17:13:15 INFO  test.BaseTest:28 - Initializing driver for method: testLoginPageAndLinks
+2024-09-28 17:13:19 INFO  driverManager.DriverManager:44 - CHROME instantiated...
+2024-09-28 17:13:21 INFO  test.BaseTest:35 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-28 17:13:22 INFO  listners.TestListener:19 - Starting test testLoginPageAndLinks
+2024-09-28 17:13:22 INFO  test.LoginTest:46 - Home page title: Book Your Free Demo Now - Phptravels
+2024-09-28 17:13:22 INFO  test.LoginTest:58 - Clicked on login: current page title 
+2024-09-28 17:28:35 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml"
+2024-09-28 17:28:37 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+2024-09-28 17:29:03 INFO  listners.TestListener:18 - Starting test testLoginPageAndLinks
+2024-09-28 17:29:03 WARN  driverManager.DriverManager:62 - Driver was not initialized.
+2024-09-28 17:34:45 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\src\test\testNg.xml"
+2024-09-28 17:34:46 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\src\test\testNg.xml
+
+2024-09-28 17:35:43 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\src\test\testNg.xml"
+2024-09-28 17:35:44 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\src\test\testNg.xml
+
+2024-09-28 17:36:21 INFO  listners.TestListener:18 - Starting test verifyingLinksOnHomePage
+2024-09-28 17:36:21 INFO  listners.TestListener:18 - Starting test testLoginPageAndLinks
+2024-09-28 17:36:21 WARN  driverManager.DriverManager:62 - Driver was not initialized.
+2024-09-28 17:36:21 WARN  driverManager.DriverManager:62 - Driver was not initialized.
+2024-09-28 17:38:56 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\src\test\testNg.xml"
+2024-09-28 17:38:57 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\src\test\testNg.xml
+
+2024-09-28 17:39:15 INFO  test.BaseTest:27 - Initializing driver for method: testLoginPageAndLinks
+2024-09-28 17:39:15 INFO  test.BaseTest:27 - Initializing driver for method: verifyingLinksOnHomePage
+2024-09-28 17:39:50 INFO  listners.TestListener:18 - Starting test verifyingLinksOnHomePage
+2024-09-28 17:39:50 INFO  listners.TestListener:18 - Starting test testLoginPageAndLinks
+2024-09-28 17:39:50 WARN  driverManager.DriverManager:62 - Driver was not initialized.
+2024-09-28 17:39:50 WARN  driverManager.DriverManager:62 - Driver was not initialized.
+2024-09-28 17:43:12 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\src\test\testNg.xml"
+2024-09-28 17:43:13 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\src\test\testNg.xml
+
+2024-09-28 17:43:36 INFO  test.BaseTest:25 - Initializing driver for method: testLoginPageAndLinks
+2024-09-28 17:43:36 INFO  test.BaseTest:25 - Initializing driver for method: verifyingLinksOnHomePage
+2024-09-28 17:44:28 INFO  driverManager.DriverManager:44 - CHROME_MOBILE instantiated...
+2024-09-28 17:44:28 INFO  driverManager.DriverManager:44 - CHROME_MOBILE instantiated...
+2024-09-28 17:44:29 INFO  test.BaseTest:32 - Navigated to base URL: http://example.com
+2024-09-28 17:44:30 INFO  test.BaseTest:32 - Navigated to base URL: http://example.com
+2024-09-28 17:44:30 INFO  listners.TestListener:18 - Starting test verifyingLinksOnHomePage
+2024-09-28 17:44:30 INFO  listners.TestListener:18 - Starting test testLoginPageAndLinks
+2024-09-28 17:44:41 ERROR listners.TestListener:33 - Test testLoginPageAndLinks failed. Error: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//nav//button"}
+  (Session info: chrome=129.0.6668.70)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2e39a572c69d3180f4d634c9c674c97a, findElement {using=xpath, value=//nav//button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\VINODP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59208}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59208/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2e39a572c69d3180f4d634c9c674c97a
+2024-09-28 17:44:41 INFO  driverManager.DriverManager:60 - Driver is closed.
+2024-09-28 17:44:47 INFO  listners.TestListener:23 - Test verifyingLinksOnHomePage passed.
+2024-09-28 17:44:48 INFO  driverManager.DriverManager:60 - Driver is closed.
+2024-09-28 17:48:53 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\src\test\testNg.xml"
+2024-09-28 17:48:54 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\src\test\testNg.xml
+
+2024-09-28 17:48:54 INFO  test.BaseTest:25 - Initializing driver for method: verifyingLinksOnHomePage
+2024-09-28 17:48:54 INFO  test.BaseTest:25 - Initializing driver for method: testLoginPageAndLinks
+2024-09-28 17:48:57 INFO  driverManager.DriverManager:44 - CHROME_MOBILE instantiated...
+2024-09-28 17:48:58 INFO  driverManager.DriverManager:44 - CHROME_MOBILE instantiated...
+2024-09-28 17:48:59 INFO  test.BaseTest:32 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-28 17:49:00 INFO  listners.TestListener:18 - Starting test verifyingLinksOnHomePage
+2024-09-28 17:49:00 INFO  test.BaseTest:32 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-28 17:49:00 INFO  listners.TestListener:18 - Starting test testLoginPageAndLinks
+2024-09-28 17:49:00 INFO  test.LoginTest:46 - Home page title: Book Your Free Demo Now - Phptravels
+2024-09-28 17:49:02 INFO  test.LoginTest:58 - Clicked on login: current page title Login
+2024-09-28 17:49:02 INFO  test.LoginTest:24 - Login page title: Login
+2024-09-28 17:49:03 ERROR listners.TestListener:33 - Test verifyingLinksOnHomePage failed. Error: org.openqa.selenium.NoSuchElementException: no such element: element not found
+  (Session info: chrome=129.0.6668.70)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8851e6c5ffbcc3f76886e8c321b864ff, getElementAttribute {name=href, id=f.414FC6D2036F949B76CACD7D73B3D7D6.d.F679EFDECC6451F20FF2A5DFD884CE4C.e.47}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\VINODP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59521}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59521/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (8851e6c5ffbcc3f76886e8c321b864ff)] -> tag name: a]
+Session ID: 8851e6c5ffbcc3f76886e8c321b864ff
+2024-09-28 17:49:03 INFO  driverManager.DriverManager:60 - Driver is closed.
+2024-09-28 17:51:22 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml"
+2024-09-28 17:51:23 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+2024-09-28 17:51:26 INFO  test.BaseTest:25 - Initializing driver for method: testLoginPageAndLinks
+2024-09-28 17:51:32 INFO  driverManager.DriverManager:44 - CHROME instantiated...
+2024-09-28 17:51:49 INFO  test.BaseTest:32 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-28 17:51:49 INFO  listners.TestListener:18 - Starting test testLoginPageAndLinks
+2024-09-28 17:52:23 INFO  test.LoginTest:46 - Home page title: Book Your Free Demo Now - Phptravels
+2024-09-28 17:52:59 INFO  test.LoginTest:58 - Clicked on login: current page title Login
+2024-09-28 17:53:03 INFO  test.LoginTest:24 - Login page title: Login
+2024-09-28 17:53:12 ERROR listners.TestListener:33 - Test testLoginPageAndLinks failed. Error: java.lang.AssertionError: Failed to switch back to the home page. expected [Book Your Free Demo Now - Phptravels] but found [Login]
+2024-09-28 17:53:12 INFO  driverManager.DriverManager:60 - Driver is closed.
+2024-09-28 17:55:06 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml"
+2024-09-28 17:55:07 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+2024-09-28 17:55:12 INFO  test.BaseTest:25 - Initializing driver for method: testLoginPageAndLinks
+2024-09-28 17:55:15 INFO  driverManager.DriverManager:44 - CHROME instantiated...
+2024-09-28 17:55:17 INFO  test.BaseTest:32 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-28 17:55:17 INFO  listners.TestListener:18 - Starting test testLoginPageAndLinks
+2024-09-28 17:55:26 INFO  test.LoginTest:46 - Home page title: Book Your Free Demo Now - Phptravels
+2024-09-28 17:55:27 INFO  test.LoginTest:58 - Clicked on login: current page title Login
+2024-09-28 17:55:27 INFO  test.LoginTest:24 - Login page title: Login
+2024-09-28 17:57:00 ERROR listners.TestListener:33 - Test testLoginPageAndLinks failed. Error: java.lang.AssertionError: Failed to switch back to the home page. expected [https://phptravels.com/demo/] but found [Login]
+2024-09-28 17:57:01 INFO  driverManager.DriverManager:60 - Driver is closed.
+2024-09-28 18:01:11 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml"
+2024-09-28 18:01:12 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+2024-09-28 18:01:12 INFO  test.BaseTest:25 - Initializing driver for method: testLoginPageAndLinks
+2024-09-28 18:01:15 INFO  driverManager.DriverManager:44 - CHROME instantiated...
+2024-09-28 18:01:17 INFO  test.BaseTest:32 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-28 18:01:18 INFO  listners.TestListener:18 - Starting test testLoginPageAndLinks
+2024-09-28 18:01:21 INFO  test.LoginTest:24 - Home page title: Book Your Free Demo Now - Phptravels
+2024-09-28 18:01:28 INFO  test.LoginTest:35 - Clicked on login: current page title Login
+2024-09-28 18:01:32 INFO  test.LoginTest:39 - Login page title: Login
+2024-09-28 18:02:47 INFO  listners.TestListener:23 - Test testLoginPageAndLinks passed.
+2024-09-28 18:02:47 INFO  driverManager.DriverManager:60 - Driver is closed.
+2024-09-28 18:03:23 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml"
+2024-09-28 18:03:24 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+2024-09-28 18:03:24 INFO  test.BaseTest:25 - Initializing driver for method: verifyingLinksOnHomePage
+2024-09-28 18:03:27 INFO  driverManager.DriverManager:44 - CHROME instantiated...
+2024-09-28 18:03:29 INFO  test.BaseTest:32 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-28 18:03:29 INFO  listners.TestListener:18 - Starting test verifyingLinksOnHomePage
+2024-09-28 18:03:35 INFO  listners.TestListener:23 - Test verifyingLinksOnHomePage passed.
+2024-09-28 18:03:35 INFO  driverManager.DriverManager:60 - Driver is closed.
+2024-09-28 18:04:14 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\src\test\testNg.xml"
+2024-09-28 18:04:16 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\src\test\testNg.xml
+
+2024-09-28 18:04:16 INFO  test.BaseTest:25 - Initializing driver for method: testLoginPageAndLinks
+2024-09-28 18:04:16 INFO  test.BaseTest:25 - Initializing driver for method: verifyingLinksOnHomePage
+2024-09-28 18:04:19 INFO  driverManager.DriverManager:44 - CHROME instantiated...
+2024-09-28 18:04:19 INFO  driverManager.DriverManager:44 - CHROME instantiated...
+2024-09-28 18:04:21 INFO  test.BaseTest:32 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-28 18:04:22 INFO  listners.TestListener:18 - Starting test testLoginPageAndLinks
+2024-09-28 18:04:22 INFO  test.BaseTest:32 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-28 18:04:22 INFO  listners.TestListener:18 - Starting test verifyingLinksOnHomePage
+2024-09-28 18:04:22 INFO  test.LoginTest:24 - Home page title: Book Your Free Demo Now - Phptravels
+2024-09-28 18:04:24 INFO  test.LoginTest:34 - Clicked on login: current page title Login
+2024-09-28 18:04:24 INFO  test.LoginTest:38 - Login page title: Login
+2024-09-28 18:04:24 ERROR listners.TestListener:33 - Test verifyingLinksOnHomePage failed. Error: org.openqa.selenium.NoSuchElementException: no such element: element not found
+  (Session info: chrome=129.0.6668.70)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [aa011ccd84e8ac48bdfc2a1357c3f36f, getElementAttribute {id=f.C315092A286902DEAC101F541CB48F7F.d.F342F0270D09D32C041FB6385085ABD9.e.50, name=href}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\VINODP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60396}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60396/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (aa011ccd84e8ac48bdfc2a1357c3f36f)] -> tag name: a]
+Session ID: aa011ccd84e8ac48bdfc2a1357c3f36f
+2024-09-28 18:04:25 INFO  driverManager.DriverManager:60 - Driver is closed.
+2024-09-28 18:04:31 INFO  listners.TestListener:23 - Test testLoginPageAndLinks passed.
+2024-09-28 18:04:31 INFO  driverManager.DriverManager:60 - Driver is closed.
+2024-09-28 18:05:05 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\src\test\testNg.xml"
+2024-09-28 18:05:06 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\src\test\testNg.xml
+
+2024-09-28 18:05:06 INFO  test.BaseTest:25 - Initializing driver for method: testLoginPageAndLinks
+2024-09-28 18:05:08 INFO  driverManager.DriverManager:44 - CHROME instantiated...
+2024-09-28 18:05:10 INFO  test.BaseTest:32 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-28 18:05:10 INFO  listners.TestListener:18 - Starting test testLoginPageAndLinks
+2024-09-28 18:05:10 INFO  test.LoginTest:24 - Home page title: Book Your Free Demo Now - Phptravels
+2024-09-28 18:05:12 INFO  test.LoginTest:34 - Clicked on login: current page title Login
+2024-09-28 18:05:12 INFO  test.LoginTest:38 - Login page title: Login
+2024-09-28 18:05:18 INFO  listners.TestListener:23 - Test testLoginPageAndLinks passed.
+2024-09-28 18:05:19 INFO  driverManager.DriverManager:60 - Driver is closed.
+2024-09-28 18:05:19 INFO  test.BaseTest:25 - Initializing driver for method: verifyingLinksOnHomePage
+2024-09-28 18:05:20 INFO  driverManager.DriverManager:44 - CHROME instantiated...
+2024-09-28 18:05:22 INFO  test.BaseTest:32 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-28 18:05:22 INFO  listners.TestListener:18 - Starting test verifyingLinksOnHomePage
+2024-09-28 18:05:25 INFO  listners.TestListener:23 - Test verifyingLinksOnHomePage passed.
+2024-09-28 18:05:25 INFO  driverManager.DriverManager:60 - Driver is closed.
+2024-09-28 18:08:02 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\src\test\testNg.xml"
+2024-09-28 18:08:28 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\src\test\testNg.xml"
+2024-09-28 18:08:29 INFO  internal.Utils:112 - [XmlSuite] [WARN] 'parallel' value 'true' is no longer valid, defaulting to 'methods'.
+2024-09-28 18:08:29 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\src\test\testNg.xml
+
+2024-09-28 18:08:29 INFO  test.BaseTest:25 - Initializing driver for method: verifyingLinksOnHomePage
+2024-09-28 18:08:29 INFO  test.BaseTest:25 - Initializing driver for method: testLoginPageAndLinks
+2024-09-28 18:08:33 INFO  driverManager.DriverManager:44 - CHROME instantiated...
+2024-09-28 18:08:33 INFO  driverManager.DriverManager:44 - CHROME instantiated...
+2024-09-28 18:08:35 INFO  test.BaseTest:32 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-28 18:08:35 INFO  test.BaseTest:32 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-28 18:08:36 INFO  listners.TestListener:18 - Starting test verifyingLinksOnHomePage
+2024-09-28 18:08:36 INFO  listners.TestListener:18 - Starting test testLoginPageAndLinks
+2024-09-28 18:08:36 INFO  test.LoginTest:24 - Home page title: Book Your Free Demo Now - Phptravels
+2024-09-28 18:08:38 INFO  test.LoginTest:34 - Clicked on login: current page title Login
+2024-09-28 18:08:38 INFO  test.LoginTest:38 - Login page title: Login
+2024-09-28 18:08:38 ERROR listners.TestListener:33 - Test verifyingLinksOnHomePage failed. Error: org.openqa.selenium.NoSuchElementException: no such element: element not found
+  (Session info: chrome=129.0.6668.70)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [39ff04745f73f17b00764676c557d9f1, getElementAttribute {name=href, id=f.4D4DFF017F4764E211533165A31DB9F7.d.F44A196F373BE61CEB1048074C453292.e.50}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\VINODP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60766}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60766/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (39ff04745f73f17b00764676c557d9f1)] -> tag name: a]
+Session ID: 39ff04745f73f17b00764676c557d9f1
+2024-09-28 18:08:38 INFO  driverManager.DriverManager:60 - Driver is closed.
+2024-09-28 18:11:38 ERROR listners.TestListener:33 - Test testLoginPageAndLinks failed. Error: org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [39ff04745f73f17b00764676c557d9f1, isElementDisplayed {id=f.4C215230417996E7E6B14F592102AB86.d.5489EC13C4B3CF110AABD98BA09D2518.e.7}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\VINODP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60766}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60766/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (39ff04745f73f17b00764676c557d9f1)] -> xpath: //input[@placeholder='Email']]
+2024-09-28 18:11:39 INFO  driverManager.DriverManager:60 - Driver is closed.
+2024-09-28 19:07:02 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\src\test\testNg.xml"
+2024-09-28 19:07:02 INFO  internal.Utils:112 - [XmlSuite] [WARN] 'parallel' value 'true' is no longer valid, defaulting to 'methods'.
+2024-09-28 19:07:03 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\src\test\testNg.xml
+
+2024-09-28 19:07:03 INFO  test.BaseTest:25 - Initializing driver for method: verifyingLinksOnHomePage
+2024-09-28 19:07:03 INFO  test.BaseTest:25 - Initializing driver for method: testLoginPageAndLinks
+2024-09-28 19:07:06 INFO  driverManager.DriverManager:44 - CHROME instantiated...
+2024-09-28 19:07:06 INFO  driverManager.DriverManager:44 - CHROME instantiated...
+2024-09-28 19:07:08 INFO  test.BaseTest:32 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-28 19:07:08 INFO  test.BaseTest:32 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-28 19:07:08 INFO  listners.TestListener:18 - Starting test testLoginPageAndLinks
+2024-09-28 19:07:08 INFO  listners.TestListener:18 - Starting test verifyingLinksOnHomePage
+2024-09-28 19:07:08 INFO  test.LoginTest:24 - Home page title: Book Your Free Demo Now - Phptravels
+2024-09-28 19:07:10 INFO  test.LoginTest:34 - Clicked on login: current page title Login
+2024-09-28 19:07:10 INFO  test.LoginTest:38 - Login page title: Login
+2024-09-28 19:07:10 ERROR listners.TestListener:33 - Test verifyingLinksOnHomePage failed. Error: org.openqa.selenium.NoSuchElementException: no such element: element not found
+  (Session info: chrome=129.0.6668.70)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ea5ff0f462fa2a9dca64b5024924bba2, getElementAttribute {id=f.C2431C91E4D5A69D6A969A28DDB4EBDA.d.B54B12E48BC694185415CEFE6C875A92.e.48, name=href}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\VINODP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62290}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62290/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (ea5ff0f462fa2a9dca64b5024924bba2)] -> tag name: a]
+Session ID: ea5ff0f462fa2a9dca64b5024924bba2
+2024-09-28 19:07:10 INFO  driverManager.DriverManager:60 - Driver is closed.
+2024-09-28 19:10:10 ERROR listners.TestListener:33 - Test testLoginPageAndLinks failed. Error: org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ea5ff0f462fa2a9dca64b5024924bba2, findElement {using=id, value=password}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\VINODP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62290}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62290/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+2024-09-28 19:10:11 INFO  driverManager.DriverManager:60 - Driver is closed.
+2024-09-28 19:13:14 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\src\test\testNg.xml"
+2024-09-28 19:13:15 INFO  internal.Utils:112 - [XmlSuite] [WARN] 'parallel' value 'true' is no longer valid, defaulting to 'methods'.
+2024-09-28 19:13:15 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\src\test\testNg.xml
+
+2024-09-28 19:13:15 INFO  test.BaseTest:25 - Initializing driver for method: testLoginPageAndLinks
+2024-09-28 19:13:15 INFO  test.BaseTest:25 - Initializing driver for method: verifyingLinksOnHomePage
+2024-09-28 19:13:18 INFO  driverManager.DriverManager:44 - CHROME instantiated...
+2024-09-28 19:13:18 INFO  driverManager.DriverManager:44 - CHROME instantiated...
+2024-09-28 19:13:18 INFO  test.BaseTest:32 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-28 19:13:19 INFO  listners.TestListener:18 - Starting test testLoginPageAndLinks
+2024-09-28 19:13:25 INFO  test.BaseTest:32 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-28 19:13:25 INFO  listners.TestListener:18 - Starting test verifyingLinksOnHomePage
+2024-09-28 19:13:38 INFO  test.LoginTest:24 - Home page title: Book Your Free Demo Now - Phptravels
+2024-09-28 19:13:51 INFO  test.LoginTest:34 - Clicked on login: current page title Login
+2024-09-28 19:13:59 INFO  test.LoginTest:38 - Login page title: Login
+2024-09-28 19:14:05 ERROR listners.TestListener:33 - Test verifyingLinksOnHomePage failed. Error: org.openqa.selenium.NoSuchElementException: no such element: element not found
+  (Session info: chrome=129.0.6668.70)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1099a7a5c7aa856bee04d5efcbbb81d2, getElementAttribute {name=href, id=f.D5DD6D44EEADAC81C599F5B56D882095.d.E099EE056A68A0876EC94C0805F5EA8A.e.64}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\VINODP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62763}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62763/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (1099a7a5c7aa856bee04d5efcbbb81d2)] -> tag name: a]
+Session ID: 1099a7a5c7aa856bee04d5efcbbb81d2
+2024-09-28 19:14:19 ERROR listners.TestListener:33 - Test testLoginPageAndLinks failed. Error: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1099a7a5c7aa856bee04d5efcbbb81d2, isElementDisplayed {id=f.24A515B4DBDCB718FD11DDE2767CAFA9.d.101FEB8554E2220C2545056AB86D3B6F.e.4}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\VINODP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62763}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62763/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (1099a7a5c7aa856bee04d5efcbbb81d2)] -> xpath: //input[@placeholder='Email']]
+Session ID: 1099a7a5c7aa856bee04d5efcbbb81d2
+2024-09-28 19:14:19 INFO  driverManager.DriverManager:60 - Driver is closed.
+2024-09-28 19:15:27 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\src\test\testNg.xml"
+2024-09-28 19:15:27 INFO  internal.Utils:112 - [XmlSuite] [WARN] 'parallel' value 'true' is no longer valid, defaulting to 'methods'.
+2024-09-28 19:15:28 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\src\test\testNg.xml
+
+2024-09-28 19:15:28 INFO  test.BaseTest:25 - Initializing driver for method: verifyingLinksOnHomePage
+2024-09-28 19:15:28 INFO  test.BaseTest:25 - Initializing driver for method: testLoginPageAndLinks
+2024-09-28 19:15:31 INFO  driverManager.DriverManager:44 - CHROME instantiated...
+2024-09-28 19:15:31 INFO  driverManager.DriverManager:44 - CHROME instantiated...
+2024-09-28 19:15:31 INFO  test.BaseTest:32 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-28 19:15:32 INFO  listners.TestListener:18 - Starting test verifyingLinksOnHomePage
+2024-09-28 19:15:46 INFO  test.BaseTest:32 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-28 19:15:46 INFO  listners.TestListener:18 - Starting test testLoginPageAndLinks
+2024-09-28 19:16:11 INFO  test.LoginTest:24 - Home page title: Book Your Free Demo Now - Phptravels
+2024-09-28 19:16:13 INFO  test.LoginTest:34 - Clicked on login: current page title Login
+2024-09-28 19:16:13 INFO  test.LoginTest:38 - Login page title: Login
+2024-09-28 19:16:30 INFO  listners.TestListener:23 - Test testLoginPageAndLinks passed.
+2024-09-28 19:16:31 INFO  driverManager.DriverManager:60 - Driver is closed.
+2024-09-28 19:17:52 INFO  listners.TestListener:23 - Test verifyingLinksOnHomePage passed.
+2024-09-28 19:17:53 INFO  driverManager.DriverManager:60 - Driver is closed.
+2024-09-28 19:18:25 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\src\test\testNg.xml"
+2024-09-28 19:18:26 INFO  internal.Utils:112 - [XmlSuite] [WARN] 'parallel' value 'true' is no longer valid, defaulting to 'methods'.
+2024-09-28 19:18:26 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\src\test\testNg.xml
+
+2024-09-28 19:18:26 INFO  test.BaseTest:25 - Initializing driver for method: verifyingLinksOnHomePage
+2024-09-28 19:18:26 INFO  test.BaseTest:25 - Initializing driver for method: testLoginPageAndLinks
+2024-09-28 19:18:29 INFO  driverManager.DriverManager:44 - CHROME instantiated...
+2024-09-28 19:18:29 INFO  driverManager.DriverManager:44 - CHROME instantiated...
+2024-09-28 19:18:29 INFO  test.BaseTest:32 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-28 19:18:30 INFO  listners.TestListener:18 - Starting test testLoginPageAndLinks
+2024-09-28 19:18:31 INFO  test.BaseTest:32 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-28 19:18:31 INFO  listners.TestListener:18 - Starting test verifyingLinksOnHomePage
+2024-09-28 19:18:31 INFO  test.LoginTest:24 - Home page title: Book Your Free Demo Now - Phptravels
+2024-09-28 19:18:32 INFO  test.LoginTest:34 - Clicked on login: current page title Login
+2024-09-28 19:18:32 INFO  test.LoginTest:38 - Login page title: Login
+2024-09-28 19:18:33 ERROR listners.TestListener:33 - Test verifyingLinksOnHomePage failed. Error: org.openqa.selenium.NoSuchElementException: no such element: element not found
+  (Session info: chrome=129.0.6668.70)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d73058d70938134344ea7881b086e85f, getElementAttribute {id=f.8CD67E5A95FE07BDD40E1071AE7D03B5.d.2CB54A80E4378D75E8832DDD77FF1FA7.e.51, name=href}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\VINODP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63053}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63053/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d73058d70938134344ea7881b086e85f)] -> tag name: a]
+Session ID: d73058d70938134344ea7881b086e85f
+2024-09-28 19:18:33 INFO  driverManager.DriverManager:60 - Driver is closed.
+2024-09-28 19:21:33 ERROR listners.TestListener:33 - Test testLoginPageAndLinks failed. Error: org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d73058d70938134344ea7881b086e85f, isElementDisplayed {id=f.C4CF92E0BB8D24A4534AA6CAA851E2B6.d.EBAD2C0480E93F1A5FF334FFBAE57411.e.7}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\VINODP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63053}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63053/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d73058d70938134344ea7881b086e85f)] -> id: password]
+2024-09-28 19:21:34 INFO  driverManager.DriverManager:60 - Driver is closed.
+2024-09-28 19:22:06 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\src\test\testNg.xml"
+2024-09-28 19:22:07 INFO  internal.Utils:112 - [XmlSuite] [WARN] 'parallel' value 'true' is no longer valid, defaulting to 'methods'.
+2024-09-28 19:22:07 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\src\test\testNg.xml
+
+2024-09-28 19:22:07 INFO  test.BaseTest:25 - Initializing driver for method: verifyingLinksOnHomePage
+2024-09-28 19:22:07 INFO  test.BaseTest:25 - Initializing driver for method: testLoginPageAndLinks
+2024-09-28 19:22:10 INFO  driverManager.DriverManager:44 - CHROME instantiated...
+2024-09-28 19:22:10 INFO  driverManager.DriverManager:44 - CHROME instantiated...
+2024-09-28 19:22:10 INFO  test.BaseTest:32 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-28 19:22:10 INFO  test.BaseTest:32 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-28 19:22:11 INFO  listners.TestListener:18 - Starting test verifyingLinksOnHomePage
+2024-09-28 19:22:11 INFO  listners.TestListener:18 - Starting test testLoginPageAndLinks
+2024-09-28 19:22:12 INFO  test.LoginTest:24 - Home page title: Book Your Free Demo Now - Phptravels
+2024-09-28 19:22:13 INFO  test.LoginTest:34 - Clicked on login: current page title Login
+2024-09-28 19:22:13 INFO  test.LoginTest:38 - Login page title: Login
+2024-09-28 19:22:14 ERROR listners.TestListener:33 - Test verifyingLinksOnHomePage failed. Error: org.openqa.selenium.NoSuchElementException: no such element: element not found
+  (Session info: chrome=129.0.6668.70)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [13f3318be5af44544a7d78f2e6a977a5, getElementAttribute {name=href, id=f.796E75B4EF5D1056162EA82755F5F5A0.d.76551B72D7EC9C2B704B188A55D15FF9.e.49}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\VINODP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63231}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63231/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (13f3318be5af44544a7d78f2e6a977a5)] -> tag name: a]
+Session ID: 13f3318be5af44544a7d78f2e6a977a5
+2024-09-28 19:22:14 INFO  driverManager.DriverManager:60 - Driver is closed.
+2024-09-28 19:25:14 ERROR listners.TestListener:33 - Test testLoginPageAndLinks failed. Error: org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [13f3318be5af44544a7d78f2e6a977a5, findElement {value=password, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\VINODP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63231}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63231/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+2024-09-28 19:25:14 INFO  driverManager.DriverManager:60 - Driver is closed.
+2024-09-28 19:27:09 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\src\test\testNg.xml"
+2024-09-28 19:27:09 INFO  internal.Utils:112 - [XmlSuite] [WARN] 'parallel' value 'true' is no longer valid, defaulting to 'methods'.
+2024-09-28 19:27:09 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\src\test\testNg.xml
+
+2024-09-28 19:27:10 INFO  test.BaseTest:25 - Initializing driver for method: testLoginPageAndLinks
+2024-09-28 19:27:10 INFO  test.BaseTest:25 - Initializing driver for method: verifyingLinksOnHomePage
+2024-09-28 19:27:12 INFO  driverManager.DriverManager:44 - CHROME instantiated...
+2024-09-28 19:27:12 INFO  driverManager.DriverManager:44 - CHROME instantiated...
+2024-09-28 19:27:15 INFO  test.BaseTest:32 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-28 19:27:15 INFO  listners.TestListener:18 - Starting test testLoginPageAndLinks
+2024-09-28 19:27:15 INFO  test.BaseTest:32 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-28 19:27:15 INFO  listners.TestListener:18 - Starting test verifyingLinksOnHomePage
+2024-09-28 19:27:15 INFO  test.LoginTest:61 - into verifyLinksOnHomePage(HomePage homePage) method
+2024-09-28 19:27:15 INFO  test.LoginTest:24 - Home page title: Book Your Free Demo Now - Phptravels
+2024-09-28 19:27:17 INFO  test.LoginTest:34 - Clicked on login: current page title Login
+2024-09-28 19:27:17 INFO  test.LoginTest:38 - Login page title: Login
+2024-09-28 19:27:17 INFO  test.LoginTest:61 - into verifyLinksOnHomePage(HomePage homePage) method
+2024-09-28 19:27:17 ERROR listners.TestListener:33 - Test verifyingLinksOnHomePage failed. Error: org.openqa.selenium.NoSuchElementException: no such element: element not found
+  (Session info: chrome=129.0.6668.70)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [71a5e8a4a8b127f36c5282c662bcd7c5, getElementAttribute {id=f.751D43E92B21AB7420E9BD8B982E22CE.d.6ECBE2165ABDD9E9A0B080813DC50B95.e.52, name=href}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\VINODP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63407}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63407/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (71a5e8a4a8b127f36c5282c662bcd7c5)] -> tag name: a]
+Session ID: 71a5e8a4a8b127f36c5282c662bcd7c5
+2024-09-28 19:27:18 INFO  driverManager.DriverManager:60 - Driver is closed.
+2024-09-28 19:27:18 INFO  utility.CommonUtility:13 - link method
+2024-09-28 19:27:18 INFO  utility.CommonUtility:16 - link methodhttps://phptravels.com/blog/stand-with-palestine-because-humanity-matters/
+2024-09-28 19:27:22 INFO  utility.CommonUtility:16 - link methodhttps://phptravels.com/
+2024-09-28 19:27:22 INFO  utility.CommonUtility:16 - link methodjavascript:void(0)
+2024-09-28 19:27:22 INFO  utility.CommonUtility:16 - link methodhttps://phptravels.com/themes
+2024-09-28 19:27:23 INFO  utility.CommonUtility:16 - link methodhttps://phptravels.com/integrations
+2024-09-28 19:27:23 INFO  utility.CommonUtility:16 - link methodhttps://phptravels.com/customizations
+2024-09-28 19:27:23 INFO  listners.TestListener:23 - Test testLoginPageAndLinks passed.
+2024-09-28 19:27:24 INFO  driverManager.DriverManager:60 - Driver is closed.
+2024-09-28 19:30:03 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\src\test\testNg.xml"
+2024-09-28 19:30:03 INFO  internal.Utils:112 - [XmlSuite] [WARN] 'parallel' value 'true' is no longer valid, defaulting to 'methods'.
+2024-09-28 19:30:04 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\src\test\testNg.xml
+
+2024-09-28 19:30:04 INFO  test.BaseTest:25 - Initializing driver for method: testLoginPageAndLinks
+2024-09-28 19:30:04 INFO  test.BaseTest:25 - Initializing driver for method: verifyingLinksOnHomePage
+2024-09-28 19:30:07 INFO  driverManager.DriverManager:44 - CHROME instantiated...
+2024-09-28 19:30:07 INFO  driverManager.DriverManager:44 - CHROME instantiated...
+2024-09-28 19:30:07 INFO  test.BaseTest:32 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-28 19:30:08 INFO  listners.TestListener:18 - Starting test verifyingLinksOnHomePage
+2024-09-28 19:30:08 INFO  test.LoginTest:61 - into verifyLinksOnHomePage(HomePage homePage) method
+2024-09-28 19:30:08 INFO  pages.HomePage:26 - line 26 into anchor method
+2024-09-28 19:30:09 INFO  test.BaseTest:32 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-28 19:30:09 INFO  listners.TestListener:18 - Starting test testLoginPageAndLinks
+2024-09-28 19:30:10 INFO  pages.HomePage:28 - line 28 into anchor method
+2024-09-28 19:30:10 INFO  pages.HomePage:31 - line 31 into anchor method
+2024-09-28 19:30:10 INFO  pages.HomePage:33 - line 33 into anchor method
+2024-09-28 19:30:10 INFO  pages.HomePage:31 - line 31 into anchor method
+2024-09-28 19:30:10 INFO  pages.HomePage:33 - line 33 into anchor method
+2024-09-28 19:30:10 INFO  pages.HomePage:31 - line 31 into anchor method
+2024-09-28 19:30:10 INFO  test.LoginTest:24 - Home page title: Book Your Free Demo Now - Phptravels
+2024-09-28 19:30:10 INFO  pages.HomePage:33 - line 33 into anchor method
+2024-09-28 19:30:10 INFO  pages.HomePage:31 - line 31 into anchor method
+2024-09-28 19:30:10 INFO  pages.HomePage:33 - line 33 into anchor method
+2024-09-28 19:30:10 INFO  pages.HomePage:31 - line 31 into anchor method
+2024-09-28 19:30:10 INFO  pages.HomePage:33 - line 33 into anchor method
+2024-09-28 19:30:10 INFO  pages.HomePage:31 - line 31 into anchor method
+2024-09-28 19:30:10 INFO  pages.HomePage:33 - line 33 into anchor method
+2024-09-28 19:30:10 INFO  pages.HomePage:31 - line 31 into anchor method
+2024-09-28 19:30:10 INFO  pages.HomePage:33 - line 33 into anchor method
+2024-09-28 19:30:10 INFO  pages.HomePage:31 - line 31 into anchor method
+2024-09-28 19:30:11 INFO  test.LoginTest:34 - Clicked on login: current page title Login
+2024-09-28 19:30:11 INFO  test.LoginTest:38 - Login page title: Login
+2024-09-28 19:30:11 ERROR listners.TestListener:33 - Test verifyingLinksOnHomePage failed. Error: org.openqa.selenium.NoSuchElementException: no such element: element not found
+  (Session info: chrome=129.0.6668.70)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [873921b3dd0c1871bc5db5b4c6f83e24, getElementAttribute {name=href, id=f.D013129B77432BC685554584B41EDE97.d.B52721C92636F5D7F29542B864E25B80.e.50}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\VINODP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63530}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63530/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (873921b3dd0c1871bc5db5b4c6f83e24)] -> tag name: a]
+Session ID: 873921b3dd0c1871bc5db5b4c6f83e24
+2024-09-28 19:30:12 INFO  driverManager.DriverManager:60 - Driver is closed.
+2024-09-28 19:33:12 ERROR listners.TestListener:33 - Test testLoginPageAndLinks failed. Error: org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [873921b3dd0c1871bc5db5b4c6f83e24, isElementDisplayed {id=f.9C6F8293B89F5334144BAF9FC3EC9B02.d.B0C763DE3D8D6DAAA38A211BAC687433.e.9}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\VINODP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63530}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63530/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (873921b3dd0c1871bc5db5b4c6f83e24)] -> id: password]
+2024-09-28 19:33:12 INFO  driverManager.DriverManager:60 - Driver is closed.
+2024-09-28 19:36:19 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\src\test\testNg.xml"
+2024-09-28 19:36:20 INFO  internal.Utils:112 - [XmlSuite] [WARN] 'parallel' value 'true' is no longer valid, defaulting to 'methods'.
+2024-09-28 19:36:20 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\src\test\testNg.xml
+
+2024-09-28 19:36:21 INFO  test.BaseTest:25 - Initializing driver for method: verifyingLinksOnHomePage
+2024-09-28 19:36:21 INFO  test.BaseTest:25 - Initializing driver for method: testLoginPageAndLinks
+2024-09-28 19:36:24 INFO  driverManager.DriverManager:44 - CHROME instantiated...
+2024-09-28 19:36:24 INFO  driverManager.DriverManager:44 - CHROME instantiated...
+2024-09-28 19:36:27 INFO  test.BaseTest:32 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-28 19:36:27 INFO  test.BaseTest:32 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-28 19:36:27 INFO  listners.TestListener:18 - Starting test testLoginPageAndLinks
+2024-09-28 19:36:27 INFO  listners.TestListener:18 - Starting test verifyingLinksOnHomePage
+2024-09-28 19:36:35 INFO  test.LoginTest:61 - into verifyLinksOnHomePage(HomePage homePage) method
+2024-09-28 19:36:35 INFO  test.LoginTest:24 - Home page title: Book Your Free Demo Now - Phptravels
+2024-09-28 19:36:36 INFO  test.LoginTest:34 - Clicked on login: current page title Login
+2024-09-28 19:36:37 INFO  test.LoginTest:38 - Login page title: Login
+2024-09-28 19:36:40 ERROR listners.TestListener:33 - Test verifyingLinksOnHomePage failed. Error: org.openqa.selenium.NoSuchElementException: no such element: element not found
+  (Session info: chrome=129.0.6668.70)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b15c43ba08767a0aaed0c875b80341c5, getElementAttribute {id=f.4B338807F03962B8397BAC24FE9B2F59.d.4D44E3D152C6F67547585EB86D3CC160.e.48, name=href}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\VINODP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63738}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63738/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b15c43ba08767a0aaed0c875b80341c5)] -> tag name: a]
+Session ID: b15c43ba08767a0aaed0c875b80341c5
+2024-09-28 19:36:40 INFO  driverManager.DriverManager:60 - Driver is closed.
+2024-09-28 19:39:24 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml"
+2024-09-28 19:39:25 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+2024-09-28 19:39:25 INFO  test.BaseTest:25 - Initializing driver for method: testLoginPageAndLinks
+2024-09-28 19:39:27 INFO  driverManager.DriverManager:44 - CHROME instantiated...
+2024-09-28 19:39:28 INFO  test.BaseTest:32 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-28 19:39:29 INFO  listners.TestListener:18 - Starting test testLoginPageAndLinks
+2024-09-28 19:39:29 INFO  test.LoginTest:24 - Home page title: Book Your Free Demo Now - Phptravels
+2024-09-28 19:39:30 INFO  test.LoginTest:34 - Clicked on login: current page title Login
+2024-09-28 19:39:30 INFO  test.LoginTest:38 - Login page title: Login
+2024-09-28 19:39:30 INFO  test.LoginTest:61 - into verifyLinksOnHomePage(HomePage homePage) method
+2024-09-28 19:39:32 INFO  utility.CommonUtility:13 - link method
+2024-09-28 19:39:32 INFO  utility.CommonUtility:16 - link methodhttps://phptravels.com/blog/stand-with-palestine-because-humanity-matters/
+2024-09-28 19:39:35 INFO  utility.CommonUtility:16 - link methodhttps://phptravels.com/
+2024-09-28 19:39:35 INFO  utility.CommonUtility:16 - link methodjavascript:void(0)
+2024-09-28 19:39:35 INFO  utility.CommonUtility:16 - link methodhttps://phptravels.com/themes
+2024-09-28 19:39:36 INFO  utility.CommonUtility:16 - link methodhttps://phptravels.com/integrations
+2024-09-28 19:39:36 INFO  utility.CommonUtility:16 - link methodhttps://phptravels.com/customizations
+2024-09-28 19:39:36 INFO  listners.TestListener:23 - Test testLoginPageAndLinks passed.
+2024-09-28 19:39:37 INFO  driverManager.DriverManager:60 - Driver is closed.
+2024-09-28 19:39:37 INFO  test.BaseTest:25 - Initializing driver for method: verifyingLinksOnHomePage
+2024-09-28 19:39:38 INFO  driverManager.DriverManager:44 - CHROME instantiated...
+2024-09-28 19:39:40 INFO  test.BaseTest:32 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-28 19:39:40 INFO  listners.TestListener:18 - Starting test verifyingLinksOnHomePage
+2024-09-28 19:39:40 INFO  test.LoginTest:61 - into verifyLinksOnHomePage(HomePage homePage) method
+2024-09-28 19:39:41 INFO  utility.CommonUtility:13 - link method
+2024-09-28 19:39:41 INFO  utility.CommonUtility:16 - link methodhttps://phptravels.com/blog/stand-with-palestine-because-humanity-matters/
+2024-09-28 19:39:42 INFO  utility.CommonUtility:16 - link methodhttps://phptravels.com/
+2024-09-28 19:39:42 INFO  utility.CommonUtility:16 - link methodjavascript:void(0)
+2024-09-28 19:39:42 INFO  utility.CommonUtility:16 - link methodhttps://phptravels.com/themes
+2024-09-28 19:39:43 INFO  utility.CommonUtility:16 - link methodhttps://phptravels.com/integrations
+2024-09-28 19:39:43 INFO  utility.CommonUtility:16 - link methodhttps://phptravels.com/customizations
+2024-09-28 19:39:43 INFO  listners.TestListener:23 - Test verifyingLinksOnHomePage passed.
+2024-09-28 19:39:44 INFO  driverManager.DriverManager:60 - Driver is closed.
+2024-09-28 19:41:58 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml"
+2024-09-28 19:41:59 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+2024-09-28 19:41:59 INFO  test.BaseTest:25 - Initializing driver for method: testLoginPageAndLinks
+2024-09-28 19:42:02 INFO  driverManager.DriverManager:44 - CHROME instantiated...
+2024-09-28 19:42:04 INFO  test.BaseTest:32 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-28 19:42:04 INFO  listners.TestListener:18 - Starting test testLoginPageAndLinks
+2024-09-28 19:42:04 INFO  test.LoginTest:24 - Home page title: Book Your Free Demo Now - Phptravels
+2024-09-28 19:42:06 INFO  test.LoginTest:34 - Clicked on login: current page title Login
+2024-09-28 19:42:06 INFO  test.LoginTest:38 - Login page title: Login
+2024-09-28 19:42:07 INFO  utility.CommonUtility:13 - link method
+2024-09-28 19:42:07 INFO  utility.CommonUtility:16 - link methodhttps://phptravels.com/blog/stand-with-palestine-because-humanity-matters/
+2024-09-28 19:42:10 INFO  utility.CommonUtility:16 - link methodhttps://phptravels.com/
+2024-09-28 19:42:11 INFO  utility.CommonUtility:16 - link methodjavascript:void(0)
+2024-09-28 19:42:11 INFO  utility.CommonUtility:16 - link methodhttps://phptravels.com/themes
+2024-09-28 19:42:11 INFO  utility.CommonUtility:16 - link methodhttps://phptravels.com/integrations
+2024-09-28 19:42:12 INFO  utility.CommonUtility:16 - link methodhttps://phptravels.com/customizations
+2024-09-28 19:42:12 INFO  listners.TestListener:23 - Test testLoginPageAndLinks passed.
+2024-09-28 19:42:12 INFO  driverManager.DriverManager:60 - Driver is closed.
+2024-09-28 19:42:12 INFO  test.BaseTest:25 - Initializing driver for method: verifyingLinksOnHomePage
+2024-09-28 19:42:14 INFO  driverManager.DriverManager:44 - CHROME instantiated...
+2024-09-28 19:42:15 INFO  test.BaseTest:32 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-28 19:42:15 INFO  listners.TestListener:18 - Starting test verifyingLinksOnHomePage
+2024-09-28 19:42:17 INFO  utility.CommonUtility:13 - link method
+2024-09-28 19:42:17 INFO  utility.CommonUtility:16 - link methodhttps://phptravels.com/blog/stand-with-palestine-because-humanity-matters/
+2024-09-28 19:42:17 INFO  utility.CommonUtility:16 - link methodhttps://phptravels.com/
+2024-09-28 19:42:18 INFO  utility.CommonUtility:16 - link methodjavascript:void(0)
+2024-09-28 19:42:18 INFO  utility.CommonUtility:16 - link methodhttps://phptravels.com/themes
+2024-09-28 19:42:18 INFO  utility.CommonUtility:16 - link methodhttps://phptravels.com/integrations
+2024-09-28 19:42:19 INFO  utility.CommonUtility:16 - link methodhttps://phptravels.com/customizations
+2024-09-28 19:42:19 INFO  listners.TestListener:23 - Test verifyingLinksOnHomePage passed.
+2024-09-28 19:42:20 INFO  driverManager.DriverManager:60 - Driver is closed.
+2024-09-28 19:53:55 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml"
+2024-09-28 19:53:56 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+2024-09-28 19:53:56 INFO  test.BaseTest:25 - Initializing driver for method: testLoginPageAndLinks
+2024-09-28 19:53:59 INFO  driverManager.DriverManager:44 - CHROME instantiated...
+2024-09-28 19:54:00 INFO  test.BaseTest:32 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-28 19:54:01 INFO  listners.TestListener:18 - Starting test testLoginPageAndLinks
+2024-09-28 19:54:01 INFO  test.LoginTest:24 - Home page title: Book Your Free Demo Now - Phptravels
+2024-09-28 19:54:03 INFO  test.LoginTest:34 - Clicked on login: current page title Login
+2024-09-28 19:54:03 INFO  test.LoginTest:38 - Login page title: Login
+2024-09-28 19:54:10 INFO  listners.TestListener:23 - Test testLoginPageAndLinks passed.
+2024-09-28 19:54:10 INFO  driverManager.DriverManager:60 - Driver is closed.
+2024-09-28 19:54:10 INFO  test.BaseTest:25 - Initializing driver for method: verifyingLinksOnHomePage
+2024-09-28 19:54:12 INFO  driverManager.DriverManager:44 - CHROME instantiated...
+2024-09-28 19:54:13 INFO  test.BaseTest:32 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-28 19:54:13 INFO  listners.TestListener:18 - Starting test verifyingLinksOnHomePage
+2024-09-28 19:54:17 INFO  listners.TestListener:23 - Test verifyingLinksOnHomePage passed.
+2024-09-28 19:54:17 INFO  driverManager.DriverManager:60 - Driver is closed.
+2024-09-28 19:55:51 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\src\test\testNg.xml"
+2024-09-28 19:55:51 INFO  internal.Utils:112 - [XmlSuite] [WARN] 'parallel' value 'true' is no longer valid, defaulting to 'methods'.
+2024-09-28 19:55:51 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\src\test\testNg.xml
+
+2024-09-28 19:55:52 INFO  test.BaseTest:25 - Initializing driver for method: verifyingLinksOnHomePage
+2024-09-28 19:55:52 INFO  test.BaseTest:25 - Initializing driver for method: testLoginPageAndLinks
+2024-09-28 19:55:55 INFO  driverManager.DriverManager:44 - CHROME instantiated...
+2024-09-28 19:55:55 INFO  driverManager.DriverManager:44 - CHROME instantiated...
+2024-09-28 19:55:55 INFO  test.BaseTest:32 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-28 19:55:56 INFO  listners.TestListener:18 - Starting test verifyingLinksOnHomePage
+2024-09-28 19:55:57 INFO  test.BaseTest:32 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-28 19:55:57 INFO  listners.TestListener:18 - Starting test testLoginPageAndLinks
+2024-09-28 19:55:57 INFO  test.LoginTest:24 - Home page title: Book Your Free Demo Now - Phptravels
+2024-09-28 19:55:58 INFO  test.LoginTest:34 - Clicked on login: current page title Login
+2024-09-28 19:55:58 INFO  test.LoginTest:38 - Login page title: Login
+2024-09-28 19:55:58 ERROR listners.TestListener:33 - Test verifyingLinksOnHomePage failed. Error: org.openqa.selenium.NoSuchElementException: no such element: element not found
+  (Session info: chrome=129.0.6668.70)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dfa5ff7d303b8938825bdec8987b52b4, getElementAttribute {name=href, id=f.8638EC891A38530B7ACCAFEF12753A31.d.08501D055C466949B4665DA46D1AB262.e.50}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\VINODP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64580}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64580/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (dfa5ff7d303b8938825bdec8987b52b4)] -> tag name: a]
+Session ID: dfa5ff7d303b8938825bdec8987b52b4
+2024-09-28 19:55:59 INFO  driverManager.DriverManager:60 - Driver is closed.
+2024-09-28 19:56:06 INFO  listners.TestListener:23 - Test testLoginPageAndLinks passed.
+2024-09-28 19:56:07 INFO  driverManager.DriverManager:60 - Driver is closed.
+2024-09-28 20:04:18 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\src\test\testNg.xml"
+2024-09-28 20:04:18 INFO  internal.Utils:112 - [XmlSuite] [WARN] 'parallel' value 'true' is no longer valid, defaulting to 'methods'.
+2024-09-28 20:04:19 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\src\test\testNg.xml
+
+2024-09-28 20:04:19 INFO  test.BaseTest:25 - Initializing driver for method: verifyingLinksOnHomePage
+2024-09-28 20:04:19 INFO  test.BaseTest:25 - Initializing driver for method: testLoginPageAndLinks
+2024-09-28 20:04:22 INFO  driverManager.DriverManager:44 - CHROME instantiated...
+2024-09-28 20:04:22 INFO  driverManager.DriverManager:44 - CHROME instantiated...
+2024-09-28 20:04:22 INFO  test.BaseTest:32 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-28 20:04:23 INFO  listners.TestListener:18 - Starting test verifyingLinksOnHomePage
+2024-09-28 20:04:24 INFO  test.BaseTest:32 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-28 20:04:24 INFO  listners.TestListener:18 - Starting test testLoginPageAndLinks
+2024-09-28 20:04:24 INFO  test.LoginTest:24 - Home page title: Book Your Free Demo Now - Phptravels
+2024-09-28 20:04:26 INFO  test.LoginTest:34 - Clicked on login: current page title Login
+2024-09-28 20:04:26 INFO  test.LoginTest:38 - Login page title: Login
+2024-09-28 20:04:32 INFO  listners.TestListener:23 - Test verifyingLinksOnHomePage passed.
+2024-09-28 20:04:32 INFO  listners.TestListener:23 - Test testLoginPageAndLinks passed.
+2024-09-28 20:04:33 INFO  driverManager.DriverManager:60 - Driver is closed.
+2024-09-28 20:04:33 INFO  driverManager.DriverManager:60 - Driver is closed.
+2024-09-28 20:04:58 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\src\test\testNg.xml"
+2024-09-28 20:04:59 INFO  internal.Utils:112 - [XmlSuite] [WARN] 'parallel' value 'true' is no longer valid, defaulting to 'methods'.
+2024-09-28 20:04:59 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\src\test\testNg.xml
+
+2024-09-28 20:04:59 INFO  test.BaseTest:25 - Initializing driver for method: verifyingLinksOnHomePage
+2024-09-28 20:04:59 INFO  test.BaseTest:25 - Initializing driver for method: testLoginPageAndLinks
+2024-09-28 20:05:03 INFO  driverManager.DriverManager:44 - CHROME instantiated...
+2024-09-28 20:05:03 INFO  driverManager.DriverManager:44 - CHROME instantiated...
+2024-09-28 20:05:03 INFO  test.BaseTest:32 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-28 20:05:03 INFO  test.BaseTest:32 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-28 20:05:04 INFO  listners.TestListener:18 - Starting test testLoginPageAndLinks
+2024-09-28 20:05:04 INFO  listners.TestListener:18 - Starting test verifyingLinksOnHomePage
+2024-09-28 20:05:05 INFO  test.LoginTest:24 - Home page title: Book Your Free Demo Now - Phptravels
+2024-09-28 20:05:06 INFO  test.LoginTest:34 - Clicked on login: current page title Login
+2024-09-28 20:05:06 INFO  test.LoginTest:38 - Login page title: Login
+2024-09-28 20:05:14 INFO  listners.TestListener:23 - Test testLoginPageAndLinks passed.
+2024-09-28 20:05:14 INFO  listners.TestListener:23 - Test verifyingLinksOnHomePage passed.
+2024-09-28 20:05:15 INFO  driverManager.DriverManager:60 - Driver is closed.
+2024-09-28 20:05:15 INFO  driverManager.DriverManager:60 - Driver is closed.
+2024-09-28 23:53:09 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\testNg.xml"
+2024-09-28 23:53:09 INFO  internal.Utils:112 - [XmlSuite] [WARN] 'parallel' value 'true' is no longer valid, defaulting to 'methods'.
+2024-09-28 23:53:10 INFO  test.BaseTest:25 - Initializing driver for method: testLoginPageAndLinks
+2024-09-28 23:53:10 INFO  test.BaseTest:25 - Initializing driver for method: verifyingLinksOnHomePage
+2024-09-28 23:53:14 INFO  driverManager.DriverManager:44 - CHROME instantiated...
+2024-09-28 23:53:14 INFO  driverManager.DriverManager:44 - CHROME instantiated...
+2024-09-28 23:53:14 INFO  test.BaseTest:32 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-28 23:53:14 INFO  test.BaseTest:32 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-28 23:53:16 INFO  listners.TestListener:18 - Starting test testLoginPageAndLinks
+2024-09-28 23:53:16 INFO  listners.TestListener:18 - Starting test verifyingLinksOnHomePage
+2024-09-28 23:53:17 INFO  test.LoginTest:24 - Home page title: Book Your Free Demo Now - Phptravels
+2024-09-28 23:53:19 INFO  test.LoginTest:34 - Clicked on login: current page title Login
+2024-09-28 23:53:19 INFO  test.LoginTest:38 - Login page title: Login
+2024-09-28 23:53:26 INFO  listners.TestListener:23 - Test testLoginPageAndLinks passed.
+2024-09-28 23:53:26 INFO  driverManager.DriverManager:60 - Driver is closed.
+2024-09-28 23:53:26 INFO  listners.TestListener:23 - Test verifyingLinksOnHomePage passed.
+2024-09-28 23:53:26 INFO  driverManager.DriverManager:60 - Driver is closed.
+2024-09-29 16:02:56 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml"
+2024-09-29 16:02:57 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+2024-09-29 16:02:57 INFO  test.BaseTest:25 - Initializing driver for method: test123
+2024-09-29 16:03:01 INFO  driverManager.DriverManager:45 - CHROME instantiated...
+2024-09-29 16:03:03 INFO  test.BaseTest:32 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-29 16:03:04 INFO  listners.TestListener:18 - Starting test test123
+2024-09-29 16:03:53 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml"
+2024-09-29 16:03:55 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+2024-09-29 16:03:55 INFO  listners.TestListener:18 - Starting test test123
+2024-09-29 16:07:54 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml"
+2024-09-29 16:07:55 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+2024-09-29 16:07:55 INFO  listners.TestListener:18 - Starting test test123
+2024-09-29 16:16:51 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml"
+2024-09-29 16:16:52 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+2024-09-29 16:16:52 INFO  listners.TestListener:18 - Starting test test123
+2024-09-29 16:33:22 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml"
+2024-09-29 16:33:22 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+2024-09-29 16:33:23 INFO  listners.TestListener:18 - Starting test test123
+2024-09-29 17:15:59 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml"
+2024-09-29 17:16:00 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+2024-09-29 17:16:01 INFO  listners.TestListener:18 - Starting test test123
+2024-09-29 17:16:06 INFO  listners.TestListener:23 - Test test123 passed.
+2024-09-29 17:16:06 WARN  driverManager.DriverManager:86 - Driver was not initialized.
+2024-09-29 18:35:05 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\testNg.xml"
+2024-09-29 18:35:05 INFO  internal.Utils:112 - [XmlSuite] [WARN] 'parallel' value 'true' is no longer valid, defaulting to 'methods'.
+2024-09-29 18:35:06 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\testNg.xml
+
+2024-09-29 18:35:06 INFO  test.BaseTest:26 - Initializing driver for method: verifyingLinksOnHomePage
+2024-09-29 18:35:06 INFO  test.BaseTest:26 - Initializing driver for method: testLoginPageAndLinks
+2024-09-29 18:35:09 INFO  driverManager.DriverManager:35 - CHROME instantiated...
+2024-09-29 18:35:11 INFO  test.BaseTest:33 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-29 18:35:12 INFO  listners.TestListener:18 - Starting test verifyingLinksOnHomePage
+2024-09-29 18:35:18 INFO  listners.TestListener:23 - Test verifyingLinksOnHomePage passed.
+2024-09-29 18:35:18 INFO  driverManager.DriverManager:61 - Driver is closed.
+2024-09-29 18:35:19 INFO  driverManager.DriverManager:35 - CHROME instantiated...
+2024-09-29 18:35:20 INFO  test.BaseTest:33 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-29 18:35:20 INFO  listners.TestListener:18 - Starting test testLoginPageAndLinks
+2024-09-29 18:35:20 INFO  test.LoginTest:24 - Home page title: Book Your Free Demo Now - Phptravels
+2024-09-29 18:35:22 INFO  test.LoginTest:34 - Clicked on login: current page title Login
+2024-09-29 18:35:22 INFO  test.LoginTest:38 - Login page title: Login
+2024-09-29 18:35:26 INFO  listners.TestListener:23 - Test testLoginPageAndLinks passed.
+2024-09-29 18:35:26 INFO  driverManager.DriverManager:61 - Driver is closed.
+2024-09-29 18:36:05 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\testNg.xml"
+2024-09-29 18:36:05 INFO  internal.Utils:112 - [XmlSuite] [WARN] 'parallel' value 'true' is no longer valid, defaulting to 'methods'.
+2024-09-29 18:36:06 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\testNg.xml
+
+2024-09-29 18:36:06 INFO  test.BaseTest:26 - Initializing driver for method: verifyingLinksOnHomePage
+2024-09-29 18:36:06 INFO  test.BaseTest:26 - Initializing driver for method: testLoginPageAndLinks
+2024-09-29 18:36:09 INFO  driverManager.DriverManager:35 - CHROME instantiated...
+2024-09-29 18:36:09 INFO  driverManager.DriverManager:35 - CHROME instantiated...
+2024-09-29 18:36:10 INFO  test.BaseTest:33 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-29 18:36:10 INFO  test.BaseTest:33 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-29 18:36:10 INFO  listners.TestListener:18 - Starting test verifyingLinksOnHomePage
+2024-09-29 18:36:10 INFO  listners.TestListener:18 - Starting test testLoginPageAndLinks
+2024-09-29 18:39:11 ERROR listners.TestListener:33 - Test verifyingLinksOnHomePage failed. Error: org.openqa.selenium.TimeoutException: java.net.http.HttpTimeoutException: request timed out
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [65a1d0acdd5526393592ae2bf2daac00, findElement {using=tag name, value=a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\VINODP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53660}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53660/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 65a1d0acdd5526393592ae2bf2daac00
+2024-09-29 18:39:11 INFO  driverManager.DriverManager:61 - Driver is closed.
+2024-09-29 18:42:56 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml"
+2024-09-29 18:42:57 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+2024-09-29 18:42:57 INFO  test.BaseTest:26 - Initializing driver for method: testLoginPageAndLinks
+2024-09-29 18:42:59 INFO  driverManager.DriverManager:35 - CHROME instantiated...
+2024-09-29 18:43:01 INFO  test.BaseTest:33 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-29 18:43:02 INFO  listners.TestListener:18 - Starting test testLoginPageAndLinks
+2024-09-29 18:43:02 INFO  test.LoginTest:24 - Home page title: Book Your Free Demo Now - Phptravels
+2024-09-29 18:43:03 INFO  test.LoginTest:34 - Clicked on login: current page title Login
+2024-09-29 18:43:03 INFO  test.LoginTest:38 - Login page title: Login
+2024-09-29 18:43:10 INFO  listners.TestListener:23 - Test testLoginPageAndLinks passed.
+2024-09-29 18:43:11 INFO  driverManager.DriverManager:61 - Driver is closed.
+2024-09-29 18:43:11 INFO  test.BaseTest:26 - Initializing driver for method: verifyingLinksOnHomePage
+2024-09-29 18:43:12 INFO  driverManager.DriverManager:35 - CHROME instantiated...
+2024-09-29 18:43:13 INFO  test.BaseTest:33 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-29 18:43:13 INFO  listners.TestListener:18 - Starting test verifyingLinksOnHomePage
+2024-09-29 18:43:17 INFO  listners.TestListener:23 - Test verifyingLinksOnHomePage passed.
+2024-09-29 18:43:17 INFO  driverManager.DriverManager:61 - Driver is closed.
+2024-09-30 17:41:57 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml"
+2024-09-30 17:41:58 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+2024-09-30 17:41:58 INFO  test.BaseTest:29 - Initializing driver for method: testLoginPageAndLinks
+2024-09-30 17:41:58 INFO  driverManager.DriverManager:26 - Initializing driver for mode: CHROME, Remote execution: false
+2024-09-30 17:41:58 DEBUG driverManager.DriverManager:79 - Creating WebDriver instance. Mode: CHROME, Is Remote: false
+2024-09-30 17:41:58 INFO  driverManager.DriverManager:98 - Creating local WebDriver for mode: CHROME
+2024-09-30 17:41:58 DEBUG driverManager.DriverManager:101 - Instantiating ChromeDriver.
+2024-09-30 17:41:58 DEBUG driverManager.DriverManager:116 - Creating default ChromeOptions.
+2024-09-30 17:42:01 DEBUG driverManager.DriverManager:35 - Configuring driver with timeouts and window settings.
+2024-09-30 17:42:01 DEBUG driverManager.DriverManager:38 - Driver configuration completed.
+2024-09-30 17:42:01 INFO  driverManager.DriverManager:30 - CHROME driver instantiated successfully.
+2024-09-30 17:42:03 INFO  test.BaseTest:36 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-30 17:42:03 INFO  listners.TestListener:20 - Starting test testLoginPageAndLinks
+2024-09-30 17:42:03 INFO  test.LoginTest:23 - Home page title: Book Your Free Demo Now - Phptravels
+2024-09-30 17:42:05 INFO  test.LoginTest:33 - Clicked on login: current page title Login
+2024-09-30 17:42:05 INFO  test.LoginTest:37 - Login page title: Login
+2024-09-30 17:42:10 INFO  listners.TestListener:25 - Test testLoginPageAndLinks passed.
+2024-09-30 17:42:10 INFO  driverManager.DriverManager:44 - Quitting the driver: ChromeDriver: chrome on windows (c8618b0735898f09b0a4bf2899588c57)
+2024-09-30 17:42:10 INFO  driverManager.DriverManager:47 - Driver closed successfully.
+2024-09-30 17:42:10 INFO  test.BaseTest:29 - Initializing driver for method: verifyingLinksOnHomePage
+2024-09-30 17:42:10 INFO  driverManager.DriverManager:26 - Initializing driver for mode: CHROME, Remote execution: false
+2024-09-30 17:42:10 DEBUG driverManager.DriverManager:79 - Creating WebDriver instance. Mode: CHROME, Is Remote: false
+2024-09-30 17:42:10 INFO  driverManager.DriverManager:98 - Creating local WebDriver for mode: CHROME
+2024-09-30 17:42:10 DEBUG driverManager.DriverManager:101 - Instantiating ChromeDriver.
+2024-09-30 17:42:10 DEBUG driverManager.DriverManager:116 - Creating default ChromeOptions.
+2024-09-30 17:42:12 DEBUG driverManager.DriverManager:35 - Configuring driver with timeouts and window settings.
+2024-09-30 17:42:12 DEBUG driverManager.DriverManager:38 - Driver configuration completed.
+2024-09-30 17:42:12 INFO  driverManager.DriverManager:30 - CHROME driver instantiated successfully.
+2024-09-30 17:42:13 INFO  test.BaseTest:36 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-30 17:42:13 INFO  listners.TestListener:20 - Starting test verifyingLinksOnHomePage
+2024-09-30 17:42:16 INFO  listners.TestListener:25 - Test verifyingLinksOnHomePage passed.
+2024-09-30 17:42:16 INFO  driverManager.DriverManager:44 - Quitting the driver: ChromeDriver: chrome on windows (078a3c10e8b7cfca70ef1f492a4307da)
+2024-09-30 17:42:18 INFO  driverManager.DriverManager:47 - Driver closed successfully.
+2024-09-30 18:02:09 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\testNg.xml"
+2024-09-30 18:02:10 INFO  internal.Utils:112 - [XmlSuite] [WARN] 'parallel' value 'true' is no longer valid, defaulting to 'methods'.
+2024-09-30 18:02:10 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\testNg.xml
+
+2024-09-30 18:02:10 INFO  test.BaseTest:29 - Initializing driver for method: verifyingLinksOnHomePage
+2024-09-30 18:02:10 INFO  test.BaseTest:29 - Initializing driver for method: testLoginPageAndLinks
+2024-09-30 18:02:10 INFO  driverManager.DriverManager:26 - Initializing driver for mode: CHROME, Remote execution: false
+2024-09-30 18:02:10 INFO  driverManager.DriverManager:26 - Initializing driver for mode: CHROME, Remote execution: false
+2024-09-30 18:02:10 DEBUG driverManager.DriverManager:79 - Creating WebDriver instance. Mode: CHROME, Is Remote: false
+2024-09-30 18:02:10 DEBUG driverManager.DriverManager:79 - Creating WebDriver instance. Mode: CHROME, Is Remote: false
+2024-09-30 18:02:10 INFO  driverManager.DriverManager:98 - Creating local WebDriver for mode: CHROME
+2024-09-30 18:02:10 INFO  driverManager.DriverManager:98 - Creating local WebDriver for mode: CHROME
+2024-09-30 18:02:10 DEBUG driverManager.DriverManager:101 - Instantiating ChromeDriver.
+2024-09-30 18:02:10 DEBUG driverManager.DriverManager:101 - Instantiating ChromeDriver.
+2024-09-30 18:02:10 DEBUG driverManager.DriverManager:116 - Creating default ChromeOptions.
+2024-09-30 18:02:10 DEBUG driverManager.DriverManager:116 - Creating default ChromeOptions.
+2024-09-30 18:02:14 DEBUG driverManager.DriverManager:35 - Configuring driver with timeouts and window settings.
+2024-09-30 18:02:14 DEBUG driverManager.DriverManager:35 - Configuring driver with timeouts and window settings.
+2024-09-30 18:02:14 DEBUG driverManager.DriverManager:38 - Driver configuration completed.
+2024-09-30 18:02:14 DEBUG driverManager.DriverManager:38 - Driver configuration completed.
+2024-09-30 18:02:14 INFO  driverManager.DriverManager:30 - CHROME driver instantiated successfully.
+2024-09-30 18:02:14 INFO  driverManager.DriverManager:30 - CHROME driver instantiated successfully.
+2024-09-30 18:02:16 INFO  test.BaseTest:36 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-30 18:02:16 INFO  listners.TestListener:20 - Starting test verifyingLinksOnHomePage
+2024-09-30 18:02:17 INFO  test.BaseTest:36 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-30 18:02:17 INFO  listners.TestListener:20 - Starting test testLoginPageAndLinks
+2024-09-30 18:02:17 INFO  test.LoginTest:23 - Home page title: Book Your Free Demo Now - Phptravels
+2024-09-30 18:02:19 INFO  test.LoginTest:33 - Clicked on login: current page title Login
+2024-09-30 18:02:19 INFO  test.LoginTest:37 - Login page title: Login
+2024-09-30 18:02:25 INFO  listners.TestListener:25 - Test verifyingLinksOnHomePage passed.
+2024-09-30 18:02:25 INFO  driverManager.DriverManager:44 - Quitting the driver: ChromeDriver: chrome on windows (71af6d23e02cc12f8e7814c8faa9fea3)
+2024-09-30 18:02:25 INFO  listners.TestListener:25 - Test testLoginPageAndLinks passed.
+2024-09-30 18:02:25 INFO  driverManager.DriverManager:44 - Quitting the driver: ChromeDriver: chrome on windows (40bb3227e8b72e8cbb08ced6d197b8cc)
+2024-09-30 18:02:26 INFO  driverManager.DriverManager:47 - Driver closed successfully.
+2024-09-30 18:02:26 INFO  driverManager.DriverManager:47 - Driver closed successfully.
+2024-09-30 18:03:00 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\src\test\testNg.xml"
+2024-09-30 18:03:44 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\testNg.xml"
+2024-09-30 18:03:45 INFO  internal.Utils:112 - [XmlSuite] [WARN] 'parallel' value 'true' is no longer valid, defaulting to 'methods'.
+2024-09-30 18:03:45 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\testNg.xml
+
+2024-09-30 18:03:46 INFO  test.BaseTest:29 - Initializing driver for method: testLoginPageAndLinks
+2024-09-30 18:03:46 INFO  test.BaseTest:29 - Initializing driver for method: verifyingLinksOnHomePage
+2024-09-30 18:03:46 INFO  driverManager.DriverManager:26 - Initializing driver for mode: CHROME, Remote execution: true
+2024-09-30 18:03:46 INFO  driverManager.DriverManager:26 - Initializing driver for mode: CHROME, Remote execution: true
+2024-09-30 18:03:46 DEBUG driverManager.DriverManager:79 - Creating WebDriver instance. Mode: CHROME, Is Remote: true
+2024-09-30 18:03:46 DEBUG driverManager.DriverManager:79 - Creating WebDriver instance. Mode: CHROME, Is Remote: true
+2024-09-30 18:03:46 INFO  driverManager.DriverManager:85 - Creating RemoteWebDriver for mode: CHROME
+2024-09-30 18:03:46 INFO  driverManager.DriverManager:85 - Creating RemoteWebDriver for mode: CHROME
+2024-09-30 18:03:46 DEBUG driverManager.DriverManager:89 - Connecting to Remote WebDriver at URL: http://localhost:4444/wd/hub
+2024-09-30 18:03:46 DEBUG driverManager.DriverManager:89 - Connecting to Remote WebDriver at URL: http://localhost:4444/wd/hub
+2024-09-30 18:03:49 DEBUG driverManager.DriverManager:35 - Configuring driver with timeouts and window settings.
+2024-09-30 18:03:49 DEBUG driverManager.DriverManager:38 - Driver configuration completed.
+2024-09-30 18:03:49 INFO  driverManager.DriverManager:30 - CHROME driver instantiated successfully.
+2024-09-30 18:03:52 INFO  test.BaseTest:36 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-30 18:03:53 INFO  listners.TestListener:20 - Starting test testLoginPageAndLinks
+2024-09-30 18:03:53 INFO  test.LoginTest:23 - Home page title: Book Your Free Demo Now - Phptravels
+2024-09-30 18:03:54 INFO  test.LoginTest:33 - Clicked on login: current page title Login
+2024-09-30 18:03:54 INFO  test.LoginTest:37 - Login page title: Login
+2024-09-30 18:04:02 INFO  listners.TestListener:25 - Test testLoginPageAndLinks passed.
+2024-09-30 18:04:02 INFO  driverManager.DriverManager:44 - Quitting the driver: RemoteWebDriver: chrome on linux (ddacbc0e5c6b384a8dfc613e3cb6abfd)
+2024-09-30 18:04:02 INFO  driverManager.DriverManager:47 - Driver closed successfully.
+2024-09-30 18:04:02 DEBUG driverManager.DriverManager:35 - Configuring driver with timeouts and window settings.
+2024-09-30 18:04:02 DEBUG driverManager.DriverManager:38 - Driver configuration completed.
+2024-09-30 18:04:02 INFO  driverManager.DriverManager:30 - CHROME driver instantiated successfully.
+2024-09-30 18:04:05 INFO  test.BaseTest:36 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-30 18:04:05 INFO  listners.TestListener:20 - Starting test verifyingLinksOnHomePage
+2024-09-30 18:04:08 INFO  listners.TestListener:25 - Test verifyingLinksOnHomePage passed.
+2024-09-30 18:04:08 INFO  driverManager.DriverManager:44 - Quitting the driver: RemoteWebDriver: chrome on linux (77cadf1581cf92744b545c0581da9209)
+2024-09-30 18:04:09 INFO  driverManager.DriverManager:47 - Driver closed successfully.
+2024-09-30 18:04:53 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\testNg.xml"
+2024-09-30 18:04:54 INFO  internal.Utils:112 - [XmlSuite] [WARN] 'parallel' value 'true' is no longer valid, defaulting to 'methods'.
+2024-09-30 18:04:54 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\testNg.xml
+
+2024-09-30 18:04:54 INFO  test.BaseTest:29 - Initializing driver for method: verifyingLinksOnHomePage
+2024-09-30 18:04:54 INFO  test.BaseTest:29 - Initializing driver for method: testLoginPageAndLinks
+2024-09-30 18:04:54 INFO  driverManager.DriverManager:26 - Initializing driver for mode: CHROME, Remote execution: true
+2024-09-30 18:04:54 INFO  driverManager.DriverManager:26 - Initializing driver for mode: CHROME, Remote execution: true
+2024-09-30 18:04:54 DEBUG driverManager.DriverManager:79 - Creating WebDriver instance. Mode: CHROME, Is Remote: true
+2024-09-30 18:04:54 DEBUG driverManager.DriverManager:79 - Creating WebDriver instance. Mode: CHROME, Is Remote: true
+2024-09-30 18:04:54 INFO  driverManager.DriverManager:85 - Creating RemoteWebDriver for mode: CHROME
+2024-09-30 18:04:54 INFO  driverManager.DriverManager:85 - Creating RemoteWebDriver for mode: CHROME
+2024-09-30 18:04:54 DEBUG driverManager.DriverManager:89 - Connecting to Remote WebDriver at URL: http://localhost:4444/wd/hub
+2024-09-30 18:04:54 DEBUG driverManager.DriverManager:89 - Connecting to Remote WebDriver at URL: http://localhost:4444/wd/hub
+2024-09-30 18:04:57 DEBUG driverManager.DriverManager:35 - Configuring driver with timeouts and window settings.
+2024-09-30 18:04:57 DEBUG driverManager.DriverManager:38 - Driver configuration completed.
+2024-09-30 18:04:57 INFO  driverManager.DriverManager:30 - CHROME driver instantiated successfully.
+2024-09-30 18:04:59 INFO  test.BaseTest:36 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-30 18:05:00 INFO  listners.TestListener:20 - Starting test verifyingLinksOnHomePage
+2024-09-30 18:05:09 INFO  listners.TestListener:25 - Test verifyingLinksOnHomePage passed.
+2024-09-30 18:05:09 INFO  driverManager.DriverManager:44 - Quitting the driver: RemoteWebDriver: chrome on linux (2fc5f84fcbbb95dd965520eaa07653c9)
+2024-09-30 18:05:09 INFO  driverManager.DriverManager:47 - Driver closed successfully.
+2024-09-30 18:05:10 DEBUG driverManager.DriverManager:35 - Configuring driver with timeouts and window settings.
+2024-09-30 18:05:10 DEBUG driverManager.DriverManager:38 - Driver configuration completed.
+2024-09-30 18:05:11 INFO  driverManager.DriverManager:30 - CHROME driver instantiated successfully.
+2024-09-30 18:05:12 INFO  test.BaseTest:36 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-30 18:05:12 INFO  listners.TestListener:20 - Starting test testLoginPageAndLinks
+2024-09-30 18:05:13 INFO  test.LoginTest:23 - Home page title: Book Your Free Demo Now - Phptravels
+2024-09-30 18:05:15 INFO  test.LoginTest:33 - Clicked on login: current page title Login
+2024-09-30 18:05:15 INFO  test.LoginTest:37 - Login page title: Login
+2024-09-30 18:05:21 INFO  listners.TestListener:25 - Test testLoginPageAndLinks passed.
+2024-09-30 18:05:21 INFO  driverManager.DriverManager:44 - Quitting the driver: RemoteWebDriver: chrome on linux (b72c2239237b8ba1847cf220a95df540)
+2024-09-30 18:05:21 INFO  driverManager.DriverManager:47 - Driver closed successfully.
+2024-09-30 18:16:40 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\testNg.xml"
+2024-09-30 18:16:41 INFO  internal.Utils:112 - [XmlSuite] [WARN] 'parallel' value 'true' is no longer valid, defaulting to 'methods'.
+2024-09-30 18:16:41 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\testNg.xml
+
+2024-09-30 18:16:42 INFO  test.BaseTest:29 - Initializing driver for method: verifyingLinksOnHomePage
+2024-09-30 18:16:42 INFO  test.BaseTest:29 - Initializing driver for method: testLoginPageAndLinks
+2024-09-30 18:16:42 INFO  driverManager.DriverManager:26 - Initializing driver for mode: CHROME, Remote execution: true
+2024-09-30 18:16:42 DEBUG driverManager.DriverManager:79 - Creating WebDriver instance. Mode: CHROME, Is Remote: true
+2024-09-30 18:16:42 INFO  driverManager.DriverManager:85 - Creating RemoteWebDriver for mode: CHROME
+2024-09-30 18:16:42 INFO  driverManager.DriverManager:26 - Initializing driver for mode: CHROME, Remote execution: true
+2024-09-30 18:16:42 DEBUG driverManager.DriverManager:79 - Creating WebDriver instance. Mode: CHROME, Is Remote: true
+2024-09-30 18:16:42 INFO  driverManager.DriverManager:85 - Creating RemoteWebDriver for mode: CHROME
+2024-09-30 18:16:42 DEBUG driverManager.DriverManager:89 - Connecting to Remote WebDriver at URL: http://localhost:4444/wd/hub
+2024-09-30 18:16:42 DEBUG driverManager.DriverManager:89 - Connecting to Remote WebDriver at URL: http://localhost:4444/wd/hub
+2024-09-30 18:16:44 DEBUG driverManager.DriverManager:35 - Configuring driver with timeouts and window settings.
+2024-09-30 18:16:44 DEBUG driverManager.DriverManager:38 - Driver configuration completed.
+2024-09-30 18:16:44 INFO  driverManager.DriverManager:30 - CHROME driver instantiated successfully.
+2024-09-30 18:16:47 INFO  test.BaseTest:36 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-30 18:16:47 INFO  listners.TestListener:20 - Starting test testLoginPageAndLinks
+2024-09-30 18:16:47 INFO  test.LoginTest:23 - Home page title: Book Your Free Demo Now - Phptravels
+2024-09-30 18:16:49 INFO  test.LoginTest:33 - Clicked on login: current page title Login
+2024-09-30 18:16:49 INFO  test.LoginTest:37 - Login page title: Login
+2024-09-30 18:16:57 INFO  listners.TestListener:25 - Test testLoginPageAndLinks passed.
+2024-09-30 18:16:57 INFO  driverManager.DriverManager:44 - Quitting the driver: RemoteWebDriver: chrome on linux (1e2f6d38a511dc3c0b6194d8a5a9f250)
+2024-09-30 18:16:57 INFO  driverManager.DriverManager:47 - Driver closed successfully.
+2024-09-30 18:16:58 DEBUG driverManager.DriverManager:35 - Configuring driver with timeouts and window settings.
+2024-09-30 18:16:58 DEBUG driverManager.DriverManager:38 - Driver configuration completed.
+2024-09-30 18:16:58 INFO  driverManager.DriverManager:30 - CHROME driver instantiated successfully.
+2024-09-30 18:17:00 INFO  test.BaseTest:36 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-30 18:17:00 INFO  listners.TestListener:20 - Starting test verifyingLinksOnHomePage
+2024-09-30 18:17:04 INFO  listners.TestListener:25 - Test verifyingLinksOnHomePage passed.
+2024-09-30 18:17:04 INFO  driverManager.DriverManager:44 - Quitting the driver: RemoteWebDriver: chrome on linux (a16e03fa9ffec0ee427949faac3c285d)
+2024-09-30 18:17:04 INFO  driverManager.DriverManager:47 - Driver closed successfully.
+2024-09-30 18:22:44 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\testNg.xml"
+2024-09-30 18:22:45 INFO  internal.Utils:112 - [XmlSuite] [WARN] 'parallel' value 'true' is no longer valid, defaulting to 'methods'.
+2024-09-30 18:22:45 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\testNg.xml
+
+2024-09-30 18:22:45 INFO  test.BaseTest:29 - Initializing driver for method: testLoginPageAndLinks
+2024-09-30 18:22:45 INFO  test.BaseTest:29 - Initializing driver for method: verifyingLinksOnHomePage
+2024-09-30 18:22:46 INFO  driverManager.DriverManager:26 - Initializing driver for mode: CHROME, Remote execution: true
+2024-09-30 18:22:46 INFO  driverManager.DriverManager:26 - Initializing driver for mode: CHROME, Remote execution: true
+2024-09-30 18:22:46 DEBUG driverManager.DriverManager:79 - Creating WebDriver instance. Mode: CHROME, Is Remote: true
+2024-09-30 18:22:46 DEBUG driverManager.DriverManager:79 - Creating WebDriver instance. Mode: CHROME, Is Remote: true
+2024-09-30 18:22:46 INFO  driverManager.DriverManager:85 - Creating RemoteWebDriver for mode: CHROME
+2024-09-30 18:22:46 INFO  driverManager.DriverManager:85 - Creating RemoteWebDriver for mode: CHROME
+2024-09-30 18:22:46 DEBUG driverManager.DriverManager:89 - Connecting to Remote WebDriver at URL: http://localhost:4444/wd/hub
+2024-09-30 18:22:46 DEBUG driverManager.DriverManager:89 - Connecting to Remote WebDriver at URL: http://localhost:4444/wd/hub
+2024-09-30 18:22:47 DEBUG driverManager.DriverManager:35 - Configuring driver with timeouts and window settings.
+2024-09-30 18:22:48 DEBUG driverManager.DriverManager:38 - Driver configuration completed.
+2024-09-30 18:22:48 INFO  driverManager.DriverManager:30 - CHROME driver instantiated successfully.
+2024-09-30 18:22:50 INFO  test.BaseTest:36 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-30 18:22:50 INFO  listners.TestListener:20 - Starting test verifyingLinksOnHomePage
+2024-09-30 18:22:56 INFO  listners.TestListener:25 - Test verifyingLinksOnHomePage passed.
+2024-09-30 18:22:56 INFO  driverManager.DriverManager:44 - Quitting the driver: RemoteWebDriver: chrome on linux (a05e796d1a2996fd416a0112f43bf618)
+2024-09-30 18:22:57 INFO  driverManager.DriverManager:47 - Driver closed successfully.
+2024-09-30 18:22:57 DEBUG driverManager.DriverManager:35 - Configuring driver with timeouts and window settings.
+2024-09-30 18:22:57 DEBUG driverManager.DriverManager:38 - Driver configuration completed.
+2024-09-30 18:22:57 INFO  driverManager.DriverManager:30 - CHROME driver instantiated successfully.
+2024-09-30 18:22:59 INFO  test.BaseTest:36 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-30 18:22:59 INFO  listners.TestListener:20 - Starting test testLoginPageAndLinks
+2024-09-30 18:23:00 INFO  test.LoginTest:23 - Home page title: Book Your Free Demo Now - Phptravels
+2024-09-30 18:23:01 INFO  test.LoginTest:33 - Clicked on login: current page title Login
+2024-09-30 18:23:01 INFO  test.LoginTest:37 - Login page title: Login
+2024-09-30 18:23:05 INFO  listners.TestListener:25 - Test testLoginPageAndLinks passed.
+2024-09-30 18:23:05 INFO  driverManager.DriverManager:44 - Quitting the driver: RemoteWebDriver: chrome on linux (3f5cae15f0fa07684075ce72451ac687)
+2024-09-30 18:23:06 INFO  driverManager.DriverManager:47 - Driver closed successfully.
+2024-09-30 18:25:35 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\testNg.xml"
+2024-09-30 18:25:35 INFO  internal.Utils:112 - [XmlSuite] [WARN] 'parallel' value 'true' is no longer valid, defaulting to 'methods'.
+2024-09-30 18:25:36 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\testNg.xml
+
+2024-09-30 18:25:36 INFO  test.BaseTest:29 - Initializing driver for method: verifyingLinksOnHomePage
+2024-09-30 18:25:36 INFO  test.BaseTest:29 - Initializing driver for method: testLoginPageAndLinks
+2024-09-30 18:25:36 INFO  driverManager.DriverManager:26 - Initializing driver for mode: CHROME, Remote execution: true
+2024-09-30 18:25:36 INFO  driverManager.DriverManager:26 - Initializing driver for mode: CHROME, Remote execution: true
+2024-09-30 18:25:36 DEBUG driverManager.DriverManager:79 - Creating WebDriver instance. Mode: CHROME, Is Remote: true
+2024-09-30 18:25:36 INFO  driverManager.DriverManager:85 - Creating RemoteWebDriver for mode: CHROME
+2024-09-30 18:25:36 DEBUG driverManager.DriverManager:79 - Creating WebDriver instance. Mode: CHROME, Is Remote: true
+2024-09-30 18:25:36 INFO  driverManager.DriverManager:85 - Creating RemoteWebDriver for mode: CHROME
+2024-09-30 18:25:36 DEBUG driverManager.DriverManager:89 - Connecting to Remote WebDriver at URL: http://localhost:4444/wd/hub
+2024-09-30 18:25:36 DEBUG driverManager.DriverManager:89 - Connecting to Remote WebDriver at URL: http://localhost:4444/wd/hub
+2024-09-30 18:25:38 DEBUG driverManager.DriverManager:35 - Configuring driver with timeouts and window settings.
+2024-09-30 18:25:38 DEBUG driverManager.DriverManager:38 - Driver configuration completed.
+2024-09-30 18:25:38 INFO  driverManager.DriverManager:30 - CHROME driver instantiated successfully.
+2024-09-30 18:25:40 INFO  test.BaseTest:36 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-30 18:25:40 INFO  listners.TestListener:20 - Starting test testLoginPageAndLinks
+2024-09-30 18:25:40 INFO  test.LoginTest:23 - Home page title: Book Your Free Demo Now - Phptravels
+2024-09-30 18:25:42 INFO  test.LoginTest:33 - Clicked on login: current page title Login
+2024-09-30 18:25:42 INFO  test.LoginTest:37 - Login page title: Login
+2024-09-30 18:25:48 INFO  listners.TestListener:25 - Test testLoginPageAndLinks passed.
+2024-09-30 18:25:48 INFO  driverManager.DriverManager:44 - Quitting the driver: RemoteWebDriver: chrome on linux (6be0151bd69631bea25a27e89ac764f8)
+2024-09-30 18:25:49 INFO  driverManager.DriverManager:47 - Driver closed successfully.
+2024-09-30 18:25:49 DEBUG driverManager.DriverManager:35 - Configuring driver with timeouts and window settings.
+2024-09-30 18:25:49 DEBUG driverManager.DriverManager:38 - Driver configuration completed.
+2024-09-30 18:25:49 INFO  driverManager.DriverManager:30 - CHROME driver instantiated successfully.
+2024-09-30 18:25:56 INFO  test.BaseTest:36 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-30 18:25:56 INFO  listners.TestListener:20 - Starting test verifyingLinksOnHomePage
+2024-09-30 18:26:00 INFO  listners.TestListener:25 - Test verifyingLinksOnHomePage passed.
+2024-09-30 18:26:00 INFO  driverManager.DriverManager:44 - Quitting the driver: RemoteWebDriver: chrome on linux (21432b982ee66742029ca5c7da1d4dae)
+2024-09-30 18:26:01 INFO  driverManager.DriverManager:47 - Driver closed successfully.
+2024-09-30 18:36:57 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\testNg.xml"
+2024-09-30 18:36:58 INFO  internal.Utils:112 - [XmlSuite] [WARN] 'parallel' value 'true' is no longer valid, defaulting to 'methods'.
+2024-09-30 18:36:58 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\testNg.xml
+
+2024-09-30 18:36:59 INFO  test.BaseTest:29 - Initializing driver for method: verifyingLinksOnHomePage
+2024-09-30 18:36:59 INFO  test.BaseTest:29 - Initializing driver for method: testLoginPageAndLinks
+2024-09-30 18:36:59 INFO  driverManager.DriverManager:26 - Initializing driver for mode: CHROME, Remote execution: true
+2024-09-30 18:36:59 INFO  driverManager.DriverManager:26 - Initializing driver for mode: CHROME, Remote execution: true
+2024-09-30 18:36:59 DEBUG driverManager.DriverManager:79 - Creating WebDriver instance. Mode: CHROME, Is Remote: true
+2024-09-30 18:36:59 DEBUG driverManager.DriverManager:79 - Creating WebDriver instance. Mode: CHROME, Is Remote: true
+2024-09-30 18:36:59 INFO  driverManager.DriverManager:85 - Creating RemoteWebDriver for mode: CHROME
+2024-09-30 18:36:59 INFO  driverManager.DriverManager:85 - Creating RemoteWebDriver for mode: CHROME
+2024-09-30 18:36:59 DEBUG driverManager.DriverManager:89 - Connecting to Remote WebDriver at URL: http://localhost:4444/wd/hub
+2024-09-30 18:36:59 DEBUG driverManager.DriverManager:89 - Connecting to Remote WebDriver at URL: http://localhost:4444/wd/hub
+2024-09-30 18:37:01 DEBUG driverManager.DriverManager:35 - Configuring driver with timeouts and window settings.
+2024-09-30 18:37:01 DEBUG driverManager.DriverManager:38 - Driver configuration completed.
+2024-09-30 18:37:01 INFO  driverManager.DriverManager:30 - CHROME driver instantiated successfully.
+2024-09-30 18:37:03 INFO  test.BaseTest:36 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-30 18:37:03 INFO  listners.TestListener:20 - Starting test testLoginPageAndLinks
+2024-09-30 18:37:04 INFO  test.LoginTest:23 - Home page title: Book Your Free Demo Now - Phptravels
+2024-09-30 18:37:05 INFO  test.LoginTest:33 - Clicked on login: current page title Login
+2024-09-30 18:37:05 INFO  test.LoginTest:37 - Login page title: Login
+2024-09-30 18:37:12 INFO  listners.TestListener:25 - Test testLoginPageAndLinks passed.
+2024-09-30 18:37:12 INFO  driverManager.DriverManager:44 - Quitting the driver: RemoteWebDriver: chrome on linux (c490edb6f355dec1cde745fec6713c10)
+2024-09-30 18:37:12 INFO  driverManager.DriverManager:47 - Driver closed successfully.
+2024-09-30 18:37:13 DEBUG driverManager.DriverManager:35 - Configuring driver with timeouts and window settings.
+2024-09-30 18:37:13 DEBUG driverManager.DriverManager:38 - Driver configuration completed.
+2024-09-30 18:37:13 INFO  driverManager.DriverManager:30 - CHROME driver instantiated successfully.
+2024-09-30 18:37:14 INFO  test.BaseTest:36 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-30 18:37:14 INFO  listners.TestListener:20 - Starting test verifyingLinksOnHomePage
+2024-09-30 18:37:18 INFO  listners.TestListener:25 - Test verifyingLinksOnHomePage passed.
+2024-09-30 18:37:18 INFO  driverManager.DriverManager:44 - Quitting the driver: RemoteWebDriver: chrome on linux (1764af9cfd86f36088ca2b3d8ab1cade)
+2024-09-30 18:37:18 INFO  driverManager.DriverManager:47 - Driver closed successfully.
+2024-09-30 18:38:04 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\testNg.xml"
+2024-09-30 18:38:04 INFO  internal.Utils:112 - [XmlSuite] [WARN] 'parallel' value 'true' is no longer valid, defaulting to 'methods'.
+2024-09-30 18:38:05 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\testNg.xml
+
+2024-09-30 18:38:05 INFO  test.BaseTest:29 - Initializing driver for method: testLoginPageAndLinks
+2024-09-30 18:38:05 INFO  test.BaseTest:29 - Initializing driver for method: verifyingLinksOnHomePage
+2024-09-30 18:38:05 INFO  driverManager.DriverManager:26 - Initializing driver for mode: CHROME, Remote execution: true
+2024-09-30 18:38:05 INFO  driverManager.DriverManager:26 - Initializing driver for mode: CHROME, Remote execution: true
+2024-09-30 18:38:05 DEBUG driverManager.DriverManager:79 - Creating WebDriver instance. Mode: CHROME, Is Remote: true
+2024-09-30 18:38:05 DEBUG driverManager.DriverManager:79 - Creating WebDriver instance. Mode: CHROME, Is Remote: true
+2024-09-30 18:38:05 INFO  driverManager.DriverManager:85 - Creating RemoteWebDriver for mode: CHROME
+2024-09-30 18:38:05 INFO  driverManager.DriverManager:85 - Creating RemoteWebDriver for mode: CHROME
+2024-09-30 18:38:05 DEBUG driverManager.DriverManager:89 - Connecting to Remote WebDriver at URL: http://localhost:4444/wd/hub
+2024-09-30 18:38:05 DEBUG driverManager.DriverManager:89 - Connecting to Remote WebDriver at URL: http://localhost:4444/wd/hub
+2024-09-30 18:38:06 DEBUG driverManager.DriverManager:35 - Configuring driver with timeouts and window settings.
+2024-09-30 18:38:06 DEBUG driverManager.DriverManager:38 - Driver configuration completed.
+2024-09-30 18:38:06 INFO  driverManager.DriverManager:30 - CHROME driver instantiated successfully.
+2024-09-30 18:38:08 INFO  test.BaseTest:36 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-30 18:38:09 INFO  listners.TestListener:20 - Starting test verifyingLinksOnHomePage
+2024-09-30 18:38:15 INFO  listners.TestListener:25 - Test verifyingLinksOnHomePage passed.
+2024-09-30 18:38:15 INFO  driverManager.DriverManager:44 - Quitting the driver: RemoteWebDriver: chrome on linux (03c5dd7daf114b383efe8f28cacb73ae)
+2024-09-30 18:38:15 INFO  driverManager.DriverManager:47 - Driver closed successfully.
+2024-09-30 18:38:15 DEBUG driverManager.DriverManager:35 - Configuring driver with timeouts and window settings.
+2024-09-30 18:38:16 DEBUG driverManager.DriverManager:38 - Driver configuration completed.
+2024-09-30 18:38:16 INFO  driverManager.DriverManager:30 - CHROME driver instantiated successfully.
+2024-09-30 18:38:17 INFO  test.BaseTest:36 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-30 18:38:17 INFO  listners.TestListener:20 - Starting test testLoginPageAndLinks
+2024-09-30 18:38:18 INFO  test.LoginTest:23 - Home page title: Book Your Free Demo Now - Phptravels
+2024-09-30 18:38:19 INFO  test.LoginTest:33 - Clicked on login: current page title Login
+2024-09-30 18:38:19 INFO  test.LoginTest:37 - Login page title: Login
+2024-09-30 18:38:23 INFO  listners.TestListener:25 - Test testLoginPageAndLinks passed.
+2024-09-30 18:38:23 INFO  driverManager.DriverManager:44 - Quitting the driver: RemoteWebDriver: chrome on linux (e61f33f8f2bbd409c06a222214e0e8b0)
+2024-09-30 18:38:23 INFO  driverManager.DriverManager:47 - Driver closed successfully.
+2024-09-30 19:56:55 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml"
+2024-09-30 19:56:56 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+2024-09-30 19:56:56 INFO  test.BaseTest:29 - Initializing driver for method: testLoginPageAndLinks
+2024-09-30 19:56:56 INFO  driverManager.DriverManager:26 - Initializing driver for mode: CHROME, Remote execution: true
+2024-09-30 19:56:56 DEBUG driverManager.DriverManager:79 - Creating WebDriver instance. Mode: CHROME, Is Remote: true
+2024-09-30 19:56:56 INFO  driverManager.DriverManager:85 - Creating RemoteWebDriver for mode: CHROME
+2024-09-30 19:56:56 DEBUG driverManager.DriverManager:89 - Connecting to Remote WebDriver at URL: http://localhost:4444/wd/hub
+2024-09-30 19:57:00 DEBUG driverManager.DriverManager:35 - Configuring driver with timeouts and window settings.
+2024-09-30 19:57:00 DEBUG driverManager.DriverManager:38 - Driver configuration completed.
+2024-09-30 19:57:00 INFO  driverManager.DriverManager:30 - CHROME driver instantiated successfully.
+2024-09-30 19:57:03 INFO  test.BaseTest:36 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-30 19:57:03 INFO  listners.TestListener:20 - Starting test testLoginPageAndLinks
+2024-09-30 19:57:04 INFO  test.LoginTest:23 - Home page title: Book Your Free Demo Now - Phptravels
+2024-09-30 19:57:15 INFO  test.LoginTest:34 - Clicked on login: current page title Login
+2024-09-30 19:57:25 INFO  test.LoginTest:39 - Login page title: Login
+2024-09-30 19:57:34 INFO  listners.TestListener:25 - Test testLoginPageAndLinks passed.
+2024-09-30 19:57:34 INFO  driverManager.DriverManager:44 - Quitting the driver: RemoteWebDriver: chrome on linux (8cd58c9e53512c7c9025448f06479ba4)
+2024-09-30 19:57:35 INFO  driverManager.DriverManager:47 - Driver closed successfully.
+2024-09-30 20:17:39 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml"
+2024-09-30 20:17:41 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+2024-09-30 20:17:41 INFO  test.BaseTest:29 - Initializing driver for method: testLoginPageAndLinks
+2024-09-30 20:17:41 INFO  driverManager.DriverManager:26 - Initializing driver for mode: CHROME, Remote execution: true
+2024-09-30 20:17:41 DEBUG driverManager.DriverManager:79 - Creating WebDriver instance. Mode: CHROME, Is Remote: true
+2024-09-30 20:17:41 INFO  driverManager.DriverManager:85 - Creating RemoteWebDriver for mode: CHROME
+2024-09-30 20:17:41 DEBUG driverManager.DriverManager:89 - Connecting to Remote WebDriver at URL: http://localhost:4444/wd/hub
+2024-09-30 20:17:48 DEBUG driverManager.DriverManager:35 - Configuring driver with timeouts and window settings.
+2024-09-30 20:17:48 DEBUG driverManager.DriverManager:38 - Driver configuration completed.
+2024-09-30 20:17:48 INFO  driverManager.DriverManager:30 - CHROME driver instantiated successfully.
+2024-09-30 20:17:53 INFO  test.BaseTest:36 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-30 20:17:55 INFO  listners.TestListener:20 - Starting test testLoginPageAndLinks
+2024-09-30 20:17:55 INFO  test.LoginTest:23 - Home page title: Book Your Free Demo Now - Phptravels
+2024-09-30 20:18:09 INFO  test.LoginTest:34 - Clicked on login: current page title Login
+2024-09-30 20:18:19 INFO  test.LoginTest:39 - Login page title: Login
+2024-09-30 20:18:40 INFO  listners.TestListener:25 - Test testLoginPageAndLinks passed.
+2024-09-30 20:18:40 INFO  driverManager.DriverManager:44 - Quitting the driver: RemoteWebDriver: chrome on linux (7d00b7b7f007b57a080438fb2241804f)
+2024-09-30 20:18:40 INFO  driverManager.DriverManager:47 - Driver closed successfully.
+2024-09-30 20:22:39 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml"
+2024-09-30 20:22:40 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+2024-09-30 20:22:40 INFO  test.BaseTest:29 - Initializing driver for method: testLoginPageAndLinks
+2024-09-30 20:22:40 INFO  driverManager.DriverManager:26 - Initializing driver for mode: CHROME, Remote execution: true
+2024-09-30 20:22:40 DEBUG driverManager.DriverManager:79 - Creating WebDriver instance. Mode: CHROME, Is Remote: true
+2024-09-30 20:22:40 INFO  driverManager.DriverManager:85 - Creating RemoteWebDriver for mode: CHROME
+2024-09-30 20:22:40 DEBUG driverManager.DriverManager:89 - Connecting to Remote WebDriver at URL: http://localhost:4444/wd/hub
+2024-09-30 20:22:41 DEBUG driverManager.DriverManager:35 - Configuring driver with timeouts and window settings.
+2024-09-30 20:22:41 DEBUG driverManager.DriverManager:38 - Driver configuration completed.
+2024-09-30 20:22:41 INFO  driverManager.DriverManager:30 - CHROME driver instantiated successfully.
+2024-09-30 20:22:43 INFO  test.BaseTest:36 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-30 20:22:44 INFO  listners.TestListener:20 - Starting test testLoginPageAndLinks
+2024-09-30 20:22:44 INFO  test.LoginTest:23 - Home page title: Book Your Free Demo Now - Phptravels
+2024-09-30 20:22:55 INFO  test.LoginTest:34 - Clicked on login: current page title Login
+2024-09-30 20:23:05 INFO  test.LoginTest:39 - Login page title: Login
+2024-09-30 20:23:19 INFO  listners.TestListener:25 - Test testLoginPageAndLinks passed.
+2024-09-30 20:23:19 INFO  driverManager.DriverManager:44 - Quitting the driver: RemoteWebDriver: chrome on linux (d16bd30169eb8a98dd9c0dcaf9bde91e)
+2024-09-30 20:23:19 INFO  driverManager.DriverManager:47 - Driver closed successfully.
+2024-09-30 20:32:32 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml"
+2024-09-30 20:32:34 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+2024-09-30 20:32:34 INFO  test.BaseTest:29 - Initializing driver for method: testLoginPageAndLinks
+2024-09-30 20:32:34 INFO  driverManager.DriverManager:26 - Initializing driver for mode: CHROME, Remote execution: true
+2024-09-30 20:32:34 DEBUG driverManager.DriverManager:79 - Creating WebDriver instance. Mode: CHROME, Is Remote: true
+2024-09-30 20:32:34 INFO  driverManager.DriverManager:85 - Creating RemoteWebDriver for mode: CHROME
+2024-09-30 20:32:34 DEBUG driverManager.DriverManager:89 - Connecting to Remote WebDriver at URL: http://localhost:4444/wd/hub
+2024-09-30 20:32:37 DEBUG driverManager.DriverManager:35 - Configuring driver with timeouts and window settings.
+2024-09-30 20:32:37 DEBUG driverManager.DriverManager:38 - Driver configuration completed.
+2024-09-30 20:32:37 INFO  driverManager.DriverManager:30 - CHROME driver instantiated successfully.
+2024-09-30 20:32:39 INFO  test.BaseTest:36 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-30 20:32:40 INFO  listners.TestListener:20 - Starting test testLoginPageAndLinks
+2024-09-30 20:32:40 INFO  test.LoginTest:23 - Home page title: Book Your Free Demo Now - Phptravels
+2024-09-30 20:32:52 INFO  test.LoginTest:34 - Clicked on login: current page title Login
+2024-09-30 20:33:02 INFO  test.LoginTest:39 - Login page title: Login
+2024-09-30 20:33:20 INFO  listners.TestListener:25 - Test testLoginPageAndLinks passed.
+2024-09-30 20:33:20 INFO  driverManager.DriverManager:44 - Quitting the driver: RemoteWebDriver: chrome on linux (10e5b7d07ddd664156e3c31c54a1a25c)
+2024-09-30 20:33:21 INFO  driverManager.DriverManager:47 - Driver closed successfully.
+2024-09-30 20:33:49 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml"
+2024-09-30 20:33:50 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+2024-09-30 20:33:50 INFO  test.BaseTest:29 - Initializing driver for method: testLoginPageAndLinks
+2024-09-30 20:33:50 INFO  driverManager.DriverManager:26 - Initializing driver for mode: CHROME, Remote execution: true
+2024-09-30 20:33:50 DEBUG driverManager.DriverManager:79 - Creating WebDriver instance. Mode: CHROME, Is Remote: true
+2024-09-30 20:33:50 INFO  driverManager.DriverManager:85 - Creating RemoteWebDriver for mode: CHROME
+2024-09-30 20:33:50 DEBUG driverManager.DriverManager:89 - Connecting to Remote WebDriver at URL: http://localhost:4444/wd/hub
+2024-09-30 20:33:52 DEBUG driverManager.DriverManager:35 - Configuring driver with timeouts and window settings.
+2024-09-30 20:33:53 DEBUG driverManager.DriverManager:38 - Driver configuration completed.
+2024-09-30 20:33:53 INFO  driverManager.DriverManager:30 - CHROME driver instantiated successfully.
+2024-09-30 20:33:55 INFO  test.BaseTest:36 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-30 20:33:55 INFO  listners.TestListener:20 - Starting test testLoginPageAndLinks
+2024-09-30 20:33:56 INFO  test.LoginTest:23 - Home page title: Book Your Free Demo Now - Phptravels
+2024-09-30 20:34:08 INFO  test.LoginTest:34 - Clicked on login: current page title Login
+2024-09-30 20:34:18 INFO  test.LoginTest:39 - Login page title: Login
+2024-09-30 20:34:26 INFO  listners.TestListener:25 - Test testLoginPageAndLinks passed.
+2024-09-30 20:34:26 INFO  driverManager.DriverManager:44 - Quitting the driver: RemoteWebDriver: chrome on linux (d395dab2e39a3e1318e187ec7cac9eb9)
+2024-09-30 20:34:26 INFO  driverManager.DriverManager:47 - Driver closed successfully.
+2024-09-30 20:42:10 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml"
+2024-09-30 20:42:11 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+2024-09-30 20:42:11 INFO  test.BaseTest:29 - Initializing driver for method: testLoginPageAndLinks
+2024-09-30 20:42:11 INFO  driverManager.DriverManager:26 - Initializing driver for mode: CHROME, Remote execution: true
+2024-09-30 20:42:11 DEBUG driverManager.DriverManager:79 - Creating WebDriver instance. Mode: CHROME, Is Remote: true
+2024-09-30 20:42:11 INFO  driverManager.DriverManager:85 - Creating RemoteWebDriver for mode: CHROME
+2024-09-30 20:42:11 DEBUG driverManager.DriverManager:89 - Connecting to Remote WebDriver at URL: http://localhost:4444/wd/hub
+2024-09-30 20:42:15 DEBUG driverManager.DriverManager:35 - Configuring driver with timeouts and window settings.
+2024-09-30 20:42:15 DEBUG driverManager.DriverManager:38 - Driver configuration completed.
+2024-09-30 20:42:15 INFO  driverManager.DriverManager:30 - CHROME driver instantiated successfully.
+2024-09-30 20:42:18 INFO  test.BaseTest:36 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-30 20:42:19 INFO  listners.TestListener:20 - Starting test testLoginPageAndLinks
+2024-09-30 20:42:19 INFO  test.LoginTest:23 - Home page title: Book Your Free Demo Now - Phptravels
+2024-09-30 20:42:33 INFO  test.LoginTest:34 - Clicked on login: current page title Login
+2024-09-30 20:42:44 INFO  test.LoginTest:39 - Login page title: Login
+2024-09-30 20:43:02 INFO  listners.TestListener:25 - Test testLoginPageAndLinks passed.
+2024-09-30 20:43:02 INFO  driverManager.DriverManager:44 - Quitting the driver: RemoteWebDriver: chrome on linux (74307a7aed99713c234a461e31652358)
+2024-09-30 20:43:03 INFO  driverManager.DriverManager:47 - Driver closed successfully.
+2024-09-30 20:44:40 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml"
+2024-09-30 20:44:42 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+2024-09-30 20:44:43 INFO  test.BaseTest:29 - Initializing driver for method: testLoginPageAndLinks
+2024-09-30 20:44:43 INFO  driverManager.DriverManager:26 - Initializing driver for mode: CHROME, Remote execution: true
+2024-09-30 20:44:43 DEBUG driverManager.DriverManager:79 - Creating WebDriver instance. Mode: CHROME, Is Remote: true
+2024-09-30 20:44:43 INFO  driverManager.DriverManager:85 - Creating RemoteWebDriver for mode: CHROME
+2024-09-30 20:44:43 DEBUG driverManager.DriverManager:89 - Connecting to Remote WebDriver at URL: http://localhost:4444/wd/hub
+2024-09-30 20:44:48 DEBUG driverManager.DriverManager:35 - Configuring driver with timeouts and window settings.
+2024-09-30 20:44:48 DEBUG driverManager.DriverManager:38 - Driver configuration completed.
+2024-09-30 20:44:48 INFO  driverManager.DriverManager:30 - CHROME driver instantiated successfully.
+2024-09-30 20:44:55 INFO  test.BaseTest:36 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-30 20:44:56 INFO  listners.TestListener:20 - Starting test testLoginPageAndLinks
+2024-09-30 20:44:58 INFO  test.LoginTest:23 - Home page title: Book Your Free Demo Now - Phptravels
+2024-09-30 20:45:12 INFO  test.LoginTest:34 - Clicked on login: current page title Login
+2024-09-30 20:45:23 INFO  test.LoginTest:39 - Login page title: Login
+2024-09-30 20:45:49 INFO  listners.TestListener:25 - Test testLoginPageAndLinks passed.
+2024-09-30 20:45:49 INFO  driverManager.DriverManager:44 - Quitting the driver: RemoteWebDriver: chrome on linux (04fabb62c693484f7520905315f835ce)
+2024-09-30 20:45:50 INFO  driverManager.DriverManager:47 - Driver closed successfully.
+2024-09-30 20:51:41 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml"
+2024-09-30 20:51:42 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+2024-09-30 20:51:42 INFO  test.BaseTest:29 - Initializing driver for method: testLoginPageAndLinks
+2024-09-30 20:51:42 INFO  driverManager.DriverManager:26 - Initializing driver for mode: CHROME, Remote execution: true
+2024-09-30 20:51:42 DEBUG driverManager.DriverManager:79 - Creating WebDriver instance. Mode: CHROME, Is Remote: true
+2024-09-30 20:51:42 INFO  driverManager.DriverManager:85 - Creating RemoteWebDriver for mode: CHROME
+2024-09-30 20:51:42 DEBUG driverManager.DriverManager:89 - Connecting to Remote WebDriver at URL: http://localhost:4444/wd/hub
+2024-09-30 20:51:43 DEBUG driverManager.DriverManager:35 - Configuring driver with timeouts and window settings.
+2024-09-30 20:51:43 DEBUG driverManager.DriverManager:38 - Driver configuration completed.
+2024-09-30 20:51:43 INFO  driverManager.DriverManager:30 - CHROME driver instantiated successfully.
+2024-09-30 20:51:45 INFO  test.BaseTest:36 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-30 20:51:45 INFO  listners.TestListener:20 - Starting test testLoginPageAndLinks
+2024-09-30 20:51:45 INFO  test.LoginTest:23 - Home page title: Book Your Free Demo Now - Phptravels
+2024-09-30 20:51:57 INFO  test.LoginTest:34 - Clicked on login: current page title Login
+2024-09-30 20:52:07 INFO  test.LoginTest:39 - Login page title: Login
+2024-09-30 20:52:13 INFO  listners.TestListener:25 - Test testLoginPageAndLinks passed.
+2024-09-30 20:52:13 INFO  driverManager.DriverManager:44 - Quitting the driver: RemoteWebDriver: chrome on linux (083a4d93fc1ce875502371fde7f9a659)
+2024-09-30 20:52:14 INFO  driverManager.DriverManager:47 - Driver closed successfully.
+2024-09-30 21:21:38 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml"
+2024-09-30 21:21:40 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+2024-09-30 21:21:40 INFO  test.BaseTest:34 - Initializing driver for method: testLoginPageAndLinks
+2024-09-30 21:21:40 INFO  driverManager.DriverManager:30 - Initializing driver for mode: CHROME, Remote execution: true
+2024-09-30 21:21:40 DEBUG driverManager.DriverManager:83 - Creating WebDriver instance. Mode: CHROME, Is Remote: true
+2024-09-30 21:21:40 INFO  driverManager.DriverManager:89 - Creating RemoteWebDriver for mode: CHROME
+2024-09-30 21:21:40 DEBUG driverManager.DriverManager:95 - Connecting to Remote WebDriver at URL: http://localhost:4444/wd/hub
+2024-09-30 21:21:46 DEBUG driverManager.DriverManager:39 - Configuring driver with timeouts and window settings.
+2024-09-30 21:21:46 DEBUG driverManager.DriverManager:42 - Driver configuration completed.
+2024-09-30 21:21:46 INFO  driverManager.DriverManager:34 - CHROME driver instantiated successfully.
+2024-09-30 21:21:50 INFO  test.BaseTest:41 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-30 21:21:50 INFO  listners.TestListener:20 - Starting test testLoginPageAndLinks
+2024-09-30 21:21:51 INFO  test.LoginTest:23 - Home page title: Book Your Free Demo Now - Phptravels
+2024-09-30 21:22:04 INFO  test.LoginTest:34 - Clicked on login: current page title Login
+2024-09-30 21:22:14 INFO  test.LoginTest:39 - Login page title: Login
+2024-09-30 21:22:26 INFO  listners.TestListener:25 - Test testLoginPageAndLinks passed.
+2024-09-30 21:22:26 INFO  driverManager.DriverManager:48 - Quitting the driver: RemoteWebDriver: chrome on linux (c8b762b5a351cd60176e8047dd002033)
+2024-09-30 21:22:26 INFO  driverManager.DriverManager:51 - Driver closed successfully.
+2024-09-30 21:25:28 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml"
+2024-09-30 21:25:30 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+2024-09-30 21:25:30 INFO  test.BaseTest:34 - Initializing driver for method: testLoginPageAndLinks
+2024-09-30 21:25:30 INFO  driverManager.DriverManager:30 - Initializing driver for mode: CHROME, Remote execution: true
+2024-09-30 21:25:30 DEBUG driverManager.DriverManager:83 - Creating WebDriver instance. Mode: CHROME, Is Remote: true
+2024-09-30 21:25:30 INFO  driverManager.DriverManager:89 - Creating RemoteWebDriver for mode: CHROME
+2024-09-30 21:25:30 INFO  driverManager.DriverManager:94 - Capabilities for Remote WebDriver: Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}
+2024-09-30 21:25:30 DEBUG driverManager.DriverManager:97 - Connecting to Remote WebDriver at URL: http://localhost:4444/wd/hub
+2024-09-30 21:25:33 DEBUG driverManager.DriverManager:39 - Configuring driver with timeouts and window settings.
+2024-09-30 21:25:33 DEBUG driverManager.DriverManager:42 - Driver configuration completed.
+2024-09-30 21:25:33 INFO  driverManager.DriverManager:34 - CHROME driver instantiated successfully.
+2024-09-30 21:25:35 INFO  test.BaseTest:41 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-30 21:25:36 INFO  listners.TestListener:20 - Starting test testLoginPageAndLinks
+2024-09-30 21:25:36 INFO  test.LoginTest:23 - Home page title: Book Your Free Demo Now - Phptravels
+2024-09-30 21:25:48 INFO  test.LoginTest:34 - Clicked on login: current page title Login
+2024-09-30 21:25:58 INFO  test.LoginTest:39 - Login page title: Login
+2024-09-30 21:26:08 INFO  listners.TestListener:25 - Test testLoginPageAndLinks passed.
+2024-09-30 21:26:08 INFO  driverManager.DriverManager:48 - Quitting the driver: RemoteWebDriver: chrome on linux (d01b2174d00f74aac8cb023dcd8a5506)
+2024-09-30 21:26:08 INFO  driverManager.DriverManager:51 - Driver closed successfully.
+2024-09-30 21:28:15 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml"
+2024-09-30 21:28:16 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+2024-09-30 21:28:16 INFO  test.BaseTest:34 - Initializing driver for method: testLoginPageAndLinks
+2024-09-30 21:28:16 INFO  driverManager.DriverManager:30 - Initializing driver for mode: CHROME, Remote execution: true
+2024-09-30 21:28:16 DEBUG driverManager.DriverManager:83 - Creating WebDriver instance. Mode: CHROME, Is Remote: true
+2024-09-30 21:28:16 INFO  driverManager.DriverManager:89 - Creating RemoteWebDriver for mode: CHROME
+2024-09-30 21:30:06 INFO  driverManager.DriverManager:97 - Capabilities for Remote WebDriver: Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}
+2024-09-30 21:30:06 DEBUG driverManager.DriverManager:100 - Connecting to Remote WebDriver at URL: http://localhost:4444/wd/hub
+2024-09-30 21:30:10 DEBUG driverManager.DriverManager:39 - Configuring driver with timeouts and window settings.
+2024-09-30 21:30:10 DEBUG driverManager.DriverManager:42 - Driver configuration completed.
+2024-09-30 21:30:10 INFO  driverManager.DriverManager:34 - CHROME driver instantiated successfully.
+2024-09-30 21:30:13 INFO  test.BaseTest:41 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-30 21:30:14 INFO  listners.TestListener:20 - Starting test testLoginPageAndLinks
+2024-09-30 21:30:47 INFO  test.LoginTest:23 - Home page title: Book Your Free Demo Now - Phptravels
+2024-09-30 21:30:58 INFO  test.LoginTest:34 - Clicked on login: current page title Login
+2024-09-30 21:31:08 INFO  test.LoginTest:39 - Login page title: Login
+2024-09-30 21:31:25 INFO  listners.TestListener:25 - Test testLoginPageAndLinks passed.
+2024-09-30 21:31:25 INFO  driverManager.DriverManager:48 - Quitting the driver: RemoteWebDriver: chrome on linux (f827718b40dc030f87fdb3248843d422)
+2024-09-30 21:31:25 INFO  driverManager.DriverManager:51 - Driver closed successfully.
+2024-09-30 21:35:01 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml"
+2024-09-30 21:35:02 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+2024-09-30 21:35:02 INFO  test.BaseTest:34 - Initializing driver for method: testLoginPageAndLinks
+2024-09-30 21:35:02 INFO  driverManager.DriverManager:30 - Initializing driver for mode: CHROME, Remote execution: true
+2024-09-30 21:35:02 DEBUG driverManager.DriverManager:88 - Creating WebDriver instance. Mode: CHROME, Is Remote: true
+2024-09-30 21:35:02 INFO  driverManager.DriverManager:94 - Creating RemoteWebDriver for mode: CHROME
+2024-09-30 21:35:02 INFO  driverManager.DriverManager:97 - Capabilities for Remote WebDriver: Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, se:name: testLoginPageAndLinks172771..., se:videoFileName: testLoginPageAndLinks172771...}
+2024-09-30 21:35:02 DEBUG driverManager.DriverManager:100 - Connecting to Remote WebDriver at URL: http://localhost:4444/wd/hub
+2024-09-30 21:35:04 DEBUG driverManager.DriverManager:39 - Configuring driver with timeouts and window settings.
+2024-09-30 21:35:04 DEBUG driverManager.DriverManager:42 - Driver configuration completed.
+2024-09-30 21:35:04 INFO  driverManager.DriverManager:34 - CHROME driver instantiated successfully.
+2024-09-30 21:35:06 INFO  test.BaseTest:41 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-30 21:35:06 INFO  listners.TestListener:20 - Starting test testLoginPageAndLinks
+2024-09-30 21:35:06 INFO  test.LoginTest:22 - Home page title: Book Your Free Demo Now - Phptravels
+2024-09-30 21:35:18 INFO  test.LoginTest:33 - Clicked on login: current page title Login
+2024-09-30 21:35:28 INFO  test.LoginTest:38 - Login page title: Login
+2024-09-30 21:35:34 INFO  listners.TestListener:25 - Test testLoginPageAndLinks passed.
+2024-09-30 21:35:34 INFO  driverManager.DriverManager:48 - Quitting the driver: RemoteWebDriver: chrome on linux (1b28cccd225f60620053b6f841a65958)
+2024-09-30 21:35:35 INFO  driverManager.DriverManager:51 - Driver closed successfully.
+2024-09-30 21:36:50 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml"
+2024-09-30 21:36:51 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+2024-09-30 21:36:51 INFO  test.BaseTest:34 - Initializing driver for method: testLoginPageAndLinks
+2024-09-30 21:36:51 INFO  driverManager.DriverManager:30 - Initializing driver for mode: CHROME, Remote execution: true
+2024-09-30 21:36:51 DEBUG driverManager.DriverManager:86 - Creating WebDriver instance. Mode: CHROME, Is Remote: true
+2024-09-30 21:36:51 INFO  driverManager.DriverManager:92 - Creating RemoteWebDriver for mode: CHROME
+2024-09-30 21:36:51 INFO  driverManager.DriverManager:95 - Capabilities for Remote WebDriver: Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, se:name: testLoginPageAndLinks}
+2024-09-30 21:36:51 DEBUG driverManager.DriverManager:98 - Connecting to Remote WebDriver at URL: http://localhost:4444/wd/hub
+2024-09-30 21:36:52 DEBUG driverManager.DriverManager:39 - Configuring driver with timeouts and window settings.
+2024-09-30 21:36:52 DEBUG driverManager.DriverManager:42 - Driver configuration completed.
+2024-09-30 21:36:52 INFO  driverManager.DriverManager:34 - CHROME driver instantiated successfully.
+2024-09-30 21:36:55 INFO  test.BaseTest:41 - Navigated to base URL: https://phptravels.com/demo/
+2024-09-30 21:36:55 INFO  listners.TestListener:20 - Starting test testLoginPageAndLinks
+2024-09-30 21:36:55 INFO  test.LoginTest:22 - Home page title: Book Your Free Demo Now - Phptravels
+2024-09-30 21:37:07 INFO  test.LoginTest:33 - Clicked on login: current page title Login
+2024-09-30 21:37:17 INFO  test.LoginTest:38 - Login page title: Login
+2024-09-30 21:37:24 INFO  listners.TestListener:25 - Test testLoginPageAndLinks passed.
+2024-09-30 21:37:24 INFO  driverManager.DriverManager:48 - Quitting the driver: RemoteWebDriver: chrome on linux (7277916ab946ce4d761d23ec9ab497c4)
+2024-09-30 21:37:24 INFO  driverManager.DriverManager:51 - Driver closed successfully.
+2024-10-01 15:02:48 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml"
+2024-10-01 15:02:49 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+2024-10-01 15:02:49 INFO  test.BaseTest:36 - Initializing driver for method: testLoginPageAndLinks
+2024-10-01 15:02:49 INFO  driverManager.DriverManager:30 - Initializing driver for mode: CHROME, Remote execution: true
+2024-10-01 15:02:49 DEBUG driverManager.DriverManager:86 - Creating WebDriver instance. Mode: CHROME, Is Remote: true
+2024-10-01 15:02:49 INFO  driverManager.DriverManager:92 - Creating RemoteWebDriver for mode: CHROME
+2024-10-01 15:02:49 INFO  driverManager.DriverManager:95 - Capabilities for Remote WebDriver: Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, se:name: testLoginPageAndLinks}
+2024-10-01 15:02:49 DEBUG driverManager.DriverManager:98 - Connecting to Remote WebDriver at URL: http://localhost:4444/wd/hub
+2024-10-01 15:02:54 DEBUG driverManager.DriverManager:39 - Configuring driver with timeouts and window settings.
+2024-10-01 15:02:55 DEBUG driverManager.DriverManager:42 - Driver configuration completed.
+2024-10-01 15:02:55 INFO  driverManager.DriverManager:34 - CHROME driver instantiated successfully.
+2024-10-01 15:02:56 INFO  test.BaseTest:43 - Navigated to base URL: https://www.selenium.dev/
+2024-10-01 15:02:57 INFO  listners.TestListener:20 - Starting test testLoginPageAndLinks
+2024-10-01 15:02:57 INFO  test.LoginTest:22 - Home page title: Selenium
+2024-10-01 15:03:18 ERROR listners.TestListener:35 - Test testLoginPageAndLinks failed. Error: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Login"}
+  (Session info: chrome=129.0.6668.58)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [9f4ae66cede2555911f4c6f6c071baf2, findElement {value=Login, using=link text}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.58, chrome: {chromedriverVersion: 129.0.6668.58 (81a06fb873a9..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:42927}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 129.0.6668.58, se:containerName: , se:name: testLoginPageAndLinks, se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9f4ae66cede2555911f4c6f6c071baf2
+2024-10-01 15:03:18 INFO  driverManager.DriverManager:48 - Quitting the driver: RemoteWebDriver: chrome on linux (9f4ae66cede2555911f4c6f6c071baf2)
+2024-10-01 15:03:18 INFO  driverManager.DriverManager:51 - Driver closed successfully.
+2024-10-01 15:30:03 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml"
+2024-10-01 15:30:05 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+2024-10-01 15:30:05 INFO  test.BaseTest:34 - Initializing driver for method: testLoginPageAndLinks
+2024-10-01 15:30:05 INFO  driverManager.DriverManager:32 - Initializing driver for mode: CHROME, Remote execution: true
+2024-10-01 15:30:05 DEBUG driverManager.DriverManager:97 - Creating WebDriver instance. Mode: CHROME, Is Remote: true
+2024-10-01 15:30:05 INFO  driverManager.DriverManager:103 - Creating RemoteWebDriver for mode: CHROME
+2024-10-01 15:30:54 INFO  driverManager.DriverManager:106 - Capabilities for Remote WebDriver: Capabilities {SE_VIDEO_FILE_NAME_SUFFIX: false, browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, headless: true, se:name: testLoginPageAndLinks172777..., se:recordVideo: true}
+2024-10-01 15:30:54 DEBUG driverManager.DriverManager:109 - Connecting to Remote WebDriver at URL: http://localhost:4444/wd/hub
+2024-10-01 15:30:55 INFO  listners.TestListener:20 - Starting test testLoginPageAndLinks
+2024-10-01 15:30:55 ERROR driverManager.DriverManager:55 - Attempted to quit the driver, but it was not initialized.
+2024-10-01 15:31:54 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml"
+2024-10-01 15:31:56 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+2024-10-01 15:31:56 INFO  test.BaseTest:34 - Initializing driver for method: testLoginPageAndLinks
+2024-10-01 15:31:56 INFO  driverManager.DriverManager:32 - Initializing driver for mode: CHROME, Remote execution: true
+2024-10-01 15:31:56 DEBUG driverManager.DriverManager:97 - Creating WebDriver instance. Mode: CHROME, Is Remote: true
+2024-10-01 15:31:56 INFO  driverManager.DriverManager:103 - Creating RemoteWebDriver for mode: CHROME
+2024-10-01 15:32:03 INFO  driverManager.DriverManager:106 - Capabilities for Remote WebDriver: Capabilities {SE_VIDEO_FILE_NAME_SUFFIX: false, browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, headless: true, se:name: testLoginPageAndLinks172777..., se:recordVideo: true}
+2024-10-01 15:32:03 DEBUG driverManager.DriverManager:109 - Connecting to Remote WebDriver at URL: http://localhost:4444/wd/hub
+2024-10-01 15:32:04 INFO  listners.TestListener:20 - Starting test testLoginPageAndLinks
+2024-10-01 15:32:04 ERROR driverManager.DriverManager:55 - Attempted to quit the driver, but it was not initialized.
+2024-10-01 15:43:55 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml"
+2024-10-01 15:43:56 INFO  internal.Utils:112 - [TestNG] Running:
+  C:\Users\Vinodpuri_Goswami\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+2024-10-01 15:43:56 INFO  test.BaseTest:34 - Initializing driver for method: testLoginPageAndLinks
+2024-10-01 15:43:56 INFO  driver_manager.DriverManager:32 - Initializing driver for mode: CHROME, Remote execution: true
+2024-10-01 15:43:56 DEBUG driver_manager.DriverManager:93 - Creating WebDriver instance. Mode: CHROME, Is Remote: true
+2024-10-01 15:43:56 INFO  driver_manager.DriverManager:99 - Creating RemoteWebDriver for mode: CHROME
+2024-10-01 15:43:56 INFO  driver_manager.DriverManager:102 - Capabilities for Remote WebDriver: Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, se:name: testLoginPageAndLinks172777..., se:recordVideo: true}
+2024-10-01 15:43:56 DEBUG driver_manager.DriverManager:105 - Connecting to Remote WebDriver at URL: http://localhost:4444/wd/hub
+2024-10-01 15:44:00 DEBUG driver_manager.DriverManager:41 - Configuring driver with timeouts and window settings.
+2024-10-01 15:44:00 DEBUG driver_manager.DriverManager:44 - Driver configuration completed.
+2024-10-01 15:44:00 INFO  driver_manager.DriverManager:36 - CHROME driver instantiated successfully.
+2024-10-01 15:44:03 INFO  test.BaseTest:41 - Navigated to base URL: https://phptravels.com/demo/
+2024-10-01 15:44:03 INFO  listners.TestListener:20 - Starting test testLoginPageAndLinks
+2024-10-01 15:44:03 INFO  test.LoginTest:22 - Home page title: Book Your Free Demo Now - Phptravels
+2024-10-01 15:44:15 INFO  test.LoginTest:33 - Clicked on login: current page title Login
+2024-10-01 15:44:25 INFO  test.LoginTest:38 - Login page title: Login
+2024-10-01 15:44:32 INFO  listners.TestListener:25 - Test testLoginPageAndLinks passed.
+2024-10-01 15:44:32 INFO  driver_manager.DriverManager:50 - Quitting the driver: RemoteWebDriver: chrome on linux (6d9b95082f8e664451b1fdc6cf78b1ac)
+2024-10-01 15:44:32 INFO  driver_manager.DriverManager:53 - Driver closed successfully.
+2024-10-01 20:27:46 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\testNg.xml"
+2024-10-01 20:27:46 INFO  internal.Utils:112 - [XmlSuite] [WARN] 'parallel' value 'true' is no longer valid, defaulting to 'methods'.
+2024-10-01 20:27:47 INFO  test.BaseTest:34 - Initializing driver for method: testLoginPageAndLinks
+2024-10-01 20:27:47 INFO  test.BaseTest:34 - Initializing driver for method: verifyingLinksOnHomePage
+2024-10-01 20:27:47 INFO  driver_manager.DriverManager:32 - Initializing driver for mode: CHROME, Remote execution: true
+2024-10-01 20:27:47 INFO  driver_manager.DriverManager:32 - Initializing driver for mode: CHROME, Remote execution: true
+2024-10-01 20:27:47 DEBUG driver_manager.DriverManager:93 - Creating WebDriver instance. Mode: CHROME, Is Remote: true
+2024-10-01 20:27:47 DEBUG driver_manager.DriverManager:93 - Creating WebDriver instance. Mode: CHROME, Is Remote: true
+2024-10-01 20:27:47 INFO  driver_manager.DriverManager:99 - Creating RemoteWebDriver for mode: CHROME
+2024-10-01 20:27:47 INFO  driver_manager.DriverManager:99 - Creating RemoteWebDriver for mode: CHROME
+2024-10-01 20:27:47 INFO  driver_manager.DriverManager:102 - Capabilities for Remote WebDriver: Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, se:name: verifyingLinksOnHomePage172..., se:recordVideo: true}
+2024-10-01 20:27:47 INFO  driver_manager.DriverManager:102 - Capabilities for Remote WebDriver: Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, se:name: verifyingLinksOnHomePage172..., se:recordVideo: true}
+2024-10-01 20:27:47 DEBUG driver_manager.DriverManager:105 - Connecting to Remote WebDriver at URL: http://localhost:4444/wd/hub
+2024-10-01 20:27:47 DEBUG driver_manager.DriverManager:105 - Connecting to Remote WebDriver at URL: http://localhost:4444/wd/hub
+2024-10-01 20:27:48 INFO  listners.TestListener:20 - Starting test verifyingLinksOnHomePage
+2024-10-01 20:27:48 INFO  listners.TestListener:20 - Starting test testLoginPageAndLinks
+2024-10-01 20:27:48 ERROR driver_manager.DriverManager:55 - Attempted to quit the driver, but it was not initialized.
+2024-10-01 20:27:48 ERROR driver_manager.DriverManager:55 - Attempted to quit the driver, but it was not initialized.
+2024-10-01 20:29:03 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\testNg.xml"
+2024-10-01 20:29:03 INFO  internal.Utils:112 - [XmlSuite] [WARN] 'parallel' value 'true' is no longer valid, defaulting to 'methods'.
+2024-10-01 20:29:04 INFO  test.BaseTest:34 - Initializing driver for method: testLoginPageAndLinks
+2024-10-01 20:29:04 INFO  test.BaseTest:34 - Initializing driver for method: verifyingLinksOnHomePage
+2024-10-01 20:29:04 INFO  driver_manager.DriverManager:32 - Initializing driver for mode: CHROME, Remote execution: true
+2024-10-01 20:29:04 INFO  driver_manager.DriverManager:32 - Initializing driver for mode: CHROME, Remote execution: true
+2024-10-01 20:29:04 DEBUG driver_manager.DriverManager:93 - Creating WebDriver instance. Mode: CHROME, Is Remote: true
+2024-10-01 20:29:04 DEBUG driver_manager.DriverManager:93 - Creating WebDriver instance. Mode: CHROME, Is Remote: true
+2024-10-01 20:29:04 INFO  driver_manager.DriverManager:99 - Creating RemoteWebDriver for mode: CHROME
+2024-10-01 20:29:04 INFO  driver_manager.DriverManager:99 - Creating RemoteWebDriver for mode: CHROME
+2024-10-01 20:29:04 INFO  driver_manager.DriverManager:102 - Capabilities for Remote WebDriver: Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, se:name: verifyingLinksOnHomePage172..., se:recordVideo: true}
+2024-10-01 20:29:04 DEBUG driver_manager.DriverManager:105 - Connecting to Remote WebDriver at URL: http://localhost:4444/wd/hub
+2024-10-01 20:29:04 INFO  driver_manager.DriverManager:102 - Capabilities for Remote WebDriver: Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, se:name: verifyingLinksOnHomePage172..., se:recordVideo: true}
+2024-10-01 20:29:04 DEBUG driver_manager.DriverManager:105 - Connecting to Remote WebDriver at URL: http://localhost:4444/wd/hub
+2024-10-01 20:29:05 INFO  listners.TestListener:20 - Starting test verifyingLinksOnHomePage
+2024-10-01 20:29:05 INFO  listners.TestListener:20 - Starting test testLoginPageAndLinks
+2024-10-01 20:29:05 ERROR driver_manager.DriverManager:55 - Attempted to quit the driver, but it was not initialized.
+2024-10-01 20:29:05 ERROR driver_manager.DriverManager:55 - Attempted to quit the driver, but it was not initialized.
+2024-10-01 20:29:42 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\testNg.xml"
+2024-10-01 20:29:42 INFO  internal.Utils:112 - [XmlSuite] [WARN] 'parallel' value 'true' is no longer valid, defaulting to 'methods'.
+2024-10-01 20:29:42 INFO  test.BaseTest:34 - Initializing driver for method: testLoginPageAndLinks
+2024-10-01 20:29:42 INFO  test.BaseTest:34 - Initializing driver for method: verifyingLinksOnHomePage
+2024-10-01 20:29:42 INFO  driver_manager.DriverManager:32 - Initializing driver for mode: CHROME, Remote execution: true
+2024-10-01 20:29:42 INFO  driver_manager.DriverManager:32 - Initializing driver for mode: CHROME, Remote execution: true
+2024-10-01 20:29:42 DEBUG driver_manager.DriverManager:93 - Creating WebDriver instance. Mode: CHROME, Is Remote: true
+2024-10-01 20:29:42 DEBUG driver_manager.DriverManager:93 - Creating WebDriver instance. Mode: CHROME, Is Remote: true
+2024-10-01 20:29:42 INFO  driver_manager.DriverManager:99 - Creating RemoteWebDriver for mode: CHROME
+2024-10-01 20:29:42 INFO  driver_manager.DriverManager:99 - Creating RemoteWebDriver for mode: CHROME
+2024-10-01 20:29:42 INFO  driver_manager.DriverManager:102 - Capabilities for Remote WebDriver: Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, se:name: verifyingLinksOnHomePage172..., se:recordVideo: true}
+2024-10-01 20:29:42 INFO  driver_manager.DriverManager:102 - Capabilities for Remote WebDriver: Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, se:name: verifyingLinksOnHomePage172..., se:recordVideo: true}
+2024-10-01 20:29:42 DEBUG driver_manager.DriverManager:105 - Connecting to Remote WebDriver at URL: http://localhost:4444/wd/hub
+2024-10-01 20:29:42 DEBUG driver_manager.DriverManager:105 - Connecting to Remote WebDriver at URL: http://localhost:4444/wd/hub
+2024-10-01 20:29:43 INFO  listners.TestListener:20 - Starting test verifyingLinksOnHomePage
+2024-10-01 20:29:43 INFO  listners.TestListener:20 - Starting test testLoginPageAndLinks
+2024-10-01 20:29:43 ERROR driver_manager.DriverManager:55 - Attempted to quit the driver, but it was not initialized.
+2024-10-01 20:29:43 ERROR driver_manager.DriverManager:55 - Attempted to quit the driver, but it was not initialized.
+2024-10-01 20:30:25 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\testNg.xml"
+2024-10-01 20:30:26 INFO  internal.Utils:112 - [XmlSuite] [WARN] 'parallel' value 'true' is no longer valid, defaulting to 'methods'.
+2024-10-01 20:30:26 INFO  test.BaseTest:34 - Initializing driver for method: testLoginPageAndLinks
+2024-10-01 20:30:26 INFO  test.BaseTest:34 - Initializing driver for method: verifyingLinksOnHomePage
+2024-10-01 20:30:26 INFO  driver_manager.DriverManager:32 - Initializing driver for mode: CHROME, Remote execution: false
+2024-10-01 20:30:26 DEBUG driver_manager.DriverManager:93 - Creating WebDriver instance. Mode: CHROME, Is Remote: false
+2024-10-01 20:30:26 INFO  driver_manager.DriverManager:32 - Initializing driver for mode: CHROME, Remote execution: false
+2024-10-01 20:30:26 INFO  driver_manager.DriverManager:114 - Creating local WebDriver for mode: CHROME
+2024-10-01 20:30:26 DEBUG driver_manager.DriverManager:93 - Creating WebDriver instance. Mode: CHROME, Is Remote: false
+2024-10-01 20:30:26 INFO  driver_manager.DriverManager:114 - Creating local WebDriver for mode: CHROME
+2024-10-01 20:30:26 DEBUG driver_manager.DriverManager:117 - Instantiating ChromeDriver.
+2024-10-01 20:30:26 DEBUG driver_manager.DriverManager:117 - Instantiating ChromeDriver.
+2024-10-01 20:30:26 DEBUG driver_manager.DriverManager:132 - Creating default ChromeOptions.
+2024-10-01 20:30:26 DEBUG driver_manager.DriverManager:132 - Creating default ChromeOptions.
+2024-10-01 20:30:28 DEBUG driver_manager.DriverManager:41 - Configuring driver with timeouts and window settings.
+2024-10-01 20:30:28 DEBUG driver_manager.DriverManager:41 - Configuring driver with timeouts and window settings.
+2024-10-01 20:30:28 DEBUG driver_manager.DriverManager:44 - Driver configuration completed.
+2024-10-01 20:30:28 DEBUG driver_manager.DriverManager:44 - Driver configuration completed.
+2024-10-01 20:30:28 INFO  driver_manager.DriverManager:36 - CHROME driver instantiated successfully.
+2024-10-01 20:30:28 INFO  driver_manager.DriverManager:36 - CHROME driver instantiated successfully.
+2024-10-01 20:30:29 INFO  test.BaseTest:41 - Navigated to base URL: https://phptravels.com/demo/
+2024-10-01 20:30:29 INFO  listners.TestListener:20 - Starting test verifyingLinksOnHomePage
+2024-10-01 20:30:30 INFO  test.BaseTest:41 - Navigated to base URL: https://phptravels.com/demo/
+2024-10-01 20:30:30 INFO  listners.TestListener:20 - Starting test testLoginPageAndLinks
+2024-10-01 20:30:30 INFO  test.LoginTest:22 - Home page title: Book Your Free Demo Now - Phptravels
+2024-10-01 20:30:36 INFO  listners.TestListener:25 - Test verifyingLinksOnHomePage passed.
+2024-10-01 20:30:36 INFO  driver_manager.DriverManager:50 - Quitting the driver: ChromeDriver: chrome on windows (715b5d90114354705c7cfe2124c0a9af)
+2024-10-01 20:30:37 INFO  driver_manager.DriverManager:53 - Driver closed successfully.
+2024-10-01 20:30:41 INFO  test.LoginTest:33 - Clicked on login: current page title Login
+2024-10-01 20:30:51 INFO  test.LoginTest:38 - Login page title: Login
+2024-10-01 20:30:54 INFO  listners.TestListener:25 - Test testLoginPageAndLinks passed.
+2024-10-01 20:30:54 INFO  driver_manager.DriverManager:50 - Quitting the driver: ChromeDriver: chrome on windows (96cbf4404c632d63b4858609630eb439)
+2024-10-01 20:30:54 INFO  driver_manager.DriverManager:53 - Driver closed successfully.
+2024-10-01 20:32:53 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\testNg.xml"
+2024-10-01 20:32:53 INFO  internal.Utils:112 - [XmlSuite] [WARN] 'parallel' value 'true' is no longer valid, defaulting to 'methods'.
+2024-10-01 20:32:54 INFO  test.BaseTest:34 - Initializing driver for method: verifyingLinksOnHomePage
+2024-10-01 20:32:54 INFO  test.BaseTest:34 - Initializing driver for method: testLoginPageAndLinks
+2024-10-01 20:32:54 INFO  driver_manager.DriverManager:32 - Initializing driver for mode: CHROME, Remote execution: false
+2024-10-01 20:32:54 DEBUG driver_manager.DriverManager:93 - Creating WebDriver instance. Mode: CHROME, Is Remote: false
+2024-10-01 20:32:54 INFO  driver_manager.DriverManager:32 - Initializing driver for mode: CHROME, Remote execution: false
+2024-10-01 20:32:54 DEBUG driver_manager.DriverManager:93 - Creating WebDriver instance. Mode: CHROME, Is Remote: false
+2024-10-01 20:32:54 INFO  driver_manager.DriverManager:114 - Creating local WebDriver for mode: CHROME
+2024-10-01 20:32:54 INFO  driver_manager.DriverManager:114 - Creating local WebDriver for mode: CHROME
+2024-10-01 20:32:54 DEBUG driver_manager.DriverManager:117 - Instantiating ChromeDriver.
+2024-10-01 20:32:54 DEBUG driver_manager.DriverManager:117 - Instantiating ChromeDriver.
+2024-10-01 20:32:54 DEBUG driver_manager.DriverManager:132 - Creating default ChromeOptions.
+2024-10-01 20:32:54 DEBUG driver_manager.DriverManager:132 - Creating default ChromeOptions.
+2024-10-01 20:32:57 DEBUG driver_manager.DriverManager:41 - Configuring driver with timeouts and window settings.
+2024-10-01 20:32:57 DEBUG driver_manager.DriverManager:41 - Configuring driver with timeouts and window settings.
+2024-10-01 20:32:57 DEBUG driver_manager.DriverManager:44 - Driver configuration completed.
+2024-10-01 20:32:57 DEBUG driver_manager.DriverManager:44 - Driver configuration completed.
+2024-10-01 20:32:57 INFO  driver_manager.DriverManager:36 - CHROME driver instantiated successfully.
+2024-10-01 20:32:57 INFO  driver_manager.DriverManager:36 - CHROME driver instantiated successfully.
+2024-10-01 20:32:58 INFO  test.BaseTest:41 - Navigated to base URL: https://phptravels.com/demo/
+2024-10-01 20:32:59 INFO  test.BaseTest:41 - Navigated to base URL: https://phptravels.com/demo/
+2024-10-01 20:32:59 INFO  listners.TestListener:20 - Starting test testLoginPageAndLinks
+2024-10-01 20:32:59 INFO  listners.TestListener:20 - Starting test verifyingLinksOnHomePage
+2024-10-01 20:32:59 INFO  test.LoginTest:22 - Home page title: Book Your Free Demo Now - Phptravels
+2024-10-01 20:33:11 INFO  test.LoginTest:33 - Clicked on login: current page title Login
+2024-10-01 20:33:14 INFO  listners.TestListener:25 - Test verifyingLinksOnHomePage passed.
+2024-10-01 20:33:14 INFO  driver_manager.DriverManager:50 - Quitting the driver: ChromeDriver: chrome on windows (dc5c0ad1250a6a5d545d78f54ded9d1c)
+2024-10-01 20:33:15 INFO  driver_manager.DriverManager:53 - Driver closed successfully.
+2024-10-01 20:33:21 INFO  test.LoginTest:38 - Login page title: Login
+2024-10-01 20:33:24 INFO  listners.TestListener:25 - Test testLoginPageAndLinks passed.
+2024-10-01 20:33:24 INFO  driver_manager.DriverManager:50 - Quitting the driver: ChromeDriver: chrome on windows (2a29d46a555a503ed35495d33862b028)
+2024-10-01 20:33:24 INFO  driver_manager.DriverManager:53 - Driver closed successfully.
+2024-10-01 21:49:18 DEBUG testng.TestNG:82 - suiteXmlPath: "C:\Users\Vinodpuri_Goswami\IdeaProjects\codaPayment\testNg.xml"
+2024-10-01 21:49:19 INFO  internal.Utils:112 - [XmlSuite] [WARN] 'parallel' value 'true' is no longer valid, defaulting to 'methods'.
+2024-10-01 21:49:19 INFO  test.BaseTest:34 - Initializing driver for method: verifyingLinksOnHomePage
+2024-10-01 21:49:19 INFO  test.BaseTest:34 - Initializing driver for method: testLoginPageAndLinks
+2024-10-01 21:49:19 INFO  driver_manager.DriverManager:32 - Initializing driver for mode: CHROME, Remote execution: true
+2024-10-01 21:49:19 INFO  driver_manager.DriverManager:32 - Initializing driver for mode: CHROME, Remote execution: true
+2024-10-01 21:49:19 DEBUG driver_manager.DriverManager:93 - Creating WebDriver instance. Mode: CHROME, Is Remote: true
+2024-10-01 21:49:19 DEBUG driver_manager.DriverManager:93 - Creating WebDriver instance. Mode: CHROME, Is Remote: true
+2024-10-01 21:49:19 INFO  driver_manager.DriverManager:99 - Creating RemoteWebDriver for mode: CHROME
+2024-10-01 21:49:19 INFO  driver_manager.DriverManager:99 - Creating RemoteWebDriver for mode: CHROME
+2024-10-01 21:49:19 INFO  driver_manager.DriverManager:102 - Capabilities for Remote WebDriver: Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, se:name: testLoginPageAndLinks172779..., se:recordVideo: true}
+2024-10-01 21:49:19 INFO  driver_manager.DriverManager:102 - Capabilities for Remote WebDriver: Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, se:name: testLoginPageAndLinks172779..., se:recordVideo: true}
+2024-10-01 21:49:19 INFO  driver_manager.DriverManager:109 - hub url : http://localhost:4444/wd/hub
+2024-10-01 21:49:19 INFO  driver_manager.DriverManager:109 - hub url : http://localhost:4444/wd/hub
+2024-10-01 21:49:19 DEBUG driver_manager.DriverManager:112 - Connecting to Remote WebDriver at URL: http://localhost:4444/wd/hub
+2024-10-01 21:49:19 DEBUG driver_manager.DriverManager:112 - Connecting to Remote WebDriver at URL: http://localhost:4444/wd/hub
+2024-10-01 21:49:21 INFO  listners.TestListener:20 - Starting test testLoginPageAndLinks
+2024-10-01 21:49:21 INFO  listners.TestListener:20 - Starting test verifyingLinksOnHomePage
+2024-10-01 21:49:21 ERROR driver_manager.DriverManager:55 - Attempted to quit the driver, but it was not initialized.
+2024-10-01 21:49:21 ERROR driver_manager.DriverManager:55 - Attempted to quit the driver, but it was not initialized.
