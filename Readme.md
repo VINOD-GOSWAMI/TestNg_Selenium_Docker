@@ -33,7 +33,18 @@ What you need to install the software and how to install them:
     - [Download Docker](https://docs.docker.com/get-started/get-docker/)
     - Follow installation instructions here: [Docker installation guide](https://docs.docker.com/engine/install/)
 
+**Some usefully Docker Command**
 
+1. To Run Docker Image/Container With Runtime Configuration
+   ```bash
+   docker run test-runner -DisRemote=false -Denv=dev
+   ```
+
+2. To Run specific image-name with Runtime Configuration in docker-compose 
+   ```bash
+   docker-compose run --rm test-runner -DisRemote=false -Denv=dev
+   ```
+**Note:** test-runner is image-name
 
 
 ### Steps to set up and run the project:

@@ -7,10 +7,14 @@ WORKDIR /home/codaPayment
 # Copy POM.xml and download dependencies
 COPY pom.xml .
 
+# Download dependencies and plugins (go offline) && Compile the project and run tests and store them in the Docker cache
+RUN mvn dependency:go-offline \
+     && mvn test-compile -B
+
 # Copy project source files and testNg.xml
 COPY src ./src
 COPY testNg.xml .
 
 # Use entry point to execute tests via docker-compose command
-ENTRYPOINT ["mvn", "test", "-DisRemote=true"]
-
+ENTRYPOINT ["mvn","test","-DisRemote=true"]
+CMD []
