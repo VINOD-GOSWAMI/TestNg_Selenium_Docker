@@ -57,25 +57,39 @@ What you need to install the software and how to install them:
    ```bash
     cd TestNg_Selenium_Docker
    ```
+     
+3. **Different Ways to Run Automation Test Cases:**
+   1. **To Run All tests inside Docker Container with Runtime Configuration:**
+      ```bash
+      docker-compose run --rm test-runner -DisRemote=true -Denv=dev
+      ```    
+      Note:- Reports and Logs can be view from docker-report ,docker-logs,videos folder
    
-3. **Optional Step - Start Docker Engine And Run**
-   ```bash
-    docker-compose up
-   ```
-   After Running docker-compose Check Grid Registeration
-    on http://localhost:4444
-   ![img.png](data/GridRegister.png)
-   
-4. **Run the tests using Maven:**
-   ```bash
-    mvn test -Denv=dev -DisRemote=true -DheadLess=true
-   ```
+   2. **To Run Test on Dockerized Selenium Grid:**
+      1. **Setup Dockerized Selenium Grid via docker-compose:**
+         ```bash
+         docker compose -f docker-compose-selenium-grid.yml up
+         ```
+      2. **Run the tests using Maven with Runtime Configuration:**
+         ```bash
+         mvn test -Denv=dev -DisRemote=true 
+         ```
+   3. **To Run Test Locally using Maven with Runtime Configuration:**
+      ```bash
+      mvn test -Denv=dev -DisRemote=false -DheadLess=true
+      ```
+      Note:- 
+      1. Reports and Logs can be view from reports ,logs,videos folder
+      2. When Running Test using Docker for i & ii way Check Grid Registration
+         on http://localhost:4444
+         ![img.png](data/GridRegister.png)
+      3. After Running Test Close the Containers 
 
-5. **After Running Test To View Execution Report:**
-   ![img.png](data/AllExecutionPassReport.png)
-   ![img.png](data/ScreenshotInReportAndStackTraces.png)
+4. **After Running Test To View Execution Report:**
+    ![img.png](data/AllExecutionPassReport.png)
+    ![img.png](data/ScreenshotInReportAndStackTraces.png)
 
-6. **To View Logs:**
+5. **To View Logs:**
    ![img.png](data/ReportingAndLogFile.png)
 
 

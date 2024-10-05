@@ -19,8 +19,8 @@ import static com.vinod.config.ConfigKeys.BROWSER;
 
 public class ExtentReportManager {
     private static final String REPORT_FOLDER = "reports/";
-    private static final String FILE_NAME = "ExtentReport_" + 
-        new SimpleDateFormat("yyyyMMddHHmmss").format(new Date()) + ".html";
+    private static final String FILE_NAME = "ExtentReport_" + new SimpleDateFormat("yyyyMMddHHmmss").format(new Date()) + ".html";
+
     private static ExtentReports extent;
     private static ThreadLocal<ExtentTest> test = new ThreadLocal<>();
 
