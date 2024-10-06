@@ -15,10 +15,11 @@ public class CommonUtility {
             if (count == 5) break;
             try {
                 int statusCode = RestAssured.get(link).statusCode();
-                Assert.assertTrue(statusCode < 400, "Broken link found: " + link);
+                Assert.assertTrue(statusCode < 400, "Broken link found: " + link +" with statusCode: "+statusCode);
 
             }catch (Exception e){
-                ExtentReportManager.logInfo("not a valid link reference :"+link);
+                ExtentReportManager.logError("not a valid link reference :"+link);
+                log.error("not a valid link reference :"+link);
                 e.printStackTrace();
             }
             count++;

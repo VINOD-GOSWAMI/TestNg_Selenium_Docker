@@ -68,7 +68,7 @@ pipeline {
     failure {
       notifyByEmail('Job failed', 'Unfortunately, the build has failed. Please check the logs.')
     }
-    always {
+    cleanup {
       script {
         runCommand('docker-compose down --remove-orphans') // Stop and remove Docker containers
       }

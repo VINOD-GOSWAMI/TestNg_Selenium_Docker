@@ -60,11 +60,11 @@ public class ExtentReportManager {
         getTest().info(message);
     }
 
-    public static synchronized void error(String message) {
+    public static synchronized void logError(String message) {
         getTest().log(Status.WARNING,message);
     }
 
-    public static synchronized void warn(String message) {
+    public static synchronized void logWarn(String message) {
         getTest().log(Status.WARNING,message);
     }
     public static synchronized void logFailure(String message) {
