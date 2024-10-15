@@ -14,9 +14,10 @@ import java.util.List;
 public class LoginTest extends BaseTest {
 
     @Test(description = "Tests the login page navigation and related links.")
-    public void testLoginPageAndLinks() throws InterruptedException {
+    public void testLoginPageAndLinks() {
         HomePage homePage =  new HomePage(driver);
         handleNavBar(homePage);
+        ExtentReportManager.logInfo("Home page title: {}"+ driver.getTitle());
         log.info("Home page title: {}", driver.getTitle());
         String originalTitle=driver.getTitle();
         homePage.clickLogin();

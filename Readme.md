@@ -111,6 +111,10 @@ The following features have been implemented as part of this framework:
 
 7. **Dockerized Project:** Simply run docker-compose up to execute your test cases within a Docker container.
 
+8. **Integration & CI/CD:** Jenkinsfile is added and can be executed in linux as well windows based system local as well as remote machine or server like aws 
+for more Details Refer this Document [AWS Linux Jenkins Docker_WIP](AWS_LInux_Jenkins_Docker.md)
+
+
 
 ![img.png](data/GridRegister.png)
 
@@ -144,7 +148,7 @@ Folder Structure
 │
 ├─── Dockerfile                        -- Dockerized Current Framework
 │
-│
+├─── Jenkinsfile                       -- Jenkinsfile for CI/CD Execution
 │
 └───videos                             -- video report of execution
     ├───chrome
